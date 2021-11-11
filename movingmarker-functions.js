@@ -141,6 +141,7 @@ async function getuserlocation(){
   //stopLocate() //
     .on('locationfound', function(e){
     userloc = e.latlng;
+    console.log(userloc);
     });
     //map.on('locationfound', onLocationFound);
 
