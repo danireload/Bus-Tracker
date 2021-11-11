@@ -87,10 +87,10 @@ function previewdistance(){
   var curvedline = addcurvedlinebetweenpoints(userloc, destination);
 
   //map.fitBounds([userloc, destination]);
-  
+
   var markerArray = [L.marker(userloc), destmarker];
   var group = new L.featureGroup(markerArray);
-  var bounds = group.getBounds();
+  var bounds = group.getBounds().pad(10%);
   map.flyToBounds(bounds);
 }
 
