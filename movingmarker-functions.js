@@ -78,7 +78,7 @@ getuserlocation()
 
 function previewdistance(){
   var getuserloc = getlayerbycustomid('userloc');
-  var userloc = [userloc._latlng.lat, ._latlng.lng];
+  var userloc = [userloc._latlng.lat, userloc._latlng.lng];
   var destination = [-22.802294535135648, -43.254547119140625];
   map.fitBounds(userloc, destination]);
   //map.flyTo(e.latlng);
@@ -912,7 +912,8 @@ function onLocationFound(e) {
       //.bindPopup("You are within " + radius + " meters from this point").openPopup();
     marker.addTo(map);
 
-    previewdistance()
+    //previewdistance()
+    setTimeout(previewdistance, 3000) //, arg(s) to function
 
     //L.circle(e.latlng, radius).addTo(map);
     //map.flyTo(e.latlng);
