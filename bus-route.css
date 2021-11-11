@@ -1,0 +1,198 @@
+#new-parent { width: 100%; }
+.leaflet-control { float: none; }
+#mapid { height: 300px; }
+#mapid, #text-area { width: 50%; }
+#container, .leaflet-control-layers-overlays { display: flex; }
+/*Icon CSS */
+.marker-pin{
+  width: 20px !important;
+  height: 20px !important;
+  margin-left: 0px !important;
+  margin-top: 0px !important;
+}
+.marker-pin {
+/*width: 25px*//*20px*/;
+/*height: 25px8?/*20px*/;
+border-radius: 50% 50% 50% 0;
+/*background: #c30b82;*/
+position: absolute;
+/*transform: rotate(-45deg);*/
+/*left: 35%;*/
+/*top: 50%;*/
+}
+.marker-pin span{
+top: 20%;
+left: 15%;
+position: absolute;
+font-size: 08px;
+color: white;
+font-weight: bold;
+}
+.yellow{background: yellow};
+.red{background: red};
+.green{background: green};
+.blue{background: blue};
+
+/*to align icon*/
+.custom-div-icon i {
+
+ font-size: 14px;
+ color: white;
+ /*background-color: white;*/
+ border-radius: 50%;
+ /*padding: 03px;*/
+ margin: 16%; /*align on center*/
+ transform: rotate(45deg);
+}
+.material-icons{
+text-align: center;
+}
+.icon-text-title, .icon-text-subtitle { font-weight: bold; color: #c30b82; display: block; text-align: center;}
+.icon-text-title{ font-size: 12px; line-height: 1;/*,margin-left: 05px;*/ }
+.icon-text-subtitle{ font-size: 10px; }
+
+/*needs to improve legibility of text*/
+
+/*Code Editor Typing errors*/
+.error-marker {
+color: black;
+width: 10px !important;
+background-color: #ff0000;
+}
+.error-marker .error-message {
+display: none;
+position: absolute;
+background-color: #ddd;
+border: 1px solid #999;
+padding: 6px;
+width: 140px;
+left: 15px;
+top: -1em;
+}
+.error-marker:hover .error-message {
+display: block;
+}
+/*marker poointer*/
+.leaflet-container.crosshair-cursor-enabled {
+  cursor:crosshair;
+}
+.leaflet-draw-toolbar a {
+  background-image: url(https://unpkg.com/leaflet-draw@1.0.2/dist/images/spritesheet.png);
+  background-repeat: no-repeat;
+}
+
+.btn-group{
+margin-top: 10px;
+margin-left: 10px;
+}
+.form-group{
+margin: 5px;
+}
+label{
+margin-bottom: 0px;
+}
+.button{
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.button {
+/*padding: 6px;*/
+}
+.greenbutton{
+color: #fff;
+background-color: snow;
+border-color: #4cae4c;
+font-weight: bold;
+width: 32px;
+height: 34px;
+background-repeat: no-repeat;
+background-size: 30px;
+background-color: white;
+}
+.greenbutton:hover{
+background-color: #e5e5e5;
+}
+.myClass{
+background-color: #bfbfbf;
+}
+.greenbutton img{
+height: 20px;
+width: 20px;
+}
+.group{
+top: 80px;
+left: 10px;
+position: absolute;
+z-index: 1001;
+}
+.groupcontent{
+display: flex;
+flex-direction: column;
+}
+
+.leaflet-control-attribution{
+margin-top: 10px;
+}
+.leaflet-bottom .leaflet-control{
+  margin-bottom: 0px;
+}
+.list{
+  position: absolute;
+  left: 0;
+}
+.my-div-icon{
+  background-color: none;
+  z-index: 1;
+  font-size: 20px; /*size of font awsome, must be smaller then icon size*/
+}
+.icon-in-div{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  /*background-color: blue;*/
+  /*transform: rotate(90deg);*/
+  z-index: 2;
+}
+.fa-plane{
+  /*margin: 0 auto;*/
+}
+.icon-label{
+  font-size: 20px; /*moving marker stops working with smaller font size*/
+}
+
+.markerHtmlStyles{
+    background-color: red;
+    width: 24px;
+    height: 24px;
+    display: block;
+    left: -1.5rem;
+    top: -1.5rem;
+    position: relative;
+    border-radius: 3rem 3rem 0;
+    transform: rotate(45deg);
+    border: 1px solid #FFFFFF`
+}
+.my_polyline{
+  color: green;
+}
