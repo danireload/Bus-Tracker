@@ -84,7 +84,7 @@ function previewdistance(){
   destmarker.id = 'destination';
   destmarker.addTo(map);
 
-  var curvedline = addcurvedlinebetweenpoints(userloc, destination);
+  var curvedline = addcurvedlinebetweenpoints(userloc, destination, {curvedirection: 'top', color: 'yellow', dashArray: '10, 10', dashOffset: '4'});
   curvedline.addTo(map);
 
   //map.fitBounds([userloc, destination]);
@@ -167,12 +167,19 @@ async function getstartendpoints(){
 }
 
 //addcurvedlinebetweenpoints()
-function addcurvedlinebetweenpoints(startmarker, endmarker){
+function addcurvedlinebetweenpoints(startmarker, endmarker, options){
 
   //turfgreatCircle(getstartmarker, getendmarker);
+  if (options.hasOwnProperty('curvedirection')) {
+    var direction  = {curvedirection: options};
+    delete options['curvedirection'];
+  }
+
+  var curvedpathoptions = options;
+
    var getcurvedlinemidpoint = line2curve(startmarker, endmarker);
-   var fixcurvedlinemidpoint = fixline2curvemidpoint(getcurvedlinemidpoint, {curvedirection: 'top'});
-   var getcurvedline = createcurvedPath(fixcurvedlinemidpoint, {color: 'yellow', dashArray: '10, 10', dashOffset: '4'}); // , weight: 5//color: 'rgb(255, 215, 0)'
+   var fixcurvedlinemidpoint = fixline2curvemidpoint(getcurvedlinemidpoint, direction);
+   var getcurvedline = createcurvedPath(fixcurvedlinemidpoint, options); // , weight: 5//color: 'rgb(255, 215, 0)'
    //console.log(getcurvedline.trace([0.25, 0.5, 0.75]));
    //above only works after curve has been added to map
 
