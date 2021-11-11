@@ -139,14 +139,14 @@ async function getuserlocation(){
   //if windows location service is on, function under does not work
   map.locate({setView: true}) //, watch: true, maxZoom: 16 timeout: 10000 //Number of milliseconds to wait for a response from geolocation before firing a locationerror event.
   //stopLocate() //
-    .on('locationfound', function(e){
+  var loc = await map.on('locationfound', async function(e){
     userloc = e.latlng;
-    console.log(userloc);
+    return userloc
     });
     //map.on('locationfound', onLocationFound);
 
   map.on('locationerror', onLocationError);
-  console.log(userloc);
+  console.log(loc);
   return userloc
 }
 
