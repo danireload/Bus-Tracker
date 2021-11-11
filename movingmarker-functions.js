@@ -75,8 +75,8 @@
   //custom L.div roubd marker for subway with img on center based on station properties
 
 startlocation()
-function startlocation(){
-  var userloc  = getuserlocation();
+async function startlocation(){
+  var userloc  = await getuserlocation();
   var usermarker = L.marker(userloc);
   usermarker.id = 'userloc';
   usermarker.addTo(map);
@@ -131,7 +131,7 @@ function boundstoarea(bounds){
   return polybbox
 }
 
-function getuserlocation(){
+async function getuserlocation(){
 
   //if windows location service is on, function under does not work
   map.locate({setView: true}) //, watch: true, maxZoom: 16 timeout: 10000 //Number of milliseconds to wait for a response from geolocation before firing a locationerror event.
@@ -140,6 +140,7 @@ function getuserlocation(){
   var userloc;
   //map.on('locationfound', onLocationFound);
   map.on('locationfound', function(e){
+    console.log(e);
     userloc = e.latlng;
     return userloc
   });
