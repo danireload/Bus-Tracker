@@ -77,11 +77,10 @@
 getuserlocation()
 
 function previewdistance(){
-  var userloc = getlayerbycustomid('userloc');
-  console.log(userloc);
-  var destination = [-22.802294535135648, -43.254547119140625];;
-
-  //map.fitBounds([userloc, destination]);
+  var getuserloc = getlayerbycustomid('userloc');
+  var userloc = [userloc._latlng.lat, ._latlng.lng];
+  var destination = [-22.802294535135648, -43.254547119140625];
+  map.fitBounds(userloc, destination]);
   //map.flyTo(e.latlng);
 }
 
