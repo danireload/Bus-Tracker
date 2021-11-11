@@ -145,7 +145,7 @@ async function getuserlocation(){
     //map.on('locationfound', onLocationFound);
 
   map.on('locationerror', onLocationError);
-
+  console.log(userloc);
   return userloc
 }
 
