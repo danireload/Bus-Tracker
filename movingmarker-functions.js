@@ -141,12 +141,13 @@ async function getuserlocation(){
     .on('locationfound', function(e){
     console.log(e);
     userloc = e.latlng;
-    return userloc
     });
 
     //map.on('locationfound', onLocationFound);
 
   map.on('locationerror', onLocationError);
+
+  return userloc
 }
 
 async function getstartendpoints(){
