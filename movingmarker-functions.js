@@ -125,7 +125,7 @@ function getuserlocation(){
   //stopLocate() //
 
   navigator.geolocation.getCurrentPosition(function(position) {
-  console.log(position.coords.latitude, position.coords.longitude);
+  console.log(position);
 });
 
   map.on('locationfound', onLocationFound);
