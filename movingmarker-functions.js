@@ -84,10 +84,14 @@ function previewdistance(){
   destmarker.id = 'destination';
   destmarker.addTo(map);
 
-  var curvedline = addcurvedlinebetweenpoints(userloc, destination)
+  var curvedline = addcurvedlinebetweenpoints(userloc, destination);
 
-  map.fitBounds([userloc, destination]);
-  //map.flyTo(e.latlng);
+  //map.fitBounds([userloc, destination]);
+  
+  var markerArray = [L.marker(userloc), destmarker];
+  var group = new L.featureGroup(markerArray);
+  var bounds = group.getBounds();
+  map.flyToBounds(bounds);
 }
 
 //var layer = getlayerbycustomid(id);
