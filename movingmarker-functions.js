@@ -75,10 +75,21 @@
   //custom L.div roubd marker for subway with img on center based on station properties
 
 startlocation()
-
 function startlocation(){
   var userloc  = getuserlocation();
-  var bbox = getbbox();
+  var usermarker = L.marker(userloc);
+  usermarker.id = 'userloc';
+  usermarker.addTo(map);
+  previewdistance()
+}
+
+function previewdistance(){
+  var userloc = getlayerbycustomid('userloc');
+  console.log(userloc);
+  var destination = [-22.802294535135648, -43.254547119140625];;
+
+  //map.fitBounds([userloc, destination]);
+  //map.flyTo(e.latlng);
 }
 
 //var layer = getlayerbycustomid(id);
@@ -122,11 +133,16 @@ function boundstoarea(bounds){
 
 function getuserlocation(){
 
-  //if windows location service is on, function under does not work 
+  //if windows location service is on, function under does not work
   map.locate({setView: true}) //, watch: true, maxZoom: 16 timeout: 10000 //Number of milliseconds to wait for a response from geolocation before firing a locationerror event.
   //stopLocate() //
 
-  map.on('locationfound', onLocationFound);
+  var userloc;
+  //map.on('locationfound', onLocationFound);
+  map.on('locationfound', function(e){
+    userloc = e.latlng;
+    return userloc
+  });
   map.on('locationerror', onLocationError);
 }
 
