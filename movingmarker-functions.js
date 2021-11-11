@@ -74,15 +74,7 @@
   //create icons function
   //custom L.div roubd marker for subway with img on center based on station properties
 
-startlocation()
-async function startlocation(){
-  var userloc  = await getuserlocation();
-  console.log(userloc);
-  //var usermarker = await L.marker([userloc.latitude, userloc.longitude]);
-  //usermarker.id = 'userloc';
-  //usermarker.addTo(map);
-  //previewdistance()
-}
+getuserlocation()
 
 function previewdistance(){
   var userloc = getlayerbycustomid('userloc');
@@ -134,19 +126,12 @@ function boundstoarea(bounds){
 
 async function getuserlocation(){
 
-  var userloc;
-
   //if windows location service is on, function under does not work
   map.locate({setView: true}) //, watch: true, maxZoom: 16 timeout: 10000 //Number of milliseconds to wait for a response from geolocation before firing a locationerror event.
   //stopLocate() //
-  var loc = map.on('locationfound', function(e){
-    return e
-    });
-    //map.on('locationfound', onLocationFound);
+    .on('locationfound', onLocationFound);
 
   map.on('locationerror', onLocationError);
-  console.log(loc);
-  return userloc
 }
 
 async function getstartendpoints(){
@@ -921,14 +906,17 @@ async function getbusposition(){
 
 
 function onLocationFound(e) {
-  console.log(e);
     var radius = e.accuracy;
 
-    L.marker(e.latlng).addTo(map);
-        //.bindPopup("You are within " + radius + " meters from this point").openPopup();
+    var marker  = L.marker(e.latlng)
+    marker.id = 'userloc';
+      //.bindPopup("You are within " + radius + " meters from this point").openPopup();
+    marker.addTo(map);
+
+    previewdistance()
 
     //L.circle(e.latlng, radius).addTo(map);
-    map.flyTo(e.latlng);
+    //map.flyTo(e.latlng);
 }
 
 function onLocationError(e) {
