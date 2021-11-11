@@ -121,7 +121,7 @@ function boundstoarea(bounds){
 }
 
 function getuserlocation(){
-  map.locate({setView: true}) //, watch: true, maxZoom: 16 timeout: 10000 //Number of milliseconds to wait for a response from geolocation before firing a locationerror event.
+  //map.locate({setView: true}) //, watch: true, maxZoom: 16 timeout: 10000 //Number of milliseconds to wait for a response from geolocation before firing a locationerror event.
   //stopLocate()
 
   map.on('locationfound', onLocationFound);
@@ -900,7 +900,7 @@ async function getbusposition(){
 
 
 function onLocationFound(e) {
-
+  console.log(e);
     var radius = e.accuracy;
 
     L.marker(e.latlng).addTo(map);
