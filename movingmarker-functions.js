@@ -91,7 +91,7 @@ function previewdistance(){
 
   var markerArray = [L.marker(userloc), destmarker];
   var group = new L.featureGroup(markerArray);
-  var bounds = group.getBounds()//.pad(10%); //pad is offset in bound to make marker fully fit in screen
+  var bounds = group.getBounds().pad(0.10); //pad is offset in bound to make marker fully fit in screen in decimal percentage
   map.flyToBounds(bounds);
 }
 
