@@ -85,6 +85,7 @@ function previewdistance(){
   destmarker.addTo(map);
 
   var curvedline = addcurvedlinebetweenpoints(userloc, destination, {curvedirection: 'top', color: 'yellow', dashArray: '10, 10', dashOffset: '4'});
+  //curvedline.tooltip();
   curvedline.addTo(map);
 
   //map.fitBounds([userloc, destination]);
