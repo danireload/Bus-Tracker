@@ -83,7 +83,7 @@ function startlocation(){
 
 //var layer = getlayerbycustomid(id);
 
-getstartendpoints()
+//getstartendpoints()
 
 function getbbox(){
   //on start
