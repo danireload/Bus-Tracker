@@ -148,8 +148,6 @@ function error(err) {
 
 navigator.geolocation.getCurrentPosition(success, error, options);
 
-});
-
   map.on('locationfound', onLocationFound);
   map.on('locationerror', onLocationError);
 }
