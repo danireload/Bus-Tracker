@@ -77,11 +77,10 @@
 startlocation()
 async function startlocation(){
   var userloc  = await getuserlocation();
-  console.log(userloc);
-  var usermarker = await L.marker(userloc);
-  usermarker.id = 'userloc';
-  usermarker.addTo(map);
-  previewdistance()
+  //var usermarker = await L.marker(userloc);
+  //usermarker.id = 'userloc';
+  //usermarker.addTo(map);
+  //previewdistance()
 }
 
 function previewdistance(){
