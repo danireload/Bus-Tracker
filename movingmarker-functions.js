@@ -77,6 +77,7 @@
 startlocation()
 async function startlocation(){
   var userloc  = await getuserlocation();
+  console.log(userloc);
   var usermarker = await L.marker(userloc);
   usermarker.id = 'userloc';
   usermarker.addTo(map);
@@ -133,17 +134,19 @@ function boundstoarea(bounds){
 
 async function getuserlocation(){
 
+  var userloc;
+
   //if windows location service is on, function under does not work
   map.locate({setView: true}) //, watch: true, maxZoom: 16 timeout: 10000 //Number of milliseconds to wait for a response from geolocation before firing a locationerror event.
   //stopLocate() //
-
-  var userloc;
-  //map.on('locationfound', onLocationFound);
-  map.on('locationfound', function(e){
+    .on('locationfound', function(e){
     console.log(e);
     userloc = e.latlng;
     return userloc
-  });
+    });
+
+    //map.on('locationfound', onLocationFound);
+
   map.on('locationerror', onLocationError);
 }
 
