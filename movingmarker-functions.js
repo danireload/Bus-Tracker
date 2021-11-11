@@ -77,7 +77,8 @@
 startlocation()
 async function startlocation(){
   var userloc  = await getuserlocation();
-  //var usermarker = await L.marker(userloc);
+  console.log(userloc);
+  //var usermarker = await L.marker([userloc.latitude, userloc.longitude]);
   //usermarker.id = 'userloc';
   //usermarker.addTo(map);
   //previewdistance()
@@ -139,10 +140,8 @@ async function getuserlocation(){
   map.locate({setView: true}) //, watch: true, maxZoom: 16 timeout: 10000 //Number of milliseconds to wait for a response from geolocation before firing a locationerror event.
   //stopLocate() //
     .on('locationfound', function(e){
-    console.log(e);
     userloc = e.latlng;
     });
-
     //map.on('locationfound', onLocationFound);
 
   map.on('locationerror', onLocationError);
