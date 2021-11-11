@@ -122,7 +122,7 @@ function boundstoarea(bounds){
 
 function getuserlocation(){
   //map.locate({setView: true}) //, watch: true, maxZoom: 16 timeout: 10000 //Number of milliseconds to wait for a response from geolocation before firing a locationerror event.
-  //stopLocate()
+  //stopLocate() //
 
   map.on('locationfound', onLocationFound);
   map.on('locationerror', onLocationError);
