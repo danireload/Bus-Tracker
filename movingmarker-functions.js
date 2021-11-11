@@ -85,12 +85,13 @@ function previewdistance(){
   destmarker.addTo(map);
 
   var curvedline = addcurvedlinebetweenpoints(userloc, destination);
+  curvedline.addTo(map);
 
   //map.fitBounds([userloc, destination]);
 
   var markerArray = [L.marker(userloc), destmarker];
   var group = new L.featureGroup(markerArray);
-  var bounds = group.getBounds().pad(10%);
+  var bounds = group.getBounds().pad(10%); //pad is offset in bound to make marker fully fit in screen
   map.flyToBounds(bounds);
 }
 
@@ -175,7 +176,9 @@ function addcurvedlinebetweenpoints(startmarker, endmarker){
    //console.log(getcurvedline.trace([0.25, 0.5, 0.75]));
    //above only works after curve has been added to map
 
-   getcurvedline.addTo(map);
+   //getcurvedline.addTo(map);
+   return getcurvedline
+
    //map.fitBounds(getcurvedline.getBounds());
 }
 
