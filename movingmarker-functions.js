@@ -80,6 +80,12 @@ function previewdistance(){
   var getuserloc = getlayerbycustomid('userloc');
   var userloc = [getuserloc._latlng.lat, getuserloc._latlng.lng];
   var destination = [-22.802294535135648, -43.254547119140625];
+  var destmarker  = L.marker(destination);
+  destmarker.id = 'destination';
+  destmarker.addTo(map);
+
+  var curvedline = addcurvedlinebetweenpoints(userloc, destination)
+
   map.fitBounds([userloc, destination]);
   //map.flyTo(e.latlng);
 }
@@ -156,12 +162,10 @@ async function getstartendpoints(){
 }
 
 //addcurvedlinebetweenpoints()
-function addcurvedlinebetweenpoints(){
-  var getstartmarker = [-22.94745, -43.18255];
-  var getendmarker = [-22.94217, -43.19233];
+function addcurvedlinebetweenpoints(startmarker, endmarker){
 
   //turfgreatCircle(getstartmarker, getendmarker);
-   var getcurvedlinemidpoint = line2curve(getstartmarker, getendmarker);
+   var getcurvedlinemidpoint = line2curve(startmarker, endmarker);
    var fixcurvedlinemidpoint = fixline2curvemidpoint(getcurvedlinemidpoint, {curvedirection: 'top'});
    var getcurvedline = createcurvedPath(fixcurvedlinemidpoint, {color: 'yellow', dashArray: '10, 10', dashOffset: '4'}); // , weight: 5//color: 'rgb(255, 215, 0)'
    //console.log(getcurvedline.trace([0.25, 0.5, 0.75]));
