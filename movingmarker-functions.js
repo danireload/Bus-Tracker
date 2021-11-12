@@ -150,7 +150,7 @@ async function getuserlocation(){
 
 async function getstartendpoints(){
 
-  var getbusroute = 'https://raw.githubusercontent.com/danireload/danireload.github.io/master/bus%20route';
+  var getbusroute = 'https://raw.githubusercontent.com/danireload/Bus-Tracker/master/bus%20route.js';
   var busroute = await getpath(getbusroute);
   var getlinefromgeom = await busroute.features[0].geometry.coordinates;
 
@@ -300,7 +300,7 @@ function pointsinradius(startpos){
 }
 
 async function getaddbusroute (){
-  var getbusroute = 'https://raw.githubusercontent.com/danireload/danireload.github.io/master/bus%20route';
+  var getbusroute = 'https://raw.githubusercontent.com/danireload/Bus-Tracker/master/bus%20route.js';
   var busroute = await getpath(getbusroute);
   var getlinefromgeom = await busroute.features[0].geometry.coordinates;
   var leafletroute = L.polyline(getlinefromgeom);
@@ -905,7 +905,7 @@ function getlayerbycustomid(id){
 }
 
 async function getbusposition(){
-  var getbusroute = 'https://raw.githubusercontent.com/danireload/danireload.github.io/master/bus%20route';
+  var getbusroute = 'https://raw.githubusercontent.com/danireload/Bus-Tracker/master/bus%20route.js';
   var busroute = await getpath(getbusroute);
   var getlinefromgeom = busroute.features[0].geometry.coordinates;
   var currentposcoords = getlinefromgeom[c];
