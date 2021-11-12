@@ -431,67 +431,67 @@ function convertdistance(inputdistance, options){
       break;
       case 'm':
         if (newdistanceunit == 'cm') {
-          var newdistance = m2cm(inputspeed);
+          var newdistance = m2cm(inputdistance);
         }else if (newdistanceunit == 'km') {
-          var newdistance = m2km(inputspeed);
+          var newdistance = m2km(inputdistance);
         }else if (newdistanceunit == 'mi') {
-          var newdistance = m2mi(inputspeed);
+          var newdistance = m2mi(inputdistance);
         }else if (newdistanceunit == 'ft') {
-          var newdistance = m2ft(inputspeed);
+          var newdistance = m2ft(inputdistance);
         }else if (newdistanceunit == 'nm') {
-          var newdistance = m2nm(inputspeed);
+          var newdistance = m2nm(inputdistance);
         }
         break;
       case 'km':
         if (newdistanceunit == 'cm') {
-          var newdistance = km2cm(inputspeed);
+          var newdistance = km2cm(inputdistance);
         }else if (newdistanceunit == 'm') {
-          var newdistance = km2m(inputspeed);
+          var newdistance = km2m(inputdistance);
         }else if (newdistanceunit == 'mi') {
-          var newdistance = km2mi(inputspeed);
+          var newdistance = km2mi(inputdistance);
         }else if (newdistanceunit == 'ft') {
-          var newdistance = km2ft(inputspeed);
+          var newdistance = km2ft(inputdistance);
         }else if (newdistanceunit == 'nm') {
-          var newdistance = km2nm(inputspeed);
+          var newdistance = km2nm(inputdistance);
         }
         break;
       case 'mi':
         if (newdistanceunit == 'cm') {
-          var newdistance = mi2cm(inputspeed);
+          var newdistance = mi2cm(inputdistance);
         }else if (newdistanceunit == 'm') {
-          var newdistance = mi2m(inputspeed);
+          var newdistance = mi2m(inputdistance);
         }else if (newdistanceunit == 'km') {
-          var newdistance = mi2km(inputspeed);
+          var newdistance = mi2km(inputdistance);
         }else if (newdistanceunit == 'ft') {
-          var newdistance = mi2ft(inputspeed);
+          var newdistance = mi2ft(inputdistance);
         }else if (newdistanceunit == 'nm') {
-          var newdistance = mi2nm(inputspeed);
+          var newdistance = mi2nm(inputdistance);
         }
         break;
     case 'ft':
       if (newdistanceunit == 'cm') {
-        var newdistance = ft2cm(inputspeed);
+        var newdistance = ft2cm(inputdistance);
       }else if (newdistanceunit == 'm') {
-        var newdistance = ft2m(inputspeed);
+        var newdistance = ft2m(inputdistance);
       }else if (newdistanceunit == 'km') {
-        var newdistance = ft2km(inputspeed);
+        var newdistance = ft2km(inputdistance);
       }else if (newdistanceunit == 'mi') {
-        var newdistance = ft2mi(inputspeed);
+        var newdistance = ft2mi(inputdistance);
       }else if (newdistanceunit == 'nm') {
-        var newdistance = ft2nm(inputspeed);
+        var newdistance = ft2nm(inputdistance);
       }
       break;
     case 'nm':
       if (newdistanceunit == 'cm') {
-        var newdistance = nm2cm(inputspeed);
+        var newdistance = nm2cm(inputdistance);
       }else if (newdistanceunit == 'm') {
-        var newdistance = nm2m(inputspeed);
+        var newdistance = nm2m(inputdistance);
       }else if (newdistanceunit == 'km') {
-        var newdistance = nm2km(inputspeed);
+        var newdistance = nm2km(inputdistance);
       }else if (newdistanceunit == 'mi') {
-        var newdistance = nm2mi(inputspeed);
+        var newdistance = nm2mi(inputdistance);
       }else if (newdistanceunit == 'ft') {
-        var newdistance = nm2ft(inputspeed);
+        var newdistance = nm2ft(inputdistance);
       }
       break;
     default:
