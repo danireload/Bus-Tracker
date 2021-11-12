@@ -87,7 +87,7 @@ function previewdistance(){
   var curvedline = addcurvedlinebetweenpoints(userloc, destination, {curvedirection: 'top', color: 'yellow', dashArray: '10, 10', dashOffset: '4'});
 
   var getstraightlinelenght = L.latLng(userloc).distanceTo(L.latLng(destination));
-  var straightlinelenght = convertdistance(getstraightlinelenght, {originaldistanceunit: 'm', newdistanceunit: 'km'}.toFixed(2));
+  var straightlinelenght = convertdistance(getstraightlinelenght, {originaldistanceunit: 'm', newdistanceunit: 'km'}).toFixed(2);
   curvedline.bindTooltip(straightlinelenght + 'km', {permanent: 'true', direction: 'top', className: 'locationtooltipstyle'}).openTooltip();
 
   curvedline.addTo(map);
