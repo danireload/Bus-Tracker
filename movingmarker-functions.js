@@ -85,11 +85,14 @@ function previewdistance(){
   destmarker.addTo(map);
 
   var curvedline = addcurvedlinebetweenpoints(userloc, destination, {curvedirection: 'top', color: 'yellow', dashArray: '10, 10', dashOffset: '4'});
-  //curvedline.tooltip();
+
+  var getstraightlinelenght = userloc.distanceTo(destination);
+  var straightlinelenght = convertdistance(getstraightlinelenght, {originaldistanceunit: 'm', newdistanceunit: 'km'});
+  curvedline.bindTooltip(straightlinelenght + 'km', {permanent: 'true', direction: 'top', className: 'locationtooltipstyle'}).openTooltip();
+
   curvedline.addTo(map);
 
   //map.fitBounds([userloc, destination]);
-
   var markerArray = [L.marker(userloc), destmarker];
   var group = new L.featureGroup(markerArray);
   var bounds = group.getBounds().pad(0.10); //pad is offset in bound to make marker fully fit in screen in decimal percentage
