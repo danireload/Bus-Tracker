@@ -1064,7 +1064,7 @@ function pathFinder(){
   endmarker.addTo(map);
 
   const pathFinder = new geojsonPathFinder(flatten);
-  console.log(pathFinder);
+  //console.log(pathFinder);
 
   const bestPath = pathFinder.findPath({
                         geometry: {
