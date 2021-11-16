@@ -283,7 +283,6 @@ function findPath(graph, start, end) {
             return state.slice(0, 2);
         }
 
-        console.log(graph);
         var neighbours = graph[node];
         Object.keys(neighbours).forEach(function(n) {
             var newCost = cost + neighbours[n];
