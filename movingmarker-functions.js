@@ -912,8 +912,9 @@ function pathFinder(){
   var endpoint = turf.point(getendpoint.geometry.coordinates[0][0]);
 
   var flatten = turf.flatten(ruabotafogogeojson);
-  console.log(flatten);
-  var pathFinder = new PathFinder(ruabotafogogeojson, { precision: 1e-3 });
+
+  var pathFinder = new PathFinder(flatten, { precision: 1e-3 });
+  console.log(pathFinder);
   var path = pathfinder.findPath(startpoint, endpoint);
   console.log(path);
   var line = turf.lineString(path.path);
