@@ -907,10 +907,10 @@ function getlayerbycustomid(id){
 pathFinder()
 function pathFinder(){
   var getstartpoint = ruabotafogogeojson.features.find(element => element.properties.id = 41967);
-  var startpoint = turf.point(getstartpoint.geometry.coordinates[0][0][0]); //must be feature point
-  console.log(startpoint);
+  //var startpoint = turf.point(getstartpoint.geometry.coordinates[0][0][0]); //must be feature point
+  console.log(startpoint.geometry.coordinates[0][0][0]);
   var getendpoint = ruabotafogogeojson.features.find(element => element.properties.id = 42208);
-  var endpoint = turf.point(getendpoint.geometry.coordinates[0][0][0]);
+  //var endpoint = turf.point(getendpoint.geometry.coordinates[0][0][0]);
 
   var flatten = turf.flatten(ruabotafogogeojson);
   console.log(flatten);
