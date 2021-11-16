@@ -907,18 +907,17 @@ function getlayerbycustomid(id){
 pathFinder()
 function pathFinder(){
   var getstartpoint = ruabotafogogeojson.features.find(element => element.properties.id = 41967);
-  //var startpoint = turf.point(getstartpoint.geometry.coordinates[0][0][0]); //must be feature point
-  console.log(getstartpoint.geometry.coordinates[0][0][0]);
+  var startpoint = turf.point(getstartpoint.geometry.coordinates[0][0]); //must be feature point
   var getendpoint = ruabotafogogeojson.features.find(element => element.properties.id = 42208);
-  //var endpoint = turf.point(getendpoint.geometry.coordinates[0][0][0]);
+  var endpoint = turf.point(getendpoint.geometry.coordinates[0][0]);
 
   var flatten = turf.flatten(ruabotafogogeojson);
   console.log(flatten);
-  //var pathFinder = new PathFinder(ruabotafogogeojson, { precision: 1e-3 });
-  //var path = pathfinder.findPath(startpoint, endpoint);
-  //console.log(path);
-  //var line = turf.lineString(path.path);
-  //line.addTo(map);
+  var pathFinder = new PathFinder(ruabotafogogeojson, { precision: 1e-3 });
+  var path = pathfinder.findPath(startpoint, endpoint);
+  console.log(path);
+  var line = turf.lineString(path.path);
+  line.addTo(map);
 }
 
 
