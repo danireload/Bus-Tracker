@@ -1087,7 +1087,7 @@ let paths = [];
 //console.log(bestPath.path);
 
 //reverse coords order from geojson to leaflet
-bestPath.forEach((coords, i) => {
+bestPath.path.forEach((coords, i) => {
   paths.push([coords[1], coords[0]]);
 });
 
