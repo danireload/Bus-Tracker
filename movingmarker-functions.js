@@ -1060,8 +1060,30 @@ function pathFinder(){
 
   const pathFinder = new geojsonPathFinder(flatten);
   console.log(pathFinder);
-  const bestPath = pathFinder.findPath(pathFinder, startpoint, getendpoint);
-  console.log(bestPath);
+
+  const bestPath = pathFinder.findPath({
+                        geometry: {
+                            coordinates: startpoint.geometry.coordinates
+                        }
+                    }, {
+                        geometry: {
+                            coordinates: endpoint.geometry.coordinates
+                        }
+                    });
+
+if (bestPath == null) {
+	 alert("Best path: " + bestPath);
+   throw "No valid path found";
+}
+
+// pathfinder outputs coords in wrong format
+let paths = [];
+bestPath.forEach((coords, i) => {
+  paths.push([coords[1], coords[0]]);
+});
+
+L.polyline(paths, {color: 'red'}).addTo(map);
+
   //var line = turf.lineString(path.path);
   //line.addTo(map);
 }
