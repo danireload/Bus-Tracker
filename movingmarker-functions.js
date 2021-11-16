@@ -1060,6 +1060,7 @@ function pathFinder(){
 
   var startmarker  = L.marker([startpoint.geometry.coordinates[1], startpoint.geometry.coordinates[0]]);
   startmarker.addTo(map);
+  console.log(startmarker);
   var endmarker = L.marker([endpoint.geometry.coordinates[1], endpoint.geometry.coordinates[0]]);
   endmarker.addTo(map);
   console.log(endmarker);
