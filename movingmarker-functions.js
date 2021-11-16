@@ -1059,7 +1059,7 @@ function pathFinder(){
   var flatten = turf.flatten(ruabotafogogeojson);
 
   const pathFinder = new geojsonPathFinder(flatten);
-  const bestPath = pathFinder.findPath(start, end);
+  const bestPath = pathFinder.findPath(startpoint, getendpoint);
   console.log(bestPath);
   //var line = turf.lineString(path.path);
   //line.addTo(map);
