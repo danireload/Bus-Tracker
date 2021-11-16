@@ -258,7 +258,7 @@ function preprocess(graph, options) {
         return g;
     }, {edgeData: {}, vertices: {}});
 
-    var compact = compactor.compactGraph(graph.vertices, topo.vertices, graph.edgeData, options);
+    var compact = compactGraph(graph.vertices, topo.vertices, graph.edgeData, options);
 
     return {
         vertices: graph.vertices,
@@ -373,7 +373,7 @@ PathFinder.prototype = {
     _createPhantom: function(n) {
         if (this._graph.compactedVertices[n]) return null;
 
-        var phantom = compactor.compactNode(n, this._graph.vertices, this._graph.compactedVertices, this._graph.sourceVertices, this._graph.edgeData, true, this._options);
+        var phantom = compactNode(n, this._graph.vertices, this._graph.compactedVertices, this._graph.sourceVertices, this._graph.edgeData, true, this._options);
         this._graph.compactedVertices[n] = phantom.edges;
         this._graph.compactedCoordinates[n] = phantom.coordinates;
 
