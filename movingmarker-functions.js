@@ -1055,7 +1055,6 @@ function pathFinder(){
   var startpoint = turf.point(getstartpoint.geometry.coordinates[0][0]); //must be feature point
   var getendpoint = ruabotafogogeojson.features.find(element => element.properties.id = 42208);
   var endpoint = turf.point(getendpoint.geometry.coordinates[0][0]);
-  console.log(endpoint);
 
   var flatten = turf.flatten(ruabotafogogeojson);
 
@@ -1079,14 +1078,12 @@ if (bestPath == null) {
 
 // pathfinder outputs coords in wrong format
 let paths = [];
-console.log(bestPath.path);
-
-console.log(startpoint.geometry.coordinates);
+//console.log(bestPath.path);
 
 L.marker([startpoint.geometry.coordinates[1], startpoint.geometry.coordinates[0]]).addTo(map);
 L.marker([endpoint.geometry.coordinates[1], endpoint.geometry.coordinates[0]]).addTo(map);
-//
-//L.marker([bestPath.path[1], bestPath.path[0]]).addTo(map);
+
+L.marker([bestPath.path[0][1], bestPath.path[0][0]]).addTo(map);
 
 //bestPath.forEach((coords, i) => {
 //  paths.push([coords[1], coords[0]]);
