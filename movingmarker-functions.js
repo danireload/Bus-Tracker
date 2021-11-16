@@ -1078,7 +1078,8 @@ if (bestPath == null) {
 
 // pathfinder outputs coords in wrong format
 let paths = [];
-console.log(bestPath);
+console.log(bestPath.path);
+L.marker([bestPath.path[1], bestPath.path[0]]).addTo(map);
 //bestPath.forEach((coords, i) => {
 //  paths.push([coords[1], coords[0]]);
 //});
