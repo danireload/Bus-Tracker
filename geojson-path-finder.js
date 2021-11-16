@@ -75,7 +75,7 @@ function roundCoord(c, precision) {
     ];
 };
 
-//var Queue = require('tinyqueue');
+var queue = new TinyQueue();
 
 function findNextEnd(prev, v, vertices, ends, vertexCoords, edgeData, trackIncoming, options) {
     var weight = vertices[prev][v],
