@@ -318,7 +318,7 @@ function PathFinder(graph, options) {
     }
 }
 
-PathFinder.prototype = {
+PathFinder().prototype = {
     findPath: function(a, b) {
         var start = this._keyFn(roundCoord(a.geometry.coordinates, this._precision)),
             finish = this._keyFn(roundCoord(b.geometry.coordinates, this._precision));
