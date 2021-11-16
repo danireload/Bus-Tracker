@@ -1082,7 +1082,7 @@ console.log(bestPath.path);
 
 console.log(startpoint.geometry.coordinates);
 
-//L.marker(startpoint.geometry.coordinates).addTo(map);
+L.marker([startpoint.geometry.coordinates[1], startpoint.geometry.coordinates[0]]).addTo(map);
 //L.marker(endpoint.geometry.coordinates).addTo(map);
 //
 //L.marker([bestPath.path[1], bestPath.path[0]]).addTo(map);
