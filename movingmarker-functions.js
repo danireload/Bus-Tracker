@@ -912,9 +912,13 @@ function pathFinder(){
   var getendpoint = ruabotafogogeojson.features.find(element => element.id == 42208);
   var endpoint = turf.point(getendpoint.geometry.coordinates[0][0][0]);
 
+  var flatten = turf.flatten(ruabotafogogeojson);
+  console.log(flatten);
   var pathFinder = new PathFinder(ruabotafogogeojson, { precision: 1e-3 });
   var path = pathfinder.findPath(startpoint, endpoint);
   console.log(path);
+  var line = turf.lineString(path.path);
+  line.addTo(map);
 }
 
 
