@@ -1051,10 +1051,10 @@ var Graph = (function (undefined) {
 
 pathFinder()
 function pathFinder(){
-  var getstartpoint = ruabotafogogeojson.features.find(element => element.properties.id = 41967);
+  var getstartpoint = ruabotafogogeojson.features.find(element => element.properties.id == 41967);
   var startpoint = turf.point(getstartpoint.geometry.coordinates[0][0]); //must be feature point
   console.log(getstartpoint);
-  var getendpoint = ruabotafogogeojson.features.find(element => element.properties.id = 42208);
+  var getendpoint = ruabotafogogeojson.features.find(element => element.properties.id == 42208);
   var endpoint = turf.point(getendpoint.geometry.coordinates[0][0]);
   console.log(getendpoint);
 
