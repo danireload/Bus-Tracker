@@ -904,9 +904,18 @@ function getlayerbycustomid(id){
   return getlayer
 }
 
-//start point: feature with id: 41967, geometry.coordinates[0][0][0]
-//end point: feature with id: 42208, geometry.coordinates[0][0][0]
-//var pathFinder = new PathFinder(ruabotafogogeojson, { precision: 1e-3 });
+//pathFinder()
+function pathFinder(){
+  var getstartpoint: ruabotafogogeojson.features.find(element => element.id == 41967);
+  console.log(getstartpoint);
+  var startpoint = turf.point(getstartpoint.geometry.coordinates[0][0][0]); //must be feature point 
+  var getendpoint = ruabotafogogeojson.features.find(element => element.id == 42208);
+  var endpoint = turf.point(getendpoint.geometry.coordinates[0][0][0]);
+
+  var pathFinder = new PathFinder(ruabotafogogeojson, { precision: 1e-3 });
+  var path = pathfinder.findPath(startpoint, endpoint);
+  console.log(path);
+}
 
 
 async function getbusposition(){
