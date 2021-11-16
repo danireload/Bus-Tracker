@@ -904,7 +904,7 @@ function getlayerbycustomid(id){
   return getlayer
 }
 
-pathFinder()
+//pathFinder()
 function pathFinder(){
   var getstartpoint = ruabotafogogeojson.features.find(element => element.id == 41967);
   console.log(getstartpoint);
