@@ -1080,10 +1080,13 @@ if (bestPath == null) {
 let paths = [];
 console.log(bestPath.path);
 
-L.marker(startpoint.geometry.coordinates).addTo(map);
-L.marker(endpoint.geometry.coordinates).addTo(map);
+console.log(startpoint.geometry.coordinates);
 
-L.marker([bestPath.path[1], bestPath.path[0]]).addTo(map);
+//L.marker(startpoint.geometry.coordinates).addTo(map);
+//L.marker(endpoint.geometry.coordinates).addTo(map);
+//
+//L.marker([bestPath.path[1], bestPath.path[0]]).addTo(map);
+
 //bestPath.forEach((coords, i) => {
 //  paths.push([coords[1], coords[0]]);
 //});
