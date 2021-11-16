@@ -277,6 +277,7 @@ function findPath(graph, start, end) {
 
     while (queue.length) {
         var state = queue.pop();
+        console.log(state);
         var cost = state[0];
         var node = state[2];
         if (node === end) {
