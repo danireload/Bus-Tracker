@@ -922,14 +922,13 @@ function pathFinder(){
   //console.log(pathFinder);
 
   const bestPath = pathFinder.findPath({
-                        geometry: {
-                            coordinates: startpoint.geometry.coordinates
-                        }
-                    }, {
-                        geometry: {
-                            coordinates: endpoint.geometry.coordinates
-                        }
-                    });
+    geometry:
+      {coordinates: startpoint.geometry.coordinates}
+    },
+      {geometry:
+        {coordinates: endpoint.geometry.coordinates}
+      }
+  );
 
 if (bestPath == null) {
 	           alert("Best path: " + bestPath);
