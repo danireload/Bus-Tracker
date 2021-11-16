@@ -270,7 +270,7 @@ function preprocess(graph, options) {
     };
 };
 
-function(graph, start, end) {
+function findPath(graph, start, end) {
     var costs = {};
     costs[start] = 0;
     var initialState = [0, [start], start];
