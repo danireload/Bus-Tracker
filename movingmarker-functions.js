@@ -1058,6 +1058,13 @@ function pathFinder(){
 
   var flatten = turf.flatten(ruabotafogogeojson);
 
+  var startmarker  = L.marker([startpoint.geometry.coordinates[1], startpoint.geometry.coordinates[0]]);
+  startmarker.addTo(map);
+  console.log(startmarker);
+  var endmarker = L.marker([endpoint.geometry.coordinates[1], endpoint.geometry.coordinates[0]]);
+  console.log(endmarker);
+  endmarker.addTo(map);
+
   const pathFinder = new geojsonPathFinder(flatten);
   console.log(pathFinder);
 
@@ -1080,20 +1087,13 @@ if (bestPath == null) {
 let paths = [];
 //console.log(bestPath.path);
 
-var startmarker  = L.marker([startpoint.geometry.coordinates[1], startpoint.geometry.coordinates[0]]);
-startmarker.addTo(map);
-console.log(startmarker);
-var endmarker = L.marker([endpoint.geometry.coordinates[1], endpoint.geometry.coordinates[0]]);
-console.log(endmarker);
-endmarker.addTo(map);
-
 L.marker([bestPath.path[0][1], bestPath.path[0][0]]).addTo(map);
 
 //bestPath.forEach((coords, i) => {
 //  paths.push([coords[1], coords[0]]);
 //});
 
-L.polyline(paths, {color: 'red'}).addTo(map);
+//L.polyline(paths, {color: 'red'}).addTo(map);
 
   //var line = turf.lineString(path.path);
   //line.addTo(map);
