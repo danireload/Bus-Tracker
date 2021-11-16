@@ -1084,15 +1084,14 @@ if (bestPath == null) {
 // pathfinder outputs coords in wrong format
 let paths = [];
 
-console.log(bestPath.path);
+//console.log(bestPath.path);
 
-//L.marker([bestPath.path[0][1], bestPath.path[0][0]]).addTo(map);
+//reverse coords order from geojson to leaflet
+bestPath.forEach((coords, i) => {
+  paths.push([coords[1], coords[0]]);
+});
 
-//bestPath.forEach((coords, i) => {
-//  paths.push([coords[1], coords[0]]);
-//});
-
-//L.polyline(paths, {color: 'red'}).addTo(map);
+L.polyline(paths, {color: 'red'}).addTo(map);
 
   //var line = turf.lineString(path.path);
   //line.addTo(map);
