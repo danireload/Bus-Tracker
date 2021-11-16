@@ -1060,7 +1060,7 @@ function pathFinder(){
 
   const pathFinder = new geojsonPathFinder(flatten);
   console.log(pathFinder);
-  const bestPath = pathFinder.findPath(startpoint, getendpoint);
+  const bestPath = pathFinder.findPath(pathFinder, startpoint, getendpoint);
   console.log(bestPath);
   //var line = turf.lineString(path.path);
   //line.addTo(map);
