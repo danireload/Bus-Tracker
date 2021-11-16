@@ -1063,7 +1063,7 @@ function pathFinder(){
   var endmarker = L.marker([endpoint.geometry.coordinates[1], endpoint.geometry.coordinates[0]]);
   endmarker.addTo(map);
   console.log(endmarker);
-  map.fitBounds(endmarker.getBounds());
+  map.moveTo(endmarker);
 
   const pathFinder = new geojsonPathFinder(flatten);
   console.log(pathFinder);
