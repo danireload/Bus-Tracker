@@ -914,11 +914,11 @@ function pathFinder(){
 
   var flatten = turf.flatten(ruabotafogogeojson);
   console.log(flatten);
-  var pathFinder = new PathFinder(ruabotafogogeojson, { precision: 1e-3 });
-  var path = pathfinder.findPath(startpoint, endpoint);
-  console.log(path);
-  var line = turf.lineString(path.path);
-  line.addTo(map);
+  //var pathFinder = new PathFinder(ruabotafogogeojson, { precision: 1e-3 });
+  //var path = pathfinder.findPath(startpoint, endpoint);
+  //console.log(path);
+  //var line = turf.lineString(path.path);
+  //line.addTo(map);
 }
 
 
