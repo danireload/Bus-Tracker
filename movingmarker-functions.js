@@ -1078,9 +1078,10 @@ if (bestPath == null) {
 
 // pathfinder outputs coords in wrong format
 let paths = [];
-bestPath.forEach((coords, i) => {
-  paths.push([coords[1], coords[0]]);
-});
+console.log(bestPath);
+//bestPath.forEach((coords, i) => {
+//  paths.push([coords[1], coords[0]]);
+//});
 
 L.polyline(paths, {color: 'red'}).addTo(map);
 
