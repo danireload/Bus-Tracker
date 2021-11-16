@@ -1053,18 +1053,17 @@ pathFinder()
 function pathFinder(){
   var getstartpoint = ruabotafogogeojson.features.find(element => element.properties.id = 41967);
   var startpoint = turf.point(getstartpoint.geometry.coordinates[0][0]); //must be feature point
+  console.log(startpoint);
   var getendpoint = ruabotafogogeojson.features.find(element => element.properties.id = 42208);
   var endpoint = turf.point(getendpoint.geometry.coordinates[0][0]);
+  console.log(endpoint);
 
   var flatten = turf.flatten(ruabotafogogeojson);
 
   var startmarker  = L.marker([startpoint.geometry.coordinates[1], startpoint.geometry.coordinates[0]]);
   startmarker.addTo(map);
-  console.log(startmarker);
   var endmarker = L.marker([endpoint.geometry.coordinates[1], endpoint.geometry.coordinates[0]]);
   endmarker.addTo(map);
-  console.log(endmarker);
-  map.flyTo(endmarker.getLatLng());
 
   const pathFinder = new geojsonPathFinder(flatten);
   console.log(pathFinder);
