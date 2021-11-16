@@ -915,7 +915,7 @@ function pathFinder(){
 
   var pathFinder = new PathFinder(flatten, { precision: 1e-3 });
   console.log(pathFinder);
-  var path = findPath(startpoint, endpoint);
+  var path = findPath(pathFinder, startpoint, endpoint);
   console.log(path);
   var line = turf.lineString(path.path);
   line.addTo(map);
