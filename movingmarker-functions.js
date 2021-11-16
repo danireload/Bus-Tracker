@@ -906,6 +906,8 @@ function getlayerbycustomid(id){
 
 //start point: feature with id: 41967, geometry.coordinates[0][0][0]
 //end point: feature with id: 42208, geometry.coordinates[0][0][0]
+//var pathFinder = new PathFinder(ruabotafogogeojson, { precision: 1e-3 });
+
 
 async function getbusposition(){
   var getbusroute = 'https://raw.githubusercontent.com/danireload/Bus-Tracker/master/bus%20route.js';
