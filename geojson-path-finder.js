@@ -75,8 +75,6 @@ function roundCoord(c, precision) {
     ];
 };
 
-var queue = new TinyQueue();
-
 function findNextEnd(prev, v, vertices, ends, vertexCoords, edgeData, trackIncoming, options) {
     var weight = vertices[prev][v],
         reverseWeight = vertices[v][prev],
@@ -274,7 +272,7 @@ function findPath(graph, start, end) {
     var costs = {};
     costs[start] = 0;
     var initialState = [0, [start], start];
-    var queue = new Queue([initialState], function(a, b) { return a[0] - b[0]; });
+    var queue = new TinyQueue([initialState], function(a, b) { return a[0] - b[0]; });
     var explored = {};
 
     while (queue.length) {
