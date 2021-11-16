@@ -278,12 +278,12 @@ function findPath(graph, start, end) {
     while (queue.length) {
         var state = queue.pop();
         var cost = state[0];
-        console.log(cost);
         var node = state[2];
         if (node === end) {
             return state.slice(0, 2);
         }
 
+        console.log(graph);
         var neighbours = graph[node];
         Object.keys(neighbours).forEach(function(n) {
             var newCost = cost + neighbours[n];
