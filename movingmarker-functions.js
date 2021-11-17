@@ -986,9 +986,7 @@ function joinstreetsegmentsintomultiline(){
     var findindex = arrayofstreets.findIndex((element) => element.properties.nome_logra == item.properties.nome_logra);
 
     if (findindex == -1 || findindex == null || findindex == undefined) {
-      var multiLine = turf.multiLineString(item.geometry.coordinates, item.properties);
-      console.log(multiLine);
-      //Avenida Lineu de Paula Machado
+      var multiLine = turf.multiLineString([item.geometry.coordinates], item.properties);
       arrayofstreets.push(multiLine)
     }else {
       var getcoords = turf.getCoords(arrayofstreets[findindex]);
