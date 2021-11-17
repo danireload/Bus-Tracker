@@ -937,7 +937,7 @@ function weightFn(a, b, props) {
       forwardSpeed,
       backwardSpeed;
 
-  //uses OSM tags for highway (type), (highway) maxspeed, (highway direction) oneway
+  //uses OSM tags for highway (type), (highway) maxspeed, (highway direction) oneway, (area hazard) 'shooting_range'
 
   if (props.maxspeed) {
       forwardSpeed = backwardSpeed = Number(props.maxspeed);
@@ -954,7 +954,7 @@ function weightFn(a, b, props) {
       }
   }
 
-  if (props.oneway && props.oneway !== 'no' || props.junction && props.junction === 'roundabout') {
+  if (props.oneway && props.oneway !== 'no' || props.junction && props.junction === 'roundabout' || props.hazard && props.hazard === 'shooting_range') {
       backwardSpeed = null;
   }
 
@@ -974,7 +974,7 @@ function wightfunc (a, b, props) {
 
 //each geom multiLineString is a LineString from block start to block end
 
-joinstreetsegmentsintomultiline()
+//joinstreetsegmentsintomultiline()
 function joinstreetsegmentsintomultiline(){
 
   var arrayofstreets = [];
@@ -989,7 +989,7 @@ function joinstreetsegmentsintomultiline(){
 
     if (findindex == -1 || findindex == null || findindex == undefined) {
       item.properties.nmbBlocks = 1;
-      
+
       var multiLine = turf.multiLineString([item.geometry.coordinates], item.properties);
       arrayofstreets.push(multiLine);
 
