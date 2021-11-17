@@ -991,7 +991,7 @@ function joinstreetsegmentsintomultiline(){
     }else {
       console.log(arrayofstreets);
       var getcoords = turf.getCoords(arrayofstreets[findindex]);
-      var newcoords = getcoords.push(item.geometry.coordinates);
+      var newcoords = getcoords.map((x) => x).push(item.geometry.coordinates);
       var multiLine = turf.multiLineString(newcoords, arrayofstreets[findindex].properties);
       arrayofstreets[findindex] = multiLine;
     }
