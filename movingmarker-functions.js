@@ -1001,7 +1001,7 @@ function joinstreetsegmentsintomultiline(){
       arrayofstreets[findindex] = multiLine;
 
       if (item.properties.nome_logra == 'Rua Visconde de Caravelas') {
-        console.log(getcoords.length - 1;));
+        console.log(getcoords.length - 1)
       }
     }
 
