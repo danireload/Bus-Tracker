@@ -74,7 +74,7 @@
   //create icons function
   //custom L.div roubd marker for subway with img on center based on station properties
 
-getuserlocation()
+//getuserlocation()
 
 function previewdistance(){
   var getuserloc = getlayerbycustomid('userloc');
@@ -937,6 +937,8 @@ function weightFn(a, b, props) {
       forwardSpeed,
       backwardSpeed;
 
+  //uses OSM tags for highway (type), (highway) maxspeed, (highway direction) oneway
+
   if (props.maxspeed) {
       forwardSpeed = backwardSpeed = Number(props.maxspeed);
   } else {
@@ -970,7 +972,35 @@ function wightfunc (a, b, props) {
   return Math.sqrt(dx * dx + dy * dy);
 }
 
-pathFinder()
+//each geom multiLineString is a LineString from block start to block end
+
+joinstreetsegmentsintomultiline()
+function joinstreetsegmentsintomultiline(){
+  var arrayofstreets = [];
+
+  var flatten = turf.flatten(ruabotafogogeojson);
+
+  flatten.features.forEach((item, i) => {
+    //var find = arrayofstreets.find(element => element.name == item.properties.nome_logra);
+    var findindex = arrayofstreets.findIndex((item) => item.name == item.properties.nome_logra));
+
+    if (find == 0 || find == null || find == undefined) {
+      var multiLine = turf.multiLineString(item.geometry.coords, item.properties);
+      arrayofstreets.push(multiLine)
+    }else {
+      var getcoords = turf.getCoords(arrayofstreets[findindex]);
+      var newcoords = getcoords.push(item.geometry.coords);
+      var multiLine = turf.multiLineString(newcoords, arrayofstreets[findindex].properties);
+      arrayofstreets[findindex] = multiLine;
+    }
+
+  });
+
+  var collection = turf.featureCollection(arrayofstreets);
+  console.log(collection);
+}
+
+//pathFinder()
 function pathFinder(){
   var getstartpoint = ruabotafogogeojson.features.find(element => element.properties.id == 41967);
   var startpoint = turf.point(getstartpoint.geometry.coordinates[0][0]); //must be feature point
