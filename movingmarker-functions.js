@@ -986,12 +986,13 @@ function joinstreetsegmentsintomultiline(){
     var findindex = arrayofstreets.findIndex((element) => element.properties.nome_logra == item.properties.nome_logra);
 
     if (findindex == -1 || findindex == null || findindex == undefined) {
-      var multiLine = turf.multiLineString([[item.geometry.coordinates]], item.properties);
+      var multiLine = turf.multiLineString([item.geometry.coordinates], item.properties);
       console.log(multiLine);
       arrayofstreets.push(multiLine)
     }else {
+      console.log(arrayofstreets[findindex]);
       var getcoords = turf.getCoords(arrayofstreets[findindex]);
-      var newcoords = getcoords.push([item.geometry.coordinates]);
+      var newcoords = getcoords.push(item.geometry.coordinates);
       var multiLine = turf.multiLineString(newcoords, arrayofstreets[findindex].properties);
       arrayofstreets[findindex] = multiLine;
     }
