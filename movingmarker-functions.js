@@ -987,10 +987,10 @@ function joinstreetsegmentsintomultiline(){
 
     if (findindex == -1 || findindex == null || findindex == undefined) {
       var multiLine = turf.multiLineString([item.geometry.coordinates], item.properties);
-      console.log(multiLine);
+      //console.log(multiLine);
       arrayofstreets.push(multiLine)
     }else {
-      console.log(arrayofstreets[findindex]);
+      //console.log(arrayofstreets[findindex]);
       var getcoords = arrayofstreets[findindex].geometry.coordinates;
       var newcoords = getcoords.push(item.geometry.coordinates);
       var multiLine = turf.multiLineString(newcoords, arrayofstreets[findindex].properties);
