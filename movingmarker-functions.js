@@ -994,7 +994,7 @@ function joinstreetsegmentsintomultiline(){
       //streetnames.push({streetName: item.properties.nome_logra, streetNeighborhood: item.properties.bairro})
     }else {
       var getcoords = turf.getCoords(arrayofstreets[findindex]);
-      console.log(getcoords.length);
+      arrayofstreets[findindex].properties.nmbBlocks = getcoords.length - 1;
       getcoords.push(item.geometry.coordinates);
       var multiLine = turf.multiLineString(getcoords, arrayofstreets[findindex].properties);
       arrayofstreets[findindex] = multiLine;
