@@ -980,7 +980,7 @@ function joinstreetsegmentsintomultiline(){
   var arrayofstreets = [];
 
   var flatten = turf.flatten(ruabotafogogeojson);
-  console.log(flatten.features.length);
+  //console.log(flatten.features.length);
 
   flatten.features.forEach((item, i) => {
     //var find = arrayofstreets.find(element => element.name == item.properties.nome_logra);
@@ -1000,7 +1000,7 @@ function joinstreetsegmentsintomultiline(){
 
   var collection = turf.featureCollection(arrayofstreets);
   console.log(collection);
-  console.log(collection.features.length);
+  //console.log(collection.features.length);
 }
 
 //pathFinder()
