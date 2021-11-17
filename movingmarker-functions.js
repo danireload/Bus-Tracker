@@ -904,6 +904,72 @@ function getlayerbycustomid(id){
   return getlayer
 }
 
+var highwaySpeeds = {
+    motorway: 110,
+    trunk: 90,
+    primary: 80,
+    secondary: 70,
+    tertiary: 50,
+    unclassified: 50,
+    road: 50,
+    residential: 30,
+    service: 30,
+    living_street: 20
+}
+
+function distance(from, to, options) {
+    if (options === void 0) { options = {}; }
+    var coordinates1 = invariant_1.getCoord(from);
+    var coordinates2 = invariant_1.getCoord(to);
+    var dLat = helpers_1.degreesToRadians((coordinates2[1] - coordinates1[1]));
+    var dLon = helpers_1.degreesToRadians((coordinates2[0] - coordinates1[0]));
+    var lat1 = helpers_1.degreesToRadians(coordinates1[1]);
+    var lat2 = helpers_1.degreesToRadians(coordinates2[1]);
+    var a = Math.pow(Math.sin(dLat / 2), 2) +
+        Math.pow(Math.sin(dLon / 2), 2) * Math.cos(lat1) * Math.cos(lat2);
+    return helpers_1.radiansToLength(2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)), options.units);
+}
+
+function weightFn(a, b, props) {
+  var d = distance(point(a), point(b)) * 1000,
+      factor = 0.9,
+      type = props.highway,
+      forwardSpeed,
+      backwardSpeed;
+
+  if (props.maxspeed) {
+      forwardSpeed = backwardSpeed = Number(props.maxspeed);
+  } else {
+      var linkIndex = type.indexOf('_link');
+      if (linkIndex >= 0) {
+          type = type.substring(0, linkIndex);
+          factor *= 0.7;
+      }
+
+      forwardSpeed = backwardSpeed = highwaySpeeds[type] * factor;
+      if (!forwardSpeed) {
+          unknowns[type] = true;
+      }
+  }
+
+  if (props.oneway && props.oneway !== 'no' || props.junction && props.junction === 'roundabout') {
+      backwardSpeed = null;
+  }
+
+  return {
+      forward: forwardSpeed && (d / (forwardSpeed / 3.6)),
+      backward: backwardSpeed && (d / (backwardSpeed / 3.6)),
+  };
+}
+
+function wightfunc (a, b, props) {
+  //a and b are coords "points"
+  //props is geom properties
+  var dx = a[0] - b[0];
+  var dy = a[1] - b[1];
+  return Math.sqrt(dx * dx + dy * dy);
+}
+
 pathFinder()
 function pathFinder(){
   var getstartpoint = ruabotafogogeojson.features.find(element => element.properties.id == 41967);
@@ -919,25 +985,9 @@ function pathFinder(){
   endmarker.addTo(map);
 
   const pathFinder = new geojsonPathFinder(flatten, {
-    weightFn: function(a, b, props) {
-      //a and b are coords "points"
-      //props is geom properties
-      if (props.nome_logra == 'Rua São Clemente') {
-        console.log('a: ' + a);
-        console.log('b: ' + b);
-      }
-      var dx = a[0] - b[0];
-      var dy = a[1] - b[1];
-      return Math.sqrt(dx * dx + dy * dy);
-    }
+    precision: 1e-9,
+    weightFn: wightfunc //weightFn
   });
-
-  //function wightfunc (a, b, props) {
-  //  var dx = a[0] - b[0];
-  //  var dy = a[1] - b[1];
-  //  return Math.sqrt(dx * dx + dy * dy);
-  //}
-
 
   //console.log(pathFinder);
 
@@ -964,7 +1014,7 @@ if (bestPath == null) {
   var getroutetime = routetime(getroutedistance, {transportmode: 'cycling', speedunit:'kmh'});
 
   var bestpathleafletline = L.polyline(turf.getCoords(bestpathturfline), {color: 'red'});
-  bestpathline.addTo(map);
+  bestpathleafletline.addTo(map);
 }
 
 
