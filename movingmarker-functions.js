@@ -922,6 +922,10 @@ function pathFinder(){
     weightFn: function(a, b, props) {
       //a and b are coords "points"
       //props is geom properties
+      if (props.nome_logra == 'Rua São Clemente') {
+        console.log('a: ' + a);
+        console.log('b: ' + b);
+      }
       var dx = a[0] - b[0];
       var dy = a[1] - b[1];
       return Math.sqrt(dx * dx + dy * dy);
