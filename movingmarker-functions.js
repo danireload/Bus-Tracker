@@ -988,6 +988,7 @@ function joinstreetsegmentsintomultiline(){
     var findindex = arrayofstreets.findIndex((element) => element.properties.nome_logra == item.properties.nome_logra);
 
     if (findindex == -1 || findindex == null || findindex == undefined) {
+      item.properties.nmbBlocks = 1;
       var multiLine = turf.multiLineString([item.geometry.coordinates], item.properties);
       arrayofstreets.push(multiLine);
 
@@ -998,6 +999,10 @@ function joinstreetsegmentsintomultiline(){
       getcoords.push(item.geometry.coordinates);
       var multiLine = turf.multiLineString(getcoords, arrayofstreets[findindex].properties);
       arrayofstreets[findindex] = multiLine;
+
+      if (item.properties.nome_logra == 'Rua Visconde de Caravelas') {
+        console.log(getcoords.length - 1;);
+      }
     }
 
   });
