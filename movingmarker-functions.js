@@ -986,7 +986,7 @@ function joinstreetsegmentsintomultiline(){
     var findindex = arrayofstreets.findIndex((element) => element.properties.nome_logra == item.properties.nome_logra);
     console.log(findindex);
 
-    if (findindex == 0 || findindex == null || findindex == undefined) {
+    if (findindex == -1 || findindex == null || findindex == undefined) {
       var multiLine = turf.multiLineString(item.geometry.coords, item.properties);
       arrayofstreets.push(multiLine)
     }else {
