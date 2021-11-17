@@ -974,7 +974,7 @@ function wightfunc (a, b, props) {
 
 //each geom multiLineString is a LineString from block start to block end
 
-joinstreetsegmentsintomultiline()
+//joinstreetsegmentsintomultiline()
 function joinstreetsegmentsintomultiline(){
 
   var arrayofstreets = [];
@@ -990,12 +990,14 @@ function joinstreetsegmentsintomultiline(){
     if (findindex == -1 || findindex == null || findindex == undefined) {
       var multiLine = turf.multiLineString([item.geometry.coordinates], item.properties);
       arrayofstreets.push(multiLine);
+
+      //streetnames.push({streetName: item.properties.nome_logra, streetNeighborhood: item.properties.bairro})
+    }else {
+      var getcoords = turf.getCoords(arrayofstreets[findindex]);
+      console.log(getcoords.length);
+      getcoords.push(item.geometry.coordinates);
       var multiLine = turf.multiLineString(getcoords, arrayofstreets[findindex].properties);
       arrayofstreets[findindex] = multiLine;
-
-      console.log(getcoords.length);
-
-      //streetnames.push({streetName: item.properties.nome_logra, streetNeighborhood: properties.nome_logra});
     }
 
   });
