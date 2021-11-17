@@ -920,9 +920,8 @@ function pathFinder(){
 
   const pathFinder = new geojsonPathFinder(flatten, {
     weightFn: function(a, b, props) {
-      console.log(a);
-      console.log(b);
-      console.log(props);
+      //a and b are coords "points"
+      //props is geom properties
       var dx = a[0] - b[0];
       var dy = a[1] - b[1];
       return Math.sqrt(dx * dx + dy * dy);
@@ -954,7 +953,7 @@ if (bestPath == null) {
 
     //console.log(bestPath.path);
 
-  var getbestpathturfline = turf.LineString(bestPath.path);
+  var getbestpathturfline = turf.lineString(bestPath.path);
 
   var bestpathturfline = flipturfcoords(getbestpathturfline);
   var getroutedistance = routedistance(bestpathturfline);
