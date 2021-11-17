@@ -919,23 +919,22 @@ function pathFinder(){
   endmarker.addTo(map);
 
   const pathFinder = new geojsonPathFinder(flatten, {
-    weightFn: weightfunc(a, b, props) {
+    weightFn: function(a, b, props) {
       console.log(a);
       console.log(b);
       console.log(props);
       var dx = a[0] - b[0];
       var dy = a[1] - b[1];
       return Math.sqrt(dx * dx + dy * dy);
+    }
   });
 
-  //function weightfunc(a, b, props) {
-  //  console.log(a);
-  //  console.log(b);
-  //  console.log(props);
+  //function wightfunc (a, b, props) {
   //  var dx = a[0] - b[0];
   //  var dy = a[1] - b[1];
   //  return Math.sqrt(dx * dx + dy * dy);
   //}
+
 
   //console.log(pathFinder);
 
