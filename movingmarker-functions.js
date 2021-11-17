@@ -978,6 +978,7 @@ joinstreetsegmentsintomultiline()
 function joinstreetsegmentsintomultiline(){
 
   var arrayofstreets = [];
+  var streetnames = [];
 
   var flatten = turf.flatten(ruabotafogogeojson);
   //console.log(flatten.features.length);
@@ -988,12 +989,13 @@ function joinstreetsegmentsintomultiline(){
 
     if (findindex == -1 || findindex == null || findindex == undefined) {
       var multiLine = turf.multiLineString([item.geometry.coordinates], item.properties);
-      arrayofstreets.push(multiLine)
-    }else {
-      var getcoords = turf.getCoords(arrayofstreets[findindex]);
-      getcoords.push(item.geometry.coordinates);
+      arrayofstreets.push(multiLine);
       var multiLine = turf.multiLineString(getcoords, arrayofstreets[findindex].properties);
       arrayofstreets[findindex] = multiLine;
+
+      console.log(getcoords.length);
+
+      //streetnames.push({streetName: item.properties.nome_logra, streetNeighborhood: properties.nome_logra});
     }
 
   });
@@ -1001,6 +1003,8 @@ function joinstreetsegmentsintomultiline(){
   var collection = turf.featureCollection(arrayofstreets);
   console.log(collection);
   //console.log(collection.features.length);
+
+  //console.log(streetnames);
 }
 
 //pathFinder()
