@@ -926,7 +926,6 @@ function pathFinder(){
       var dx = a[0] - b[0];
       var dy = a[1] - b[1];
       return Math.sqrt(dx * dx + dy * dy);
-    }
   });
 
   //function weightfunc(a, b, props) {
