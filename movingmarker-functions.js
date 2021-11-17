@@ -976,6 +976,7 @@ function wightfunc (a, b, props) {
 
 joinstreetsegmentsintomultiline()
 function joinstreetsegmentsintomultiline(){
+
   var arrayofstreets = [];
 
   var flatten = turf.flatten(ruabotafogogeojson);
@@ -984,7 +985,7 @@ function joinstreetsegmentsintomultiline(){
     //var find = arrayofstreets.find(element => element.name == item.properties.nome_logra);
     var findindex = arrayofstreets.findIndex((element) => element.properties.nome_logra == item.properties.nome_logra);
 
-    if (find == 0 || find == null || find == undefined) {
+    if (findindex == 0 || findindex == null || findindex == undefined) {
       var multiLine = turf.multiLineString(item.geometry.coords, item.properties);
       arrayofstreets.push(multiLine)
     }else {
