@@ -974,7 +974,7 @@ function wightfunc (a, b, props) {
 
 //each geom multiLineString is a LineString from block start to block end
 
-//joinstreetsegmentsintomultiline()
+joinstreetsegmentsintomultiline()
 function joinstreetsegmentsintomultiline(){
 
   var arrayofstreets = [];
