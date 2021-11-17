@@ -918,8 +918,18 @@ function pathFinder(){
   var endmarker = L.marker([endpoint.geometry.coordinates[1], endpoint.geometry.coordinates[0]]);
   endmarker.addTo(map);
 
-  const pathFinder = new geojsonPathFinder(flatten);
+  const pathFinder = new geojsonPathFinder(flatten, {
+    weightFn: weightfunc(a, b, props)});
   //console.log(pathFinder);
+
+  function weightfunc(a, b, props) {
+    console.log(a);
+    console.log(b);
+    console.log(props);
+    var dx = a[0] - b[0];
+    var dy = a[1] - b[1];
+    return Math.sqrt(dx * dx + dy * dy);
+  }
 
   const bestPath = pathFinder.findPath({
     geometry:
@@ -935,17 +945,15 @@ if (bestPath == null) {
     throw "No valid path found";
   }
 
-  // pathfinder outputs coords in wrong format
-  let paths = [];
+    //console.log(bestPath.path);
 
-  //console.log(bestPath.path);
+  var getbestpathturfline = turf.LineString(bestPath.path);
 
-  //reverse coords order from geojson to leaflet
-  bestPath.path.forEach((coords, i) => {
-    paths.push([coords[1], coords[0]]);
-  });
+  var bestpathturfline = flipturfcoords(getbestpathturfline);
+  var getroutedistance = routedistance(bestpathturfline);
+  var getroutetime = routetime(getroutedistance, {transportmode: 'cycling', speedunit:'kmh'});
 
-  var bestpathline = L.polyline(paths, {color: 'red'});
+  var bestpathleafletline = L.polyline(turf.getCoords(bestpathturfline), {color: 'red'});
   bestpathline.addTo(map);
 }
 
@@ -1100,11 +1108,28 @@ async function getpath(url){
   return a
 }
 
-function routedistance(turfroute){
+function routedistance(turfroute, distunit){
 
-  var getroutelength = turf.length(turfroute, {units: 'kilometers'});
-  var routelength = getroutelength; //.toFixed(2) + 'km'; //toFixed convert number to string
-  return routelength;
+  var turfdistunit;
+  var routelength;
+
+  if (distunit == 'km') {
+    turfdistunit = 'kilometers';
+    routelength = turf.length(turfroute, {units: turfdistunit});
+    return routelength;
+  }else if (distunit == 'ml') {
+    turfdistunit = 'miles';
+    routelength = turf.length(turfroute, {units: turfdistunit});
+    return routelength
+  }
+  else {
+    turfdistunit = 'kilometers';
+    var getroutelength = turf.length(turfroute, {units: turfdistunit});
+    routelength = convertdistance(getroutelength, {originaldistanceunit: 'km', newdistanceunit: distunit});
+    return routelength;
+  }
+  return routelength
+
 }
 
 function geomtoturf(geom){
