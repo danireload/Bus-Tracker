@@ -938,7 +938,7 @@ var zona30 = [
 
 var assignees = zona30.reduce((results, item) => {
     results.push(Object.values(item));
-    results.flat(1)
+    results.flat(2)
   return results;
 }, []);
 console.log(assignees);
