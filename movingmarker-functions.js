@@ -938,9 +938,10 @@ var zona30 = [
 
 var assignees = zona30.reduce((results, item) => {
     results.push(Object.values(item));
+    results.flat(1)
   return results;
 }, []);
-console.log(assignees.flat(2));
+console.log(assignees);
 
 //Falta adcionar o restante das ruas na Zona 30
 //unconfirmed ruas zona30:
