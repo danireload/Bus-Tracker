@@ -905,16 +905,81 @@ function getlayerbycustomid(id){
 }
 
 var highwaySpeeds = {
-    motorway: 110,
-    trunk: 90,
-    primary: 80,
-    secondary: 70,
-    tertiary: 50,
-    unclassified: 50,
-    road: 50,
-    residential: 30,
-    service: 30,
-    living_street: 20
+    //all speeds in km/h
+
+    motorway: 90, //WITHOUT crossings or obstructions (traffic lights, speed bumps, etc)
+    //Estrutural
+    trunk: 80, //via troncal em tradução livre
+    //WITH crossings or obstructions (traffic lights, speed bumps, etc),
+    //Estrutural
+    primary: 70, //Arterial primária
+    secondary: 60, //Arterial secundária
+    tertiary: 40, //Coletora
+    unclassified: 50, //minor roads of a lower classification than tertiary, but which serve a purpose other than access to properties. (Often link villages and hamlets.)
+    road: 50, //Highways of unknown type
+    residential: 30, //Local
+    service: 30, //For access roads to, or within an industrial estate, camp site, business park, car park, alleys, etc.
+    living_street: 30 //For living streets, which are residential streets where pedestrians have legal priority over cars, speeds are kept very low and where children are allowed to play on the street.
+    //Ruas da Zona 30 //Local
+
+    //below are link roads (sliproads/ramps) leading to/from  a highway. Normally with the same motorway restrictions.
+    //highway: motorway_link, trunk_link, primary_link, secondary_link, tertiary_link
+};
+var zona30 = ['Rua General Glicério', 'Avenida Oliveira Bello', 'Estrada do Encanamento', 'Avenida Fleming', 'Rua Fonseca Teles'];
+
+
+//Ruas Zona 30: Rua General Glicério (Laranjeiras), Avenida Oliveira Bello (Vila da Penha), Estrada do Encanamento (Campo Grande), Rua Jurunas/ Itapema (Engenho de Dentro), Avenida Fleming (Barrinha), Rua Fonseca Teles (São Cristóvão).
+//Falta adcionar o restante das ruas na Zona 30
+
+var viasexprssemfaixadepedestre = ['Linha Vermelha', 'Linha Amarela', 'Via Expressa', 'Avenida Brasil'];
+//Falta adcionar o restante das vias expressas sem faixa de pedestre
+
+
+function osmstandardtags(roadproperties){
+
+  var pcrjroadhierarchy = roadproperties.hierarquia;
+
+  var osmroadhierarchy;
+  var maxspeed;
+
+  switch (pcrjroadhierarchy) {
+    case 'Estrutural':
+    var findindex = viasexprssemfaixadepedestre.findIndex((element) => element == item.properties.nome_logra);
+      if (findindex > -1) {
+        osmroadhierarchy = 'motorway';
+        maxspeed = highwaySpeeds.motorway;
+      }else {
+        osmroadhierarchy = 'trunk';
+        maxspeed = highwaySpeeds.trunk;
+      }
+      break;
+    case 'Arterial primária':
+      osmroadhierarchy = 'primary';
+      maxspeed = highwaySpeeds.primary;
+      break;
+    case 'Arterial secundária':
+      osmroadhierarchy = 'secondary';
+      maxspeed = highwaySpeeds.secondary;
+      break;
+    case 'Coletora':
+      osmroadhierarchy = 'tertiary';
+      maxspeed = highwaySpeeds.tertiary;
+      break;
+    case 'Local':
+      var findindex = zona30.findIndex((element) => element == item.properties.nome_logra);
+      if (findindex > -1) {
+        osmroadhierarchy = 'living_street';
+        maxspeed = highwaySpeeds.living_street;
+      }else {
+        osmroadhierarchy = 'residential';
+        maxspeed = highwaySpeeds.residential;
+      }
+      break;
+    default:
+
+  }
+
+  return [osmroadhierarchy, maxspeed]
 }
 
 function distance(from, to, options) {
@@ -1010,7 +1075,7 @@ function joinstreetsegmentsintomultiline(){
     if (findindex == -1 || findindex == null || findindex == undefined) {
       createmultilinestreet(item);
     }else {
-      if (arrayofstreets[findindex].properties.bairro == item.properties.bairro) {
+      if (arrayofstreets[findindex].properties.bairro == item.properties.bairro || arrayofstreets[findindex].properties.hierarquia !== item.properties.hierarquia) {
         createmultilinestreet(item);
       }else {
         var getcoords = turf.getCoords(arrayofstreets[findindex]);
@@ -1034,6 +1099,10 @@ function joinstreetsegmentsintomultiline(){
   function createmultilinestreet(item){
 
     item.properties.nmbBlocks = 1;
+    arrayofstreets[findindex].properties.extensao = arrayofstreets[findindex].properties.extensao + item.properties.extensao;
+    var getosmtags = osmstandardtags(arrayofstreets[findindex].properties);
+    arrayofstreets[findindex].properties.highway = getosmtags[0];
+    arrayofstreets[findindex].properties.maxspeed = getosmtags[1];
 
     var multiLine = turf.multiLineString([item.geometry.coordinates], item.properties);
     arrayofstreets.push(multiLine);
@@ -1041,7 +1110,7 @@ function joinstreetsegmentsintomultiline(){
     //streetnames.push({streetName: item.properties.nome_logra, streetNeighborhood: item.properties.bairro})
 
   }
-  
+
 }
 
 //pathFinder()
