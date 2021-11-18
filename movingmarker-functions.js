@@ -951,7 +951,7 @@ var options = [{
 ];
 
 var assignees = options.reduce((results, item) => {
-    results.push(Object.values(item);
+    results.push(Object.values(item));
   return results;
 }, []);
 console.log(assignees);
