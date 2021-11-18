@@ -936,21 +936,7 @@ var zona30 = [
   {Cidade_Nova: ['Rua Ulysses Guimarães']}
 ];
 
-var options = [{
-    name: 'One',
-    assigned: true
-  },
-  {
-    name: 'Two',
-    assigned: false
-  },
-  {
-    name: 'Three',
-    assigned: true
-  },
-];
-
-var assignees = options.reduce((results, item) => {
+var assignees = zona30.reduce((results, item) => {
     results.push(Object.values(item));
   return results;
 }, []);
