@@ -936,9 +936,27 @@ var zona30 = [
   {Cidade_Nova: ['Rua Ulysses Guimarães']}
 ];
 
-var a = zona30;
-var flattened = a => Array.isArray(a) ? [].concat(...a.map(flatten)) : a;
-console.log(flattened);
+var options = [{
+    name: 'One',
+    assigned: true
+  },
+  {
+    name: 'Two',
+    assigned: false
+  },
+  {
+    name: 'Three',
+    assigned: true
+  },
+];
+
+var assignees = options.reduce((results, item) => {
+  if (item.assigned) {
+    results.push(item.name);
+  }
+  return results;
+}, []);
+console.log(assignees);
 
 //Falta adcionar o restante das ruas na Zona 30
 //unconfirmed ruas zona30:
