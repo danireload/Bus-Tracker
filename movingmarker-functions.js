@@ -925,11 +925,23 @@ var highwaySpeeds = {
     //below are link roads (sliproads/ramps) leading to/from  a highway. Normally with the same motorway restrictions.
     //highway: motorway_link, trunk_link, primary_link, secondary_link, tertiary_link
 };
-var zona30 = ['Rua General Glicério', 'Avenida Oliveira Bello', 'Estrada do Encanamento', 'Avenida Fleming', 'Rua Fonseca Teles'];
+var zona30 = [
+  {Laranjeiras: ['Rua General Glicério', 'Rua Pereira da Silva', 'Rua Gago Coutinho']},
+  {Flamengo: ['Rua Paissandu']}
+  {Vila_da_Penha: ['Avenida Oliveira Bello']},
+  {Campo_Grande: ['Estrada do Encanamento']},
+  {Barra_da_Tijuca: ['Avenida Fleming']},
+  {Sao_Cristovao: ['Rua Fonseca Teles']},
+  {Copacabana: ['Rua Edmundo Lins', 'Rua Silva Casto', 'Rua Hilário de Gouvêia', 'Rua Ministro Vibeiros de Castro', 'Rua Rodolfo Dantas', 'Rua Duvivier', 'Rua Belfort Roxo', 'Rua Ronald de Carvalho', 'Rua Dias da Rocha', 'Rua Marechal Mascarenhas de Morais', 'Rua República do Peru', 'Rua Paula Freitas', 'Rua Anita Garibaldi']},
+  {Cidade_Nova: ['Rua Ulysses Guimarães']}
+];
 
+var ek = zona30.reduce(function(a,b){return a.concat(b);});
+console.log(ek);
 
-//Ruas Zona 30: Rua General Glicério (Laranjeiras), Avenida Oliveira Bello (Vila da Penha), Estrada do Encanamento (Campo Grande), Rua Jurunas/ Itapema (Engenho de Dentro), Avenida Fleming (Barrinha), Rua Fonseca Teles (São Cristóvão).
 //Falta adcionar o restante das ruas na Zona 30
+//unconfirmed ruas zona30:
+  //Copacabana: Rua Aires Saldanha, Rua Leopoldo Miguez, Rua Barão de Ipanema, Rua Constante Ramos, Rua 5 de Julho, Rua Raimundo Corrêa, Rua Capelão Álvares da Silva, Rua Maestro Francisco Braga, Rua Décio Vilares, Rua Tenente Marones de Gusmão, Rua Joseph Bloch, Praça Edmundo Bitencourt, Praça Serzedelo Corrêa, Rua Inhangá, Rua Conrado Niemeyer, Rua Fernando Mendes, Rua Felipe de Oliveira
 
 var viasexprssemfaixadepedestre = ['Linha Vermelha', 'Linha Amarela', 'Via Expressa', 'Avenida Brasil'];
 //Falta adcionar o restante das vias expressas sem faixa de pedestre
@@ -941,6 +953,7 @@ function osmstandardtags(roadproperties){
 
   var osmroadhierarchy;
   var maxspeed;
+  var isoneway;
 
   switch (pcrjroadhierarchy) {
     case 'Estrutural':
@@ -948,31 +961,38 @@ function osmstandardtags(roadproperties){
       if (findindex > -1) {
         osmroadhierarchy = 'motorway';
         maxspeed = highwaySpeeds.motorway;
+        isoneway = 'yes';
       }else {
         osmroadhierarchy = 'trunk';
         maxspeed = highwaySpeeds.trunk;
+        isoneway = 'yes';
       }
       break;
     case 'Arterial primária':
       osmroadhierarchy = 'primary';
       maxspeed = highwaySpeeds.primary;
+      isoneway = 'no';
       break;
     case 'Arterial secundária':
       osmroadhierarchy = 'secondary';
       maxspeed = highwaySpeeds.secondary;
+      isoneway = 'no';
       break;
     case 'Coletora':
       osmroadhierarchy = 'tertiary';
       maxspeed = highwaySpeeds.tertiary;
+      isoneway = 'no';
       break;
     case 'Local':
       var findindex = zona30.findIndex((element) => element == item.properties.nome_logra);
       if (findindex > -1) {
         osmroadhierarchy = 'living_street';
         maxspeed = highwaySpeeds.living_street;
+        isoneway = 'yes';
       }else {
         osmroadhierarchy = 'residential';
         maxspeed = highwaySpeeds.residential;
+        isoneway = 'yes';
       }
       break;
     default:
@@ -1103,6 +1123,7 @@ function joinstreetsegmentsintomultiline(){
     var getosmtags = osmstandardtags(arrayofstreets[findindex].properties);
     arrayofstreets[findindex].properties.highway = getosmtags[0];
     arrayofstreets[findindex].properties.maxspeed = getosmtags[1];
+    arrayofstreets[findindex].properties.oneway = getosmtags[2];
 
     var multiLine = turf.multiLineString([item.geometry.coordinates], item.properties);
     arrayofstreets.push(multiLine);
