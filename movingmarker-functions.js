@@ -954,9 +954,28 @@ function weightFn(a, b, props) {
       }
   }
 
-  if (props.oneway && props.oneway !== 'no' || props.junction && props.junction === 'roundabout' || props.hazard && props.hazard === 'shooting_range') {
+  if (props.oneway && props.oneway !== 'no' || props.junction && props.junction === 'roundabout') {
       backwardSpeed = null;
   }
+
+  if (props.hazard && props.hazard === 'shooting_range') {
+    backwardSpeed = null;
+    forwardSpeed = null;
+  }
+
+  var usehighways = 'yes';
+  var usetolls = 'yes';
+
+  //mark toll = yes only on part of the highway with toll in which it´s not possible to exit highway before toll
+  if (usetolls == 'no' && props.toll && props.toll === 'yes') {
+    backwardSpeed = null;
+    forwardSpeed = null;
+  }
+  if (usehighways == 'no' && props.highway && props.highway === 'motorway') {
+    backwardSpeed = null;
+    forwardSpeed = null;
+  }
+
 
   return {
       forward: forwardSpeed && (d / (forwardSpeed / 3.6)),
@@ -974,6 +993,7 @@ function wightfunc (a, b, props) {
 
 //each geom multiLineString is a LineString from block start to block end
 
+
 //joinstreetsegmentsintomultiline()
 function joinstreetsegmentsintomultiline(){
 
@@ -988,20 +1008,19 @@ function joinstreetsegmentsintomultiline(){
     var findindex = arrayofstreets.findIndex((element) => element.properties.nome_logra == item.properties.nome_logra);
 
     if (findindex == -1 || findindex == null || findindex == undefined) {
-      item.properties.nmbBlocks = 1;
-
-      var multiLine = turf.multiLineString([item.geometry.coordinates], item.properties);
-      arrayofstreets.push(multiLine);
-
-      //streetnames.push({streetName: item.properties.nome_logra, streetNeighborhood: item.properties.bairro})
+      createmultilinestreet(item);
     }else {
-      var getcoords = turf.getCoords(arrayofstreets[findindex]);
-      getcoords.push(item.geometry.coordinates);
+      if (arrayofstreets[findindex].properties.bairro == item.properties.bairro) {
+        createmultilinestreet(item);
+      }else {
+        var getcoords = turf.getCoords(arrayofstreets[findindex]);
+        getcoords.push(item.geometry.coordinates);
 
-      arrayofstreets[findindex].properties.nmbBlocks = getcoords.length - 1;
+        arrayofstreets[findindex].properties.nmbBlocks = getcoords.length - 1;
 
-      var multiLine = turf.multiLineString(getcoords, arrayofstreets[findindex].properties);
-      arrayofstreets[findindex] = multiLine;
+        var multiLine = turf.multiLineString(getcoords, arrayofstreets[findindex].properties);
+        arrayofstreets[findindex] = multiLine;
+      }
     }
 
   });
@@ -1011,6 +1030,18 @@ function joinstreetsegmentsintomultiline(){
   //console.log(collection.features.length);
 
   //console.log(streetnames);
+
+  function createmultilinestreet(item){
+
+    item.properties.nmbBlocks = 1;
+
+    var multiLine = turf.multiLineString([item.geometry.coordinates], item.properties);
+    arrayofstreets.push(multiLine);
+
+    //streetnames.push({streetName: item.properties.nome_logra, streetNeighborhood: item.properties.bairro})
+
+  }
+  
 }
 
 //pathFinder()
