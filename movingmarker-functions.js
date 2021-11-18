@@ -936,12 +936,12 @@ var zona30 = [
   {Cidade_Nova: ['Rua Ulysses Guimarães']}
 ];
 
-var assignees = zona30.reduce((results, item) => {
+var getflat = zona30.reduce((results, item) => {
     results.push(Object.values(item));
-    results.flat(2)
   return results;
 }, []);
-console.log(assignees);
+var flattend = getflat.flat(2);
+console.log(flattend);
 
 //Falta adcionar o restante das ruas na Zona 30
 //unconfirmed ruas zona30:
