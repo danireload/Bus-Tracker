@@ -941,7 +941,6 @@ var getflat = zona30.reduce((results, item) => {
   return results;
 }, []);
 var flattend = getflat.flat(2);
-console.log(flattend);
 
 //Falta adcionar o restante das ruas na Zona 30
 //unconfirmed ruas zona30:
@@ -988,7 +987,7 @@ function osmstandardtags(roadproperties){
       isoneway = 'no';
       break;
     case 'Local':
-      var findindex = zona30.findIndex((element) => element == item.properties.nome_logra);
+      var findindex = flattend.findIndex((element) => element == item.properties.nome_logra);
       if (findindex > -1) {
         osmroadhierarchy = 'living_street';
         maxspeed = highwaySpeeds.living_street;
