@@ -936,7 +936,7 @@ var zona30 = [
   {Cidade_Nova: ['Rua Ulysses Guimarães']}
 ];
 
-var flattened = [].concat.apply([],zona30);
+var flattened = zona30.flat();
 console.log(flattened);
 
 //Falta adcionar o restante das ruas na Zona 30
