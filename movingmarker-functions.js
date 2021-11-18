@@ -927,7 +927,7 @@ var highwaySpeeds = {
 };
 var zona30 = [
   {Laranjeiras: ['Rua General Glicério', 'Rua Pereira da Silva', 'Rua Gago Coutinho']},
-  {Flamengo: ['Rua Paissandu']}
+  {Flamengo: ['Rua Paissandu']},
   {Vila_da_Penha: ['Avenida Oliveira Bello']},
   {Campo_Grande: ['Estrada do Encanamento']},
   {Barra_da_Tijuca: ['Avenida Fleming']},
