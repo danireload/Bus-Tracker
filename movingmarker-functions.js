@@ -936,8 +936,8 @@ var zona30 = [
   {Cidade_Nova: ['Rua Ulysses Guimarães']}
 ];
 
-var ek = zona30.reduce(function(a,b){return a.concat(b);});
-console.log(ek);
+var flattened = [].concat.apply([],zona30);
+console.log(flattened);
 
 //Falta adcionar o restante das ruas na Zona 30
 //unconfirmed ruas zona30:
