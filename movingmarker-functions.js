@@ -904,36 +904,84 @@ function getlayerbycustomid(id){
   return getlayer
 }
 
-var highwaySpeeds = {
-    //all speeds in km/h
-
-    motorway: 90, //WITHOUT crossings or obstructions (traffic lights, speed bumps, etc)
-    //Estrutural
-    trunk: 80, //via troncal em tradução livre
-    //WITH crossings or obstructions (traffic lights, speed bumps, etc),
-    //Estrutural
-    primary: 70, //Arterial primária
-    secondary: 60, //Arterial secundária
-    tertiary: 40, //Coletora
-    unclassified: 50, //minor roads of a lower classification than tertiary, but which serve a purpose other than access to properties. (Often link villages and hamlets.)
-    road: 50, //Highways of unknown type
-    residential: 30, //Local
-    service: 30, //For access roads to, or within an industrial estate, camp site, business park, car park, alleys, etc.
-    living_street: 30 //For living streets, which are residential streets where pedestrians have legal priority over cars, speeds are kept very low and where children are allowed to play on the street.
-    //Ruas da Zona 30 //Local
-
+var highwaySpeeds = [
+  //all speeds in km/h
+  {
+    cetrioName: 'Estrutural',
+    cetrioSpeed: 90,
+    osmName: 'motorway',
+    direction: 'one-way'
+    //WITHOUT crossings or obstructions (traffic lights, speed bumps, etc)
+  },
+  {
+    cetrioName: 'Estrutural',
+    cetrioSpeed: 80,
+    osmName: 'trunk',
+    direction: 'one-way'
+    //via troncal em tradução livre
+    //WITH crossings or obstructions (traffic lights, speed bumps, etc)
+  },
+  {
+    cetrioName: 'Arterial primária',
+    cetrioSpeed: 70,
+    osmName: 'primary',
+    direction: 'two-way'
+  },
+  {
+    cetrioName: 'Arterial secundária',
+    cetrioSpeed: 60,
+    osmName: 'secondary',
+    direction: 'two-way'
+  },
+  {
+    cetrioName: 'Coletora',
+    cetrioSpeed: 40,
+    osmName: 'tertiary',
+    direction: 'two-way'
+  },
+  {
+    osmName: 'unclassified',
+    cetrioSpeed: 50
+    //minor roads of a lower classification than tertiary, but which serve a purpose other than access to properties. (Often link villages and hamlets.)
+  },
+  {
+    osmName: 'road',
+    cetrioSpeed: 50
+    //Highways of unknown type
+  },
+  {
+    cetrioName: 'Local',
+    cetrioSpeed: 30,
+    osmName: 'residential',
+    direction: 'one-way'
+  },
+  {
+    osmName: 'service',
+    cetrioSpeed: 30,
+    direction: 'one-way'
+    //For access roads to, or within an industrial estate, camp site, business park, car park, alleys, etc.
+  },
+  {
+    cetrioName: 'Local',
+    cetrioSpeed: 30,
+    osmName: 'living_street',
+    direction: 'one-way'
+    //For living streets, which are residential streets where pedestrians have legal priority over cars, speeds are kept very low and where children are allowed to play on the street.
+    //Ruas da Zona 30
+  }
     //below are link roads (sliproads/ramps) leading to/from  a highway. Normally with the same motorway restrictions.
     //highway: motorway_link, trunk_link, primary_link, secondary_link, tertiary_link
-};
+];
 var zona30 = [
-  {Laranjeiras: ['Rua General Glicério', 'Rua Pereira da Silva', 'Rua Gago Coutinho']},
-  {Flamengo: ['Rua Paissandu']},
-  {Vila_da_Penha: ['Avenida Oliveira Bello']},
-  {Campo_Grande: ['Estrada do Encanamento']},
-  {Barra_da_Tijuca: ['Avenida Fleming']},
-  {Sao_Cristovao: ['Rua Fonseca Teles']},
+  {Laranjeiras: ['Rua General Glicério', 'Rua Professor Ortiz Monteiro', 'Rua Estelita Lins', 'Rua Pereira da Silva', 'Rua Gago Coutinho']},
+  {Flamengo: ['Rua Dois de Dezembro', 'Rua Paissandu']},
+  {Humaita: ['Rua Marques']},
   {Copacabana: ['Rua Edmundo Lins', 'Rua Silva Casto', 'Rua Hilário de Gouvêia', 'Rua Ministro Vibeiros de Castro', 'Rua Rodolfo Dantas', 'Rua Duvivier', 'Rua Belfort Roxo', 'Rua Ronald de Carvalho', 'Rua Dias da Rocha', 'Rua Marechal Mascarenhas de Morais', 'Rua República do Peru', 'Rua Paula Freitas', 'Rua Anita Garibaldi']},
-  {Cidade_Nova: ['Rua Ulysses Guimarães']}
+  {Cidade_Nova: ['Rua Ulysses Guimarães']},
+  {Sao_Cristovao: ['Rua Fonseca Teles']},
+  {Vila_da_Penha: ['Avenida Oliveira Bello']},
+  {Barra_da_Tijuca: ['Avenida Fleming']},
+  {Campo_Grande: ['Estrada do Encanamento']}
 ];
 
 var getflat = zona30.reduce((results, item) => {
@@ -958,48 +1006,46 @@ function osmstandardtags(roadproperties){
   var maxspeed;
   var isoneway;
 
-  switch (pcrjroadhierarchy) {
-    case 'Estrutural':
+  if (pcrjroadhierarchy == 'Estrutural') {
     var findindex = viasexprssemfaixadepedestre.findIndex((element) => element == item.properties.nome_logra);
-      if (findindex > -1) {
-        osmroadhierarchy = 'motorway';
-        maxspeed = highwaySpeeds.motorway;
-        isoneway = 'yes';
-      }else {
-        osmroadhierarchy = 'trunk';
-        maxspeed = highwaySpeeds.trunk;
-        isoneway = 'yes';
-      }
-      break;
-    case 'Arterial primária':
-      osmroadhierarchy = 'primary';
-      maxspeed = highwaySpeeds.primary;
+    if (findindex > -1) {
+      var newpcrjroadhierarchy = 'motorway';
+    }else {
+      var newpcrjroadhierarchy = 'trunk';
+    }
+    var getcase = highwaySpeeds.find(element => element.cetrioName == newpcrjroadhierarchy);
+    osmroadhierarchy = getcase.osmName;
+    maxspeed = getcase.cetrioSpeed;
+    if (getcase.direction == 'one-way') {
+      isoneway = 'yes';
+    }else if (getcase.direction == 'two-way') {
       isoneway = 'no';
-      break;
-    case 'Arterial secundária':
-      osmroadhierarchy = 'secondary';
-      maxspeed = highwaySpeeds.secondary;
-      isoneway = 'no';
-      break;
-    case 'Coletora':
-      osmroadhierarchy = 'tertiary';
-      maxspeed = highwaySpeeds.tertiary;
-      isoneway = 'no';
-      break;
-    case 'Local':
-      var findindex = flattend.findIndex((element) => element == item.properties.nome_logra);
-      if (findindex > -1) {
-        osmroadhierarchy = 'living_street';
-        maxspeed = highwaySpeeds.living_street;
-        isoneway = 'yes';
-      }else {
-        osmroadhierarchy = 'residential';
-        maxspeed = highwaySpeeds.residential;
-        isoneway = 'yes';
-      }
-      break;
-    default:
+    }
 
+  }else if (pcrjroadhierarchy == 'Local') {
+    var findindex = flattend.findIndex((element) => element == item.properties.nome_logra);
+    if (findindex > -1) {
+      var newpcrjroadhierarchy = 'living_street';
+    }else {
+      var newpcrjroadhierarchy = 'residential';
+    }
+    var getcase = highwaySpeeds.find(element => element.cetrioName == newpcrjroadhierarchy);
+    osmroadhierarchy = getcase.osmName;
+    maxspeed = getcase.cetrioSpeed;
+    if (getcase.direction == 'one-way') {
+      isoneway = 'yes';
+    }else if (getcase.direction == 'two-way') {
+      isoneway = 'no';
+    }
+  }else {
+    var getcase = highwaySpeeds.find(element => element.cetrioName == pcrjroadhierarchy);
+    osmroadhierarchy = getcase.osmName;
+    maxspeed = getcase.cetrioSpeed;
+    if (getcase.direction == 'one-way') {
+      isoneway = 'yes';
+    }else if (getcase.direction == 'two-way') {
+      isoneway = 'no';
+    }
   }
 
   return [osmroadhierarchy, maxspeed]
