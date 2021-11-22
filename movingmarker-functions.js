@@ -1014,14 +1014,7 @@ function osmstandardtags(roadproperties){
       var newpcrjroadhierarchy = 'trunk';
     }
     var getcase = highwaySpeeds.find(element => element.cetrioName == newpcrjroadhierarchy);
-    osmroadhierarchy = getcase.osmName;
-    maxspeed = getcase.cetrioSpeed;
-    if (getcase.direction == 'one-way') {
-      isoneway = 'yes';
-    }else if (getcase.direction == 'two-way') {
-      isoneway = 'no';
-    }
-
+    var2tags(getcase);
   }else if (pcrjroadhierarchy == 'Local') {
     var findindex = flattend.findIndex((element) => element == item.properties.nome_logra);
     if (findindex > -1) {
@@ -1030,15 +1023,13 @@ function osmstandardtags(roadproperties){
       var newpcrjroadhierarchy = 'residential';
     }
     var getcase = highwaySpeeds.find(element => element.cetrioName == newpcrjroadhierarchy);
-    osmroadhierarchy = getcase.osmName;
-    maxspeed = getcase.cetrioSpeed;
-    if (getcase.direction == 'one-way') {
-      isoneway = 'yes';
-    }else if (getcase.direction == 'two-way') {
-      isoneway = 'no';
-    }
+    var2tags(getcase);
   }else {
     var getcase = highwaySpeeds.find(element => element.cetrioName == pcrjroadhierarchy);
+    var2tags(getcase);
+  }
+
+  function var2tags(dbelement){
     osmroadhierarchy = getcase.osmName;
     maxspeed = getcase.cetrioSpeed;
     if (getcase.direction == 'one-way') {
