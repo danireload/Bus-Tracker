@@ -937,7 +937,8 @@ var highwaySpeeds = [
     cetrioName: 'Coletora',
     cetrioSpeed: 40,
     osmName: 'tertiary',
-    direction: 'two-way'
+    //direction: 'two-way'
+    direction: 'one-way'
   },
   {
     osmName: 'unclassified',
@@ -981,7 +982,7 @@ var zona30 = [
   {Sao_Cristovao: ['Rua Fonseca Teles']},
   {Vila_da_Penha: ['Avenida Oliveira Bello']},
   {Barra_da_Tijuca: ['Avenida Fleming']},
-  {Campo_Grande: ['Estrada do Encanamento']}
+  {Campo_Grande: ['Estrada do Encanamento', '']}
 ];
 
 var getflat = zona30.reduce((results, item) => {
@@ -997,6 +998,13 @@ var flattend = getflat.flat(2);
 var viasexprssemfaixadepedestre = ['Linha Vermelha', 'Linha Amarela', 'Via Expressa', 'Avenida Brasil'];
 //Falta adcionar o restante das vias expressas sem faixa de pedestre
 
+var largeonewaystreets = [
+  {Botafogo: ['Rua São Clemente', 'Rua Voluntários da Pátria', 'Rua General Polidoro', 'Rua Visconde de Silva', 'Rua Pinheiro Guimarães', 'Rua Mena Barreto', 'Rua Arnaldo Quintela', 'Rua da Passagem', 'Rua Clotilde Guimarães', 'Rua Professor Álvaro Rodrigues', 'Rua Nelson Mandela', 'Rua Real Grandeza', 'Rua Sorocaba']},
+  {Urca: ['Avenida Portugal', 'Avenida João Luís Alves', 'Rua Cândido Gaffrée', 'Rua Marechal Cantuária', 'Rua Ramon Franco']},
+  {Flamengo: ['Rua Marquês de Abrantes', 'Rua Senador Vergueiro']},
+  {Laranjeiras: ['Rua Conde de Baependi', '']},
+  {Catete: ['Rua Bento Lisboa']}
+]
 
 function osmstandardtags(roadproperties){
 
@@ -1130,23 +1138,24 @@ function joinstreetsegmentsintomultiline(){
 
   flatten.features.forEach((item, i) => {
     //var find = arrayofstreets.find(element => element.name == item.properties.nome_logra);
-    var findindex = arrayofstreets.findIndex((element) => element.properties.nome_logra == item.properties.nome_logra);
 
-    if (findindex == -1 || findindex == null || findindex == undefined) {
+    //var findindex = arrayofstreets.findIndex((element) => element.properties.nome_logra == item.properties.nome_logra);
+
+    //if (findindex == -1 || findindex == null || findindex == undefined) {
       createmultilinestreet(item);
-    }else {
-      if (arrayofstreets[findindex].properties.bairro == item.properties.bairro || arrayofstreets[findindex].properties.hierarquia !== item.properties.hierarquia) {
-        createmultilinestreet(item);
-      }else {
-        var getcoords = turf.getCoords(arrayofstreets[findindex]);
-        getcoords.push(item.geometry.coordinates);
+    //}else {
+      //if (arrayofstreets[findindex].properties.bairro == item.properties.bairro || arrayofstreets[findindex].properties.hierarquia !== item.properties.hierarquia) {
+        //createmultilinestreet(item);
+      //}else {
+        //var getcoords = turf.getCoords(arrayofstreets[findindex]);
+        //getcoords.push(item.geometry.coordinates);
 
-        arrayofstreets[findindex].properties.nmbBlocks = getcoords.length - 1;
+        //arrayofstreets[findindex].properties.nmbBlocks = getcoords.length - 1;
 
-        var multiLine = turf.multiLineString(getcoords, arrayofstreets[findindex].properties);
-        arrayofstreets[findindex] = multiLine;
-      }
-    }
+        //var multiLine = turf.multiLineString(getcoords, arrayofstreets[findindex].properties);
+        //arrayofstreets[findindex] = multiLine;
+      //}
+    //}
 
   });
 
@@ -1165,7 +1174,8 @@ function joinstreetsegmentsintomultiline(){
     arrayofstreets[findindex].properties.maxspeed = getosmtags[1];
     arrayofstreets[findindex].properties.oneway = getosmtags[2];
 
-    var multiLine = turf.multiLineString([item.geometry.coordinates], item.properties);
+    //var multiLine = turf.multiLineString([item.geometry.coordinates], item.properties);
+    var multiLine = turf.lineString(item.geometry.coordinates, item.properties);
     arrayofstreets.push(multiLine);
 
     //streetnames.push({streetName: item.properties.nome_logra, streetNeighborhood: item.properties.bairro})
