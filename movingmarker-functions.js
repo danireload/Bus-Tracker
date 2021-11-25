@@ -1186,7 +1186,7 @@ function joinstreetsegmentsintomultiline(){
 
 testnomadapi()
 
-  (async function testnomadapi() {
+  async function testnomadapi() {
 
 
     var requestobj = {
@@ -1295,7 +1295,6 @@ testnomadapi()
     });
   }
 
-})();
 }
 
 function addDays(date, days) {
