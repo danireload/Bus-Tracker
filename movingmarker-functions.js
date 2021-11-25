@@ -1210,7 +1210,7 @@ function testnomadapi() {
       {
         "locations": ["MUN"],
         //"nights_range": [3, 5],
-        "date_range": ["03/02/2022", "12/02/2022"]
+        //"date_range": ["03/02/2022", "12/02/2022"]
       }
     ]
   };
