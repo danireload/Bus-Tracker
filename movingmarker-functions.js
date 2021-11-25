@@ -1196,7 +1196,7 @@ function testnomadapi() {
     "date_to": "05/02/2022",
     "fly_to": "BAR",
     "return_to": "20/02/2022",
-    "return_from": "30/02/2022",
+    //"return_from": "30/02/2022",
     "nights_on_trip_from": 5,
     "via": [
       {
