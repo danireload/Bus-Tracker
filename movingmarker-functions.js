@@ -1227,7 +1227,340 @@ function testnomadapi() {
   const content = await rawResponse.json();
 
   console.log(content);
+
+  //content._results //number of results
+  //content.currency
+
+  if (content.hasOwnProperty('data') && content.data.length > 0) {
+    content.data.forEach((item, i) => {
+      const flightresult = new FlightPriceResult(item);
+    });
+  }
+
 })();
+}
+
+function FlightPriceResult(content) {
+
+  //calculate flight time from utc departure and arrival times
+  //check if change of airporst between segments
+
+  {
+    "id": "01af25c34a5100000a3d391a_0|25c30f644a5400002ee9ce9d_0|0f641dde4a5800008605fb71_0|1dde01af4a5b0000a395f2f6_0",
+    "quality": 269.33,
+    "duration": 26700,
+    "price": 174,
+    "route": [
+      {
+        "id": "01af25c34a5100000a3d391a_0",
+        "flyFrom": "BCN",
+        "cityFrom": "Barcelona",
+        "cityCodeFrom": "BCN",
+        "countryFrom": {
+          "code": "ES",
+          "name": "Spain"
+        },
+        "flyTo": "CDG",
+        "cityTo": "Paris",
+        "cityCodeTo": "PAR",
+        "countryTo": {
+          "code": "FR",
+          "name": "France"
+        },
+        "distance": 859.35, //km
+        "airlines": [
+          "VY"
+        ],
+        "has_airport_change": false,
+        "technical_stops": 0,
+        "hidden_city_ticketing": false,
+        "throw_away_ticketing": false,
+        "availability": {
+          "seats": 4
+        },
+        "quality": 51.999930000000006,
+        "transfers": [],
+        "type_flights": [
+          "deprecated"
+        ],
+        "virtual_interlining": false,
+        "route": [
+          {
+            "fare_basis": "DFB",
+            "fare_category": "M",
+            "fare_classes": "D",
+            "fare_family": "",
+            "last_seen": "2021-11-25T11:01:42.000Z",
+            "refresh_timestamp": "2021-11-25T11:01:42.000Z",
+            "return": 0,
+            "bags_recheck_required": false,
+            "guarantee": false,
+            "vi_connection": false,
+            "id": "01af25c34a5100000a3d391a_0",
+            "combination_id": "01af25c34a5100000a3d391a",
+            "cityTo": "Paris",
+            "cityFrom": "Barcelona",
+            "cityCodeFrom": "BCN",
+            "cityCodeTo": "PAR",
+            "flyTo": "CDG",
+            "flyFrom": "BCN",
+            "airline": "VY",
+            "operating_carrier": "VY",
+            "equipment": null,
+            "flight_no": 8244,
+            "vehicle_type": "aircraft",
+            "operating_flight_no": "8244",
+            "local_arrival": "2022-02-02T18:05:00.000Z",
+            "utc_arrival": "2022-02-02T17:05:00.000Z",
+            "local_departure": "2022-02-02T16:05:00.000Z",
+            "utc_departure": "2022-02-02T15:05:00.000Z"
+          }
+        ],
+        "local_arrival": "2022-02-02T18:05:00.000Z",
+        "utc_arrival": "2022-02-02T17:05:00.000Z",
+        "local_departure": "2022-02-02T16:05:00.000Z",
+        "utc_departure": "2022-02-02T15:05:00.000Z"
+      },
+      {
+        "id": "25c30f644a5400002ee9ce9d_0",
+        "flyFrom": "CDG",
+        "cityFrom": "Paris",
+        "cityCodeFrom": "PAR",
+        "countryFrom": {
+          "code": "FR",
+          "name": "France"
+        },
+        "flyTo": "LHR",
+        "cityTo": "London",
+        "cityCodeTo": "LON",
+        "countryTo": {
+          "code": "GB",
+          "name": "United Kingdom"
+        },
+        "distance": 348.3,
+        "airlines": [
+          "AF"
+        ],
+        "has_airport_change": false,
+        "technical_stops": 0,
+        "hidden_city_ticketing": false,
+        "throw_away_ticketing": false,
+        "availability": {
+          "seats": null
+        },
+        "quality": 67.333275,
+        "transfers": [],
+        "type_flights": [
+          "deprecated"
+        ],
+        "virtual_interlining": false,
+        "route": [
+          {
+            "fare_basis": "GS50BILG",
+            "fare_category": "M",
+            "fare_classes": "G",
+            "fare_family": "",
+            "last_seen": "2021-11-25T01:56:02.000Z",
+            "refresh_timestamp": "2021-11-25T01:56:02.000Z",
+            "return": 0,
+            "bags_recheck_required": false,
+            "guarantee": false,
+            "vi_connection": false,
+            "id": "25c30f644a5400002ee9ce9d_0",
+            "combination_id": "25c30f644a5400002ee9ce9d",
+            "cityTo": "London",
+            "cityFrom": "Paris",
+            "cityCodeFrom": "PAR",
+            "cityCodeTo": "LON",
+            "flyTo": "LHR",
+            "flyFrom": "CDG",
+            "airline": "AF",
+            "operating_carrier": "AF",
+            "equipment": null,
+            "flight_no": 1380,
+            "vehicle_type": "aircraft",
+            "operating_flight_no": "1380",
+            "local_arrival": "2022-02-05T21:25:00.000Z",
+            "utc_arrival": "2022-02-05T21:25:00.000Z",
+            "local_departure": "2022-02-05T21:00:00.000Z",
+            "utc_departure": "2022-02-05T20:00:00.000Z"
+          }
+        ],
+        "local_arrival": "2022-02-05T21:25:00.000Z",
+        "utc_arrival": "2022-02-05T21:25:00.000Z",
+        "local_departure": "2022-02-05T21:00:00.000Z",
+        "utc_departure": "2022-02-05T20:00:00.000Z"
+      },
+      {
+        "id": "0f641dde4a5800008605fb71_0",
+        "flyFrom": "LHR",
+        "cityFrom": "London",
+        "cityCodeFrom": "LON",
+        "countryFrom": {
+          "code": "GB",
+          "name": "United Kingdom"
+        },
+        "flyTo": "MUC",
+        "cityTo": "Munich",
+        "cityCodeTo": "MUC",
+        "countryTo": {
+          "code": "DE",
+          "name": "Germany"
+        },
+        "distance": 942.8,
+        "airlines": [
+          "BA"
+        ],
+        "has_airport_change": false,
+        "technical_stops": 0,
+        "hidden_city_ticketing": false,
+        "throw_away_ticketing": false,
+        "availability": {
+          "seats": 4
+        },
+        "quality": 77.333265,
+        "transfers": [],
+        "type_flights": [
+          "deprecated"
+        ],
+        "virtual_interlining": false,
+        "route": [
+          {
+            "fare_basis": "",
+            "fare_category": "M",
+            "fare_classes": "O",
+            "fare_family": "",
+            "last_seen": "2021-11-25T08:10:32.000Z",
+            "refresh_timestamp": "2021-11-25T08:10:32.000Z",
+            "return": 0,
+            "bags_recheck_required": false,
+            "guarantee": false,
+            "vi_connection": false,
+            "id": "0f641dde4a5800008605fb71_0",
+            "combination_id": "0f641dde4a5800008605fb71",
+            "cityTo": "Munich",
+            "cityFrom": "London",
+            "cityCodeFrom": "LON",
+            "cityCodeTo": "MUC",
+            "flyTo": "MUC",
+            "flyFrom": "LHR",
+            "airline": "BA",
+            "operating_carrier": "BA",
+            "equipment": null,
+            "flight_no": 958,
+            "vehicle_type": "aircraft",
+            "operating_flight_no": "958",
+            "local_arrival": "2022-02-09T22:45:00.000Z",
+            "utc_arrival": "2022-02-09T21:45:00.000Z",
+            "local_departure": "2022-02-09T19:50:00.000Z",
+            "utc_departure": "2022-02-09T19:50:00.000Z"
+          }
+        ],
+        "local_arrival": "2022-02-09T22:45:00.000Z",
+        "utc_arrival": "2022-02-09T21:45:00.000Z",
+        "local_departure": "2022-02-09T19:50:00.000Z",
+        "utc_departure": "2022-02-09T19:50:00.000Z"
+      },
+      {
+        "id": "1dde01af4a5b0000a395f2f6_0",
+        "flyFrom": "MUC",
+        "cityFrom": "Munich",
+        "cityCodeFrom": "MUC",
+        "countryFrom": {
+          "code": "DE",
+          "name": "Germany"
+        },
+        "flyTo": "BCN",
+        "cityTo": "Barcelona",
+        "cityCodeTo": "BCN",
+        "countryTo": {
+          "code": "ES",
+          "name": "Spain"
+        },
+        "distance": 1095.86,
+        "airlines": [
+          "VY"
+        ],
+        "has_airport_change": false,
+        "technical_stops": 0,
+        "hidden_city_ticketing": false,
+        "throw_away_ticketing": false,
+        "availability": {
+          "seats": 4
+        },
+        "quality": 72.666595,
+        "transfers": [],
+        "type_flights": [
+          "deprecated"
+        ],
+        "virtual_interlining": false,
+        "route": [
+          {
+            "fare_basis": "DFB",
+            "fare_category": "M",
+            "fare_classes": "D",
+            "fare_family": "",
+            "last_seen": "2021-11-25T04:55:03.000Z",
+            "refresh_timestamp": "2021-11-25T04:55:03.000Z",
+            "return": 0,
+            "bags_recheck_required": false,
+            "guarantee": false,
+            "vi_connection": false,
+            "id": "1dde01af4a5b0000a395f2f6_0",
+            "combination_id": "1dde01af4a5b0000a395f2f6",
+            "cityTo": "Barcelona",
+            "cityFrom": "Munich",
+            "cityCodeFrom": "MUC",
+            "cityCodeTo": "BCN",
+            "flyTo": "BCN",
+            "flyFrom": "MUC",
+            "airline": "VY",
+            "operating_carrier": "VY",
+            "equipment": null,
+            "flight_no": 1813,
+            "vehicle_type": "aircraft",
+            "operating_flight_no": "1813",
+            "local_arrival": "2022-02-12T11:55:00.000Z",
+            "utc_arrival": "2022-02-12T10:55:00.000Z",
+            "local_departure": "2022-02-12T09:50:00.000Z",
+            "utc_departure": "2022-02-12T08:50:00.000Z"
+          }
+        ],
+        "local_arrival": "2022-02-12T11:55:00.000Z",
+        "utc_arrival": "2022-02-12T10:55:00.000Z",
+        "local_departure": "2022-02-12T09:50:00.000Z",
+        "utc_departure": "2022-02-12T08:50:00.000Z"
+      }
+    ],
+    "currency": "EUR",
+    "facilitated_booking_available": true,
+    "pnr_count": 4,
+    "sorts": [
+      "quality"
+    ],
+    "bags_price": {
+      "1": 187.5
+    },
+    "baglimit": {
+      "hold_length": 78,
+      "hold_width": 28,
+      "hold_height": 52,
+      "hold_weight": 20,
+      "hold_dimensions_sum": 158,
+      "hand_length": 55,
+      "hand_width": 20,
+      "hand_height": 35,
+      "hand_weight": 10
+    },
+    "booking_token": "ClSHIlh7jzxv4KIDmib300W2VdvnWSYWPM4y5oxD626wQu4QMOWoF_CGnXFs2ho9EiJoQ-e51CjwqRC9mis5hAJWSPOG-ILjnfIgNUpykgnvDUpNmSQo1UyCAy7qZKR50cFV6jimFjsUDaz8u-W7KWey01HfWJDIpo6Yz2Upb5tyR99CyzfMEiX8dh_KUY-VkRhm6H_DNJoz-nCnk4ciQmIowLRh9Suk8Y_xnPJnz92LZXg-wHtzT8fJ0qooyMg8oaRLJ36XbFfpjEvlW8i7m2Q-gemXWxcDA4SgfbCqRLy1iOBmWbC4JY1oHHTeqf_GRt1BEaj9pLobIYNaFRGydngXd-R3OP9OjCXBQEP5BO3kBNLsAmWtxUgENLOJZ4TXYl-KjIaeOuM-w88zZDIJ8Sh0SjZrDR7wGrBvT-YA-Q4JjMAT9rmQNrTpSLzVuMHqqfvKpxwOALabeXLJuuYRcSUAQX3Q4fjzTvgXkpVLxujTJsdvnp3BUAQ9uf5NjVH9D",
+    "deep_link": "https://www.kiwi.com/deep?from=BCN&to=CDG&flightsId=01af25c34a5100000a3d391a_0%7C25c30f644a5400002ee9ce9d_0%7C0f641dde4a5800008605fb71_0%7C1dde01af4a5b0000a395f2f6_0&price=174&passengers=1&affilid=danireloadmetasearch0nomad0api&lang=en&currency=EUR&booking_token=ClSHIlh7jzxv4KIDmib300W2VdvnWSYWPM4y5oxD626wQu4QMOWoF_CGnXFs2ho9EiJoQ-e51CjwqRC9mis5hAJWSPOG-ILjnfIgNUpykgnvDUpNmSQo1UyCAy7qZKR50cFV6jimFjsUDaz8u-W7KWey01HfWJDIpo6Yz2Upb5tyR99CyzfMEiX8dh_KUY-VkRhm6H_DNJoz-nCnk4ciQmIowLRh9Suk8Y_xnPJnz92LZXg-wHtzT8fJ0qooyMg8oaRLJ36XbFfpjEvlW8i7m2Q-gemXWxcDA4SgfbCqRLy1iOBmWbC4JY1oHHTeqf_GRt1BEaj9pLobIYNaFRGydngXd-R3OP9OjCXBQEP5BO3kBNLsAmWtxUgENLOJZ4TXYl-KjIaeOuM-w88zZDIJ8Sh0SjZrDR7wGrBvT-YA-Q4JjMAT9rmQNrTpSLzVuMHqqfvKpxwOALabeXLJuuYRcSUAQX3Q4fjzTvgXkpVLxujTJsdvnp3BUAQ9uf5NjVH9D&type2=nomad",
+    "tracking_pixel": null
+  }
+
+  this.firstName = first;
+  this.currency = content.currency;
+  this.age = age;
+  this.eyeColor = eye;
 }
 
 //pathFinder()
