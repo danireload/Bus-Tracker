@@ -1197,7 +1197,7 @@ function testnomadapi(){
     "fly_to": "GIG",
     //"return_from": "30/02/2022",
     //"nights_on_trip_from": 5,
-    "max_stopovers": 0,
+    "max_stopovers": 3,
     "via": [
       {
         "locations": ["MVD"],
