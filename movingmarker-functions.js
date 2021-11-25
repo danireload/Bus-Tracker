@@ -1187,43 +1187,44 @@ function joinstreetsegmentsintomultiline(){
 testnomadapi()
 function testnomadapi() {
 
-  var requestobj = {
-  "via": [
-    {
-      "locations": [
-        "PRG"
-      ],
-      "nights_range": [
-        3,
-        5
-      ]
-    },
-    {
-      "locations": [
-        "PAR"
-      ],
-      "nights_range": [
-        3,
-        5
-      ]
-    },
-    {
-      "locations": [
-        "LON"
-      ],
-      "nights_range": [
-        3,
-        5
-      ],
-      "date_range": [
-        "03/02/2022",
-        "06/02/2022"
-      ]
-    }
-  ]
-}
-
   (async () => {
+
+    var requestobj = {
+    "via": [
+      {
+        "locations": [
+          "PRG"
+        ],
+        "nights_range": [
+          3,
+          5
+        ]
+      },
+      {
+        "locations": [
+          "PAR"
+        ],
+        "nights_range": [
+          3,
+          5
+        ]
+      },
+      {
+        "locations": [
+          "LON"
+        ],
+        "nights_range": [
+          3,
+          5
+        ],
+        "date_range": [
+          "03/02/2022",
+          "06/02/2022"
+        ]
+      }
+    ]
+  };
+
   const rawResponse = await fetch('https://tequila-api.kiwi.com/v2/nomad', {
     method: 'POST',
     headers: {
