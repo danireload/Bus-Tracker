@@ -1190,6 +1190,11 @@ function testnomadapi() {
   (async () => {
 
     var requestobj = {
+    "adults": 1,
+    "date_from": "01/02/2022",
+    "date_to": "03/02/2022",
+    "fly_from": "BAR",
+    "fly_to": "BAR"
     "via": [
       {
         "locations": [
