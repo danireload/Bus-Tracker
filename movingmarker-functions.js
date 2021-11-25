@@ -1200,15 +1200,15 @@ function testnomadapi() {
     "nights_on_trip_from": 5
     "via": [
       {
-        "locations": ["PRG"],
-        //"nights_range": [3, 5]
-      },
-      {
         "locations": ["PAR"],
         //"nights_range": [3, 5]
       },
       {
         "locations": ["LON"],
+        //"nights_range": [3, 5]
+      },
+      {
+        "locations": ["MUN"],
         //"nights_range": [3, 5],
         "date_range": ["03/02/2022", "12/02/2022"]
       }
