@@ -1197,7 +1197,7 @@ function testnomadapi(){
     "fly_to": "GIG",
     //"return_from": "30/02/2022",
     //"nights_on_trip_from": 5,
-    //"max_stopovers": 0,
+    "max_stopovers": 0,
     "via": [
       {
         "locations": ["MVD"],
@@ -1289,6 +1289,7 @@ function testnomadapi(){
 
   //content._results //number of results
   //content.currency
+  //content.results[0].route //connecting flights
 
   if (content.hasOwnProperty('data') && content.data.length > 0) {
     content.data.forEach((item, i) => {
