@@ -1192,7 +1192,7 @@ function testnomadapi() {
     var requestobj = {
     "adults": 1,
     "fly_from": "BCN",
-    "date_from": "01/02/2022",
+    //"date_from": "01/02/2022",
     "date_to": "05/02/2022",
     "fly_to": "BCN",
     "return_to": "20/02/2022",
