@@ -1197,7 +1197,6 @@ function testnomadapi(){
     "fly_to": "GIG",
     //"return_from": "30/02/2022",
     //"nights_on_trip_from": 5,
-    "max_stopovers": 3,
     "via": [
       {
         "locations": ["MVD"],
@@ -1226,8 +1225,10 @@ function testnomadapi(){
   var arrivaldate = ["20/02/2022"];
   var countryofpurchase = 'BR';
   var nightsduration = 20;
+
   var returntoorigin = 'yes';
   var samedurationforeachdestination = 'yes';
+  var canhavestopovers = 'yes';
 
   if (departuredate.length == 1) {
     requestobj.date_to = departuredate[0];
@@ -1252,6 +1253,10 @@ function testnomadapi(){
     requestobj.return_to = dataAtualFormatada(addDays(requestobj.date_to, nightsduration)); //use momentjs ?
   }
 
+  if (canhavestopovers == 'yes') {
+    requestobj.max_stopovers = 3
+  }
+
   //if (nightsrange for destination) {
   //
   //}
@@ -1274,6 +1279,8 @@ function testnomadapi(){
   //requestobj.max_stopovers: global filter - maximum stopover count for each flight
 
 
+//list of countries currency
+
   const rawResponse = await fetch('https://tequila-api.kiwi.com/v2/nomad', {
     method: 'POST',
     headers: {
@@ -1285,10 +1292,11 @@ function testnomadapi(){
   });
   const content = await rawResponse.json();
 
-  console.log(content);
+  //console.log(content);
 
   //content._results //number of results
   //content.currency
+  content.results[0]
   //content.results[0].route //connecting flights
 
   if (content.hasOwnProperty('data') && content.data.length > 0) {
@@ -1624,6 +1632,378 @@ function FlightPriceResult(content) {
     },
     "booking_token": "ClSHIlh7jzxv4KIDmib300W2VdvnWSYWPM4y5oxD626wQu4QMOWoF_CGnXFs2ho9EiJoQ-e51CjwqRC9mis5hAJWSPOG-ILjnfIgNUpykgnvDUpNmSQo1UyCAy7qZKR50cFV6jimFjsUDaz8u-W7KWey01HfWJDIpo6Yz2Upb5tyR99CyzfMEiX8dh_KUY-VkRhm6H_DNJoz-nCnk4ciQmIowLRh9Suk8Y_xnPJnz92LZXg-wHtzT8fJ0qooyMg8oaRLJ36XbFfpjEvlW8i7m2Q-gemXWxcDA4SgfbCqRLy1iOBmWbC4JY1oHHTeqf_GRt1BEaj9pLobIYNaFRGydngXd-R3OP9OjCXBQEP5BO3kBNLsAmWtxUgENLOJZ4TXYl-KjIaeOuM-w88zZDIJ8Sh0SjZrDR7wGrBvT-YA-Q4JjMAT9rmQNrTpSLzVuMHqqfvKpxwOALabeXLJuuYRcSUAQX3Q4fjzTvgXkpVLxujTJsdvnp3BUAQ9uf5NjVH9D",
     "deep_link": "https://www.kiwi.com/deep?from=BCN&to=CDG&flightsId=01af25c34a5100000a3d391a_0%7C25c30f644a5400002ee9ce9d_0%7C0f641dde4a5800008605fb71_0%7C1dde01af4a5b0000a395f2f6_0&price=174&passengers=1&affilid=danireloadmetasearch0nomad0api&lang=en&currency=EUR&booking_token=ClSHIlh7jzxv4KIDmib300W2VdvnWSYWPM4y5oxD626wQu4QMOWoF_CGnXFs2ho9EiJoQ-e51CjwqRC9mis5hAJWSPOG-ILjnfIgNUpykgnvDUpNmSQo1UyCAy7qZKR50cFV6jimFjsUDaz8u-W7KWey01HfWJDIpo6Yz2Upb5tyR99CyzfMEiX8dh_KUY-VkRhm6H_DNJoz-nCnk4ciQmIowLRh9Suk8Y_xnPJnz92LZXg-wHtzT8fJ0qooyMg8oaRLJ36XbFfpjEvlW8i7m2Q-gemXWxcDA4SgfbCqRLy1iOBmWbC4JY1oHHTeqf_GRt1BEaj9pLobIYNaFRGydngXd-R3OP9OjCXBQEP5BO3kBNLsAmWtxUgENLOJZ4TXYl-KjIaeOuM-w88zZDIJ8Sh0SjZrDR7wGrBvT-YA-Q4JjMAT9rmQNrTpSLzVuMHqqfvKpxwOALabeXLJuuYRcSUAQX3Q4fjzTvgXkpVLxujTJsdvnp3BUAQ9uf5NjVH9D&type2=nomad",
+    "tracking_pixel": null
+  }
+
+  {
+    "id": "0aa207054a5400004f36efa3_0|0aa207054a5400004f36efa3_1|070524914a5400008aad3398_0|24911ecf4a570000a15a6617_0|1ecf07b54a5c000016506440_0|07b50aa24a600000d59d00c0_0",
+    "quality": 577.8,
+    "duration": 56160,
+    "price": 2901,
+    "route": [
+      {
+        "id": "0aa207054a5400004f36efa3_0|0aa207054a5400004f36efa3_1|070524914a5400008aad3398_0",
+        "flyFrom": "GIG",
+        "cityFrom": "Rio de Janeiro",
+        "cityCodeFrom": "RIO",
+        "countryFrom": {
+          "code": "BR",
+          "name": "Brasil"
+        },
+        "flyTo": "MVD",
+        "cityTo": "Montevidéu",
+        "cityCodeTo": "MVD",
+        "countryTo": {
+          "code": "UY",
+          "name": "Uruguai"
+        },
+        "distance": 1825.83,
+        "airlines": [
+          "AD"
+        ],
+        "has_airport_change": false,
+        "technical_stops": 0,
+        "hidden_city_ticketing": false,
+        "throw_away_ticketing": false,
+        "availability": {
+          "seats": 2
+        },
+        "quality": 166.33314000000001,
+        "transfers": [],
+        "type_flights": [
+          "deprecated"
+        ],
+        "virtual_interlining": true,
+        "route": [
+          {
+            "fare_basis": "U28CXMBG",
+            "fare_category": "M",
+            "fare_classes": "U",
+            "fare_family": "",
+            "last_seen": "2021-11-25T13:47:13.000Z",
+            "refresh_timestamp": "2021-11-25T13:47:13.000Z",
+            "return": 0,
+            "bags_recheck_required": false,
+            "guarantee": false,
+            "vi_connection": false,
+            "id": "0aa207054a5400004f36efa3_0",
+            "combination_id": "0aa207054a5400004f36efa3",
+            "cityTo": "São Paulo",
+            "cityFrom": "Rio de Janeiro",
+            "cityCodeFrom": "RIO",
+            "cityCodeTo": "SAO",
+            "flyTo": "VCP",
+            "flyFrom": "GIG",
+            "airline": "AD",
+            "operating_carrier": "AD",
+            "equipment": null,
+            "flight_no": 4450,
+            "vehicle_type": "aircraft",
+            "operating_flight_no": "4450",
+            "local_arrival": "2022-02-05T07:15:00.000Z",
+            "utc_arrival": "2022-02-05T10:15:00.000Z",
+            "local_departure": "2022-02-05T06:00:00.000Z",
+            "utc_departure": "2022-02-05T09:00:00.000Z"
+          },
+          {
+            "fare_basis": "U28CXMBG",
+            "fare_category": "M",
+            "fare_classes": "U",
+            "fare_family": "",
+            "last_seen": "2021-11-25T13:47:13.000Z",
+            "refresh_timestamp": "2021-11-25T13:47:13.000Z",
+            "return": 0,
+            "bags_recheck_required": false,
+            "guarantee": false,
+            "vi_connection": false,
+            "id": "0aa207054a5400004f36efa3_1",
+            "combination_id": "0aa207054a5400004f36efa3",
+            "cityTo": "Porto Alegre",
+            "cityFrom": "São Paulo",
+            "cityCodeFrom": "SAO",
+            "cityCodeTo": "POA",
+            "flyTo": "POA",
+            "flyFrom": "VCP",
+            "airline": "AD",
+            "operating_carrier": "AD",
+            "equipment": null,
+            "flight_no": 4347,
+            "vehicle_type": "aircraft",
+            "operating_flight_no": "4347",
+            "local_arrival": "2022-02-05T09:50:00.000Z",
+            "utc_arrival": "2022-02-05T12:50:00.000Z",
+            "local_departure": "2022-02-05T08:10:00.000Z",
+            "utc_departure": "2022-02-05T11:10:00.000Z"
+          },
+          {
+            "fare_basis": "NLETPZ8B",
+            "fare_category": "M",
+            "fare_classes": "N",
+            "fare_family": "",
+            "last_seen": "2021-11-25T15:21:29.000Z",
+            "refresh_timestamp": "2021-11-25T15:21:29.000Z",
+            "return": 0,
+            "bags_recheck_required": true,
+            "guarantee": true,
+            "vi_connection": true,
+            "id": "070524914a5400008aad3398_0",
+            "combination_id": "070524914a5400008aad3398",
+            "cityTo": "Montevidéu",
+            "cityFrom": "Porto Alegre",
+            "cityCodeFrom": "POA",
+            "cityCodeTo": "MVD",
+            "flyTo": "MVD",
+            "flyFrom": "POA",
+            "airline": "AD",
+            "operating_carrier": "AD",
+            "equipment": null,
+            "flight_no": 8740,
+            "vehicle_type": "aircraft",
+            "operating_flight_no": "8740",
+            "local_arrival": "2022-02-05T14:10:00.000Z",
+            "utc_arrival": "2022-02-05T17:10:00.000Z",
+            "local_departure": "2022-02-05T12:40:00.000Z",
+            "utc_departure": "2022-02-05T15:40:00.000Z"
+          }
+        ],
+        "local_arrival": "2022-02-05T14:10:00.000Z",
+        "utc_arrival": "2022-02-05T17:10:00.000Z",
+        "local_departure": "2022-02-05T06:00:00.000Z",
+        "utc_departure": "2022-02-05T09:00:00.000Z"
+      },
+      {
+        "id": "24911ecf4a570000a15a6617_0",
+        "flyFrom": "MVD",
+        "cityFrom": "Montevidéu",
+        "cityCodeFrom": "MVD",
+        "countryFrom": {
+          "code": "UY",
+          "name": "Uruguai"
+        },
+        "flyTo": "SCL",
+        "cityTo": "Santiago de Chile",
+        "cityCodeTo": "SCL",
+        "countryTo": {
+          "code": "CL",
+          "name": "Chile"
+        },
+        "distance": 1368.04,
+        "airlines": [
+          "JA"
+        ],
+        "has_airport_change": false,
+        "technical_stops": 0,
+        "hidden_city_ticketing": false,
+        "throw_away_ticketing": false,
+        "availability": {
+          "seats": 2
+        },
+        "quality": 127.133253,
+        "transfers": [],
+        "type_flights": [
+          "deprecated"
+        ],
+        "virtual_interlining": false,
+        "route": [
+          {
+            "fare_basis": "SLRDCL",
+            "fare_category": "M",
+            "fare_classes": "S",
+            "fare_family": "",
+            "last_seen": "2021-11-25T11:58:26.000Z",
+            "refresh_timestamp": "2021-11-25T11:58:26.000Z",
+            "return": 0,
+            "bags_recheck_required": false,
+            "guarantee": false,
+            "vi_connection": false,
+            "id": "24911ecf4a570000a15a6617_0",
+            "combination_id": "24911ecf4a570000a15a6617",
+            "cityTo": "Santiago de Chile",
+            "cityFrom": "Montevidéu",
+            "cityCodeFrom": "MVD",
+            "cityCodeTo": "SCL",
+            "flyTo": "SCL",
+            "flyFrom": "MVD",
+            "airline": "JA",
+            "operating_carrier": "",
+            "equipment": null,
+            "flight_no": 701,
+            "vehicle_type": "aircraft",
+            "operating_flight_no": "",
+            "local_arrival": "2022-02-08T11:06:00.000Z",
+            "utc_arrival": "2022-02-08T14:06:00.000Z",
+            "local_departure": "2022-02-08T08:35:00.000Z",
+            "utc_departure": "2022-02-08T11:35:00.000Z"
+          }
+        ],
+        "local_arrival": "2022-02-08T11:06:00.000Z",
+        "utc_arrival": "2022-02-08T14:06:00.000Z",
+        "local_departure": "2022-02-08T08:35:00.000Z",
+        "utc_departure": "2022-02-08T11:35:00.000Z"
+      },
+      {
+        "id": "1ecf07b54a5c000016506440_0",
+        "flyFrom": "SCL",
+        "cityFrom": "Santiago de Chile",
+        "cityCodeFrom": "SCL",
+        "countryFrom": {
+          "code": "CL",
+          "name": "Chile"
+        },
+        "flyTo": "EZE",
+        "cityTo": "Buenos Aires",
+        "cityCodeTo": "BUE",
+        "countryTo": {
+          "code": "AR",
+          "name": "Argentina"
+        },
+        "distance": 1139.48,
+        "airlines": [
+          "H2"
+        ],
+        "has_airport_change": false,
+        "technical_stops": 0,
+        "hidden_city_ticketing": false,
+        "throw_away_ticketing": false,
+        "availability": {
+          "seats": 2
+        },
+        "quality": 82.99993,
+        "transfers": [],
+        "type_flights": [
+          "deprecated"
+        ],
+        "virtual_interlining": false,
+        "route": [
+          {
+            "fare_basis": "XZERO",
+            "fare_category": "M",
+            "fare_classes": "X",
+            "fare_family": "",
+            "last_seen": "2021-11-25T18:59:59.000Z",
+            "refresh_timestamp": "2021-11-25T18:59:59.000Z",
+            "return": 0,
+            "bags_recheck_required": false,
+            "guarantee": false,
+            "vi_connection": false,
+            "id": "1ecf07b54a5c000016506440_0",
+            "combination_id": "1ecf07b54a5c000016506440",
+            "cityTo": "Buenos Aires",
+            "cityFrom": "Santiago de Chile",
+            "cityCodeFrom": "SCL",
+            "cityCodeTo": "BUE",
+            "flyTo": "EZE",
+            "flyFrom": "SCL",
+            "airline": "H2",
+            "operating_carrier": "H2",
+            "equipment": null,
+            "flight_no": 515,
+            "vehicle_type": "aircraft",
+            "operating_flight_no": "515",
+            "local_arrival": "2022-02-13T03:55:00.000Z",
+            "utc_arrival": "2022-02-13T06:55:00.000Z",
+            "local_departure": "2022-02-13T01:55:00.000Z",
+            "utc_departure": "2022-02-13T04:55:00.000Z"
+          }
+        ],
+        "local_arrival": "2022-02-13T03:55:00.000Z",
+        "utc_arrival": "2022-02-13T06:55:00.000Z",
+        "local_departure": "2022-02-13T01:55:00.000Z",
+        "utc_departure": "2022-02-13T04:55:00.000Z"
+      },
+      {
+        "id": "07b50aa24a600000d59d00c0_0",
+        "flyFrom": "EZE",
+        "cityFrom": "Buenos Aires",
+        "cityCodeFrom": "BUE",
+        "countryFrom": {
+          "code": "AR",
+          "name": "Argentina"
+        },
+        "flyTo": "GIG",
+        "cityTo": "Rio de Janeiro",
+        "cityCodeTo": "RIO",
+        "countryTo": {
+          "code": "BR",
+          "name": "Brasil"
+        },
+        "distance": 1997.93,
+        "airlines": [
+          "FO"
+        ],
+        "has_airport_change": false,
+        "technical_stops": 0,
+        "hidden_city_ticketing": false,
+        "throw_away_ticketing": false,
+        "availability": {
+          "seats": 1
+        },
+        "quality": 201.333245,
+        "transfers": [],
+        "type_flights": [
+          "deprecated"
+        ],
+        "virtual_interlining": false,
+        "route": [
+          {
+            "fare_basis": "JOW",
+            "fare_category": "M",
+            "fare_classes": "J",
+            "fare_family": "",
+            "last_seen": "2021-11-25T18:39:57.000Z",
+            "refresh_timestamp": "2021-11-25T18:39:57.000Z",
+            "return": 0,
+            "bags_recheck_required": false,
+            "guarantee": false,
+            "vi_connection": false,
+            "id": "07b50aa24a600000d59d00c0_0",
+            "combination_id": "07b50aa24a600000d59d00c0",
+            "cityTo": "Rio de Janeiro",
+            "cityFrom": "Buenos Aires",
+            "cityCodeFrom": "BUE",
+            "cityCodeTo": "RIO",
+            "flyTo": "GIG",
+            "flyFrom": "EZE",
+            "airline": "FO",
+            "operating_carrier": "",
+            "equipment": null,
+            "flight_no": 5900,
+            "vehicle_type": "aircraft",
+            "operating_flight_no": "",
+            "local_arrival": "2022-02-17T10:05:00.000Z",
+            "utc_arrival": "2022-02-17T13:05:00.000Z",
+            "local_departure": "2022-02-17T07:10:00.000Z",
+            "utc_departure": "2022-02-17T10:10:00.000Z"
+          }
+        ],
+        "local_arrival": "2022-02-17T10:05:00.000Z",
+        "utc_arrival": "2022-02-17T13:05:00.000Z",
+        "local_departure": "2022-02-17T07:10:00.000Z",
+        "utc_departure": "2022-02-17T10:10:00.000Z"
+      }
+    ],
+    "currency": "BRL",
+    "facilitated_booking_available": true,
+    "pnr_count": 5,
+    "sorts": [
+      "quality"
+    ],
+    "bags_price": {
+      "1": 206.26
+    },
+    "baglimit": {
+      "hold_length": 78,
+      "hold_width": 28,
+      "hold_height": 52,
+      "hold_weight": 20,
+      "hold_dimensions_sum": 158,
+      "hand_length": null,
+      "hand_width": null,
+      "hand_height": null,
+      "hand_weight": null
+    },
+    "booking_token": "CfbXaXpnU4iIobjikXSZBkvLpCHU3AWIxdvk2pjL0LUyZxaE-KKkinsC7b28xcOgqR8ASOWek8XlrcQsRyL3UVDKEODC4wxJM8R-1Lvjj39qJ552DZRz3cQfUVwJ-DTC5jjU5yL3A6jbQWnXx04f36kD2XmOt43QU_7qIhw4nCcg06ZpEJXrC01Tknyba5K11SwhIXVKg0i-TKuVBfjLEs8MKqImYCk0ctavRcxlFmgtPAx1zxyv-4pmV_KWvlHWENpsbemIRu7fnfsTHEmpo3eHGuhg-wAdplKgungYCX4NKn8GhR067chm2s2K9Z1ZVqcuUZi_R-vSYDLNJB8bP6ErGRxU8QniQbZpIPj2cvKlGzcUozlckgIDiF0H-19lA-5iMITTavcDg115ONiQ0VbcRJwbm4V-wdUN-LP0WbhwPmHsULysdvZte3zUReJcjE6iETdfDyf1GjgE_vnaX4h2PjzjEY4f33pYuMJe6tpXP5GmNa7kCJR_w4CpjAIfBErU2o7h0u_jHdMbs6cMDa3HnNb5KjKG2TKg0RmYpG2Ew7XABoIDOuGtvxR-8eS5XSC0WV29AZ3LCOjuN1tL6KF0Tm4bmSbQFNPP6kYftN8E=",
+    "deep_link": "https://www.kiwi.com/deep?from=GIG&to=MVD&flightsId=0aa207054a5400004f36efa3_0%7C0aa207054a5400004f36efa3_1%7C070524914a5400008aad3398_0%7C24911ecf4a570000a15a6617_0%7C1ecf07b54a5c000016506440_0%7C07b50aa24a600000d59d00c0_0&price=2901&passengers=1&affilid=danireloadmetasearch0nomad0api&lang=br&currency=BRL&booking_token=CfbXaXpnU4iIobjikXSZBkvLpCHU3AWIxdvk2pjL0LUyZxaE-KKkinsC7b28xcOgqR8ASOWek8XlrcQsRyL3UVDKEODC4wxJM8R-1Lvjj39qJ552DZRz3cQfUVwJ-DTC5jjU5yL3A6jbQWnXx04f36kD2XmOt43QU_7qIhw4nCcg06ZpEJXrC01Tknyba5K11SwhIXVKg0i-TKuVBfjLEs8MKqImYCk0ctavRcxlFmgtPAx1zxyv-4pmV_KWvlHWENpsbemIRu7fnfsTHEmpo3eHGuhg-wAdplKgungYCX4NKn8GhR067chm2s2K9Z1ZVqcuUZi_R-vSYDLNJB8bP6ErGRxU8QniQbZpIPj2cvKlGzcUozlckgIDiF0H-19lA-5iMITTavcDg115ONiQ0VbcRJwbm4V-wdUN-LP0WbhwPmHsULysdvZte3zUReJcjE6iETdfDyf1GjgE_vnaX4h2PjzjEY4f33pYuMJe6tpXP5GmNa7kCJR_w4CpjAIfBErU2o7h0u_jHdMbs6cMDa3HnNb5KjKG2TKg0RmYpG2Ew7XABoIDOuGtvxR-8eS5XSC0WV29AZ3LCOjuN1tL6KF0Tm4bmSbQFNPP6kYftN8E=&type2=nomad",
     "tracking_pixel": null
   }
 
