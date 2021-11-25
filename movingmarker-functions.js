@@ -1185,35 +1185,92 @@ function joinstreetsegmentsintomultiline(){
 }
 
 testnomadapi()
-function testnomadapi() {
 
-  (async () => {
+  (async function testnomadapi() {
+
 
     var requestobj = {
     "adults": 1,
-    "fly_from": "BCN",
+    "fly_from": "GIG",
     //"date_from": "01/02/2022",
-    "date_to": "05/02/2022",
-    "fly_to": "BCN",
-    "return_to": "20/02/2022",
+    "fly_to": "GIG",
     //"return_from": "30/02/2022",
     //"nights_on_trip_from": 5,
     "via": [
       {
-        "locations": ["CDG"],
+        "locations": ["MVD"],
         "nights_range": [3, 5]
       },
       {
-        "locations": ["LHR"],
+        "locations": ["EZE"],
         "nights_range": [3, 5]
       },
       {
-        "locations": ["MUC"],
+        "locations": ["SCL"],
         "nights_range": [3, 5],
         //"date_range": ["03/02/2022", "12/02/2022"]
       }
     ]
   };
+
+  //check if flight
+    //has connection time, is long layover
+    //connection departs from different airport
+    //connecting flight departures on following date
+
+    //show flight routes and airports on map
+
+  var departuredate = ["05/02/2022"];
+  var arrivaldate = ["20/02/2022"];
+  var countryofpurchase = 'BR';
+  var nightsduration = 20;
+  var returntoorigin = 'yes';
+  var samedurationforeachdestination = 'yes';
+
+  if (departuredate.length == 1) {
+    requestobj.date_to = departuredate[0];
+  }else if (departuredate.length == 2) {
+    requestobj.date_from = departuredate[0];
+    requestobj.date_to = departuredate[0];
+  }
+  if (arrivaldate.length == 1) {
+    requestobj.return_to = arrivaldate[0];
+  }
+  else if (arrivaldate.length == 2) {
+    requestobj.return_from = departuredate[0];
+    requestobj.return_to = departuredate[0];
+  }
+
+  if (countryofpurchase == 'BR') {
+    requestobj.curr = 'BRL';
+    requestobj.locale = 'br'
+  }
+
+  if (nightsduration > 0) {
+    requestobj.return_to = dataAtualFormatada(addDays(requestobj.date_to, nightsduration)); //use momentjs ?
+  }
+
+  //if (nightsrange for destination) {
+  //
+  //}
+  //if (datesrange for destination) {
+  //
+  //}
+
+  //requestobj.sort: sorts the results by quality, price, date or duration. Quality is the default value
+  //requestobj.limit: limit the number of results, max is 200
+
+  //requestobj.select_airlines: a list of airlines (IATA codes) separated by ',' (commas) that should / should not be included in the search. The selection or omission of the airline depends on the 'select_airlines_exclude' parameter. Select a list of airlines and use the 'select_airlines_exclude' parameter to specify whether or not the selected airlines should be excluded/included in the search.
+  //requestobj.select_airlines_exclude: it can be thought of as a switch for the 'select_airlines' parameter where 'False=select' and 'True=omit'. If set to true the search returns combinations without the airlines specified in the parent parameter select_airlines. If set to false the search returns combinations where none of the flights in this combinations is served by any given airline code.
+
+  //requestobj.fly_from: Accepts multiple values separated by comma, these values might be airport codes, city IDs, metropolitan codes.
+  //requestobj.fly_to: Accepts the same values in the same format as the fly_from parameter.
+
+  //requestobj.nights_on_trip_from: the minimal length of stay in the destination. Counts nights, not days.
+
+  //requestobj.conn_on_diff_airport: whether or not to search for connections on different airport, can be set to 0 or 1; 1 is default
+  //requestobj.max_stopovers: global filter - maximum stopover count for each flight
+
 
   const rawResponse = await fetch('https://tequila-api.kiwi.com/v2/nomad', {
     method: 'POST',
@@ -1240,10 +1297,20 @@ function testnomadapi() {
 })();
 }
 
-function FlightPriceResult(content) {
+function addDays(date, days) {
+  var result = new Date(date);
+  result.setDate(result.getDate() + days);
+  return result;
+}
+function dataAtualFormatada(date){
+    //var data = new Date(),
+        dia  = date.getDate().toString().padStart(2, '0'),
+        mes  = (date.getMonth()+1).toString().padStart(2, '0'), //+1 pois no getMonth Janeiro começa com zero.
+        ano  = date.getFullYear();
+    return dia+"/"+mes+"/"+ano;
+}
 
-  //calculate flight time from utc departure and arrival times
-  //check if change of airporst between segments
+function FlightPriceResult(content) {
 
   var resultobj = {
     "id": "01af25c34a5100000a3d391a_0|25c30f644a5400002ee9ce9d_0|0f641dde4a5800008605fb71_0|1dde01af4a5b0000a395f2f6_0",
@@ -1556,6 +1623,30 @@ function FlightPriceResult(content) {
     "deep_link": "https://www.kiwi.com/deep?from=BCN&to=CDG&flightsId=01af25c34a5100000a3d391a_0%7C25c30f644a5400002ee9ce9d_0%7C0f641dde4a5800008605fb71_0%7C1dde01af4a5b0000a395f2f6_0&price=174&passengers=1&affilid=danireloadmetasearch0nomad0api&lang=en&currency=EUR&booking_token=ClSHIlh7jzxv4KIDmib300W2VdvnWSYWPM4y5oxD626wQu4QMOWoF_CGnXFs2ho9EiJoQ-e51CjwqRC9mis5hAJWSPOG-ILjnfIgNUpykgnvDUpNmSQo1UyCAy7qZKR50cFV6jimFjsUDaz8u-W7KWey01HfWJDIpo6Yz2Upb5tyR99CyzfMEiX8dh_KUY-VkRhm6H_DNJoz-nCnk4ciQmIowLRh9Suk8Y_xnPJnz92LZXg-wHtzT8fJ0qooyMg8oaRLJ36XbFfpjEvlW8i7m2Q-gemXWxcDA4SgfbCqRLy1iOBmWbC4JY1oHHTeqf_GRt1BEaj9pLobIYNaFRGydngXd-R3OP9OjCXBQEP5BO3kBNLsAmWtxUgENLOJZ4TXYl-KjIaeOuM-w88zZDIJ8Sh0SjZrDR7wGrBvT-YA-Q4JjMAT9rmQNrTpSLzVuMHqqfvKpxwOALabeXLJuuYRcSUAQX3Q4fjzTvgXkpVLxujTJsdvnp3BUAQ9uf5NjVH9D&type2=nomad",
     "tracking_pixel": null
   }
+
+  //route objects
+    //has_airport_change": false,
+    //"technical_stops": 0,
+    //"hidden_city_ticketing": false,
+    //"throw_away_ticketing"
+
+    //"airline": "BA",
+    //"operating_carrier": "BA",
+    //"virtual_interlining": false,
+
+    //"local_arrival": "2022-02-12T11:55:00.000Z",
+    //"utc_arrival": "2022-02-12T10:55:00.000Z",
+    //"local_departure": "2022-02-12T09:50:00.000Z",
+    //"utc_departure": "2022-02-12T08:50:00.000Z"
+
+    //"equipment": null,
+    // "flight_no": 1813,
+
+    //calculate flight time from utc departure and arrival times
+    //check if change of airporst between segments
+
+    //baglimit obj
+    //bags_price obj
 
   this.firstName = first;
   this.currency = content.currency;
