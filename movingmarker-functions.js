@@ -1184,6 +1184,61 @@ function joinstreetsegmentsintomultiline(){
 
 }
 
+testnomadapi()
+function testnomadapi() {
+
+  var requestobj = {
+  "via": [
+    {
+      "locations": [
+        "PRG"
+      ],
+      "nights_range": [
+        3,
+        5
+      ]
+    },
+    {
+      "locations": [
+        "PAR"
+      ],
+      "nights_range": [
+        3,
+        5
+      ]
+    },
+    {
+      "locations": [
+        "LON"
+      ],
+      "nights_range": [
+        3,
+        5
+      ],
+      "date_range": [
+        "03/02/2022",
+        "06/02/2022"
+      ]
+    }
+  ]
+}
+
+  (async () => {
+  const rawResponse = await fetch('https://tequila-api.kiwi.com/v2/nomad', {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json',
+      'apikey' 'JHZKIC9XH0C7U03sWgZr6c64eDf1qnEU'
+    },
+    body: JSON.stringify(requestobj)
+  });
+  const content = await rawResponse.json();
+
+  console.log(content);
+})();
+}
+
 //pathFinder()
 function pathFinder(){
   var getstartpoint = ruabotafogogeojson.features.find(element => element.properties.id == 41967);
