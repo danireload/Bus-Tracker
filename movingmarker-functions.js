@@ -1187,7 +1187,7 @@ function joinstreetsegmentsintomultiline(){
 testnomadapi()
 
 function testnomadapi(){
-  (async () =>  {
+  (async () => {
 
 
     var requestobj = {
