@@ -1245,7 +1245,7 @@ function FlightPriceResult(content) {
   //calculate flight time from utc departure and arrival times
   //check if change of airporst between segments
 
-  var result obj = {
+  var resultobj = {
     "id": "01af25c34a5100000a3d391a_0|25c30f644a5400002ee9ce9d_0|0f641dde4a5800008605fb71_0|1dde01af4a5b0000a395f2f6_0",
     "quality": 269.33,
     "duration": 26700,
