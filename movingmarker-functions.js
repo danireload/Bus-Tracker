@@ -1201,15 +1201,15 @@ function testnomadapi() {
     "via": [
       {
         "locations": ["CDG"],
-        //"nights_range": [3, 5]
+        "nights_range": [3, 5]
       },
       {
         "locations": ["LHR"],
-        //"nights_range": [3, 5]
+        "nights_range": [3, 5]
       },
       {
         "locations": ["MUC"],
-        //"nights_range": [3, 5],
+        "nights_range": [3, 5],
         //"date_range": ["03/02/2022", "12/02/2022"]
       }
     ]
