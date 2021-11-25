@@ -1191,24 +1191,24 @@ function testnomadapi() {
 
     var requestobj = {
     "adults": 1,
-    "fly_from": "BAR",
+    "fly_from": "BCN",
     "date_from": "01/02/2022",
     "date_to": "05/02/2022",
-    "fly_to": "BAR",
+    "fly_to": "BCN",
     "return_to": "20/02/2022",
     //"return_from": "30/02/2022",
     "nights_on_trip_from": 5,
     "via": [
       {
-        "locations": ["PAR"],
+        "locations": ["CDG"],
         //"nights_range": [3, 5]
       },
       {
-        "locations": ["LON"],
+        "locations": ["LHR"],
         //"nights_range": [3, 5]
       },
       {
-        "locations": ["MUN"],
+        "locations": ["MUC"],
         //"nights_range": [3, 5],
         //"date_range": ["03/02/2022", "12/02/2022"]
       }
