@@ -1229,7 +1229,7 @@ function testnomadapi() {
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json',
-      'apikey' 'JHZKIC9XH0C7U03sWgZr6c64eDf1qnEU'
+      'apikey': 'JHZKIC9XH0C7U03sWgZr6c64eDf1qnEU'
     },
     body: JSON.stringify(requestobj)
   });
