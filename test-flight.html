@@ -9,10 +9,28 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
 <!--Code Editor-->
 <!--Themes and Css-->
 
 <!--Scripts-->
+
+      <style>
+        .flight-card{
+          width: 50%;
+          border: 1px solid black;
+        }
+        .left-sidebar, .flight-card, .main-content, .departure-div, .arrival-div{
+          flex-direction: column;
+        }
+        .left-sidebar{
+          width: 25%;
+        }
+        .main-content{
+          width: 75%;
+        }
+      </style>
 
    </head>
    <body>
@@ -95,7 +113,7 @@
     }
 
     if (canhavestopovers == 'yes') {
-      requestobj.max_stopovers = 3
+      requestobj.max_stopovers = 3; //if 0, direct flights only
     }
 
     //if (nightsrange for destination) {
@@ -141,40 +159,166 @@
     console.log(content.data[0]);
 
     var getid = document.getElementById('container');
-    //getid.appendChild(content.data[0]);
 
-    if (content.data[0].route.length >0) {
-      content.data[0].route.forEach((item, i) => {
-        var div  = document.createElement('div');
-        Object.entries(item).forEach((subitem, i) => {
-          if (subitem[0] == 'id' || subitem[0] == 'quality' || subitem[0] == 'type_flights') {
+    content.data.forEach((item, i) => {
 
-          }else if (subitem[0] == 'route') {
-            var p = document.createElement('p');
-            p.innerText = subitem[0] + Object.entries(subitem[1]);
-            div.appendChild(p);
-          }else {
-          var p = document.createElement('p');
-          p.innerText = subitem[0] + ': ' + subitem[1];
-          div.appendChild(p);
+      var carddiv  = document.createElement('div');
+      carddiv.style.display = 'flex';
+      carddiv.setAttribute("class", "flight-card");
+
+      var cardheader = carddiv.cloneNode(false);
+      cardheader.setAttribute("class", "card-header");
+      carddiv.appendChild(cardheader);
+
+      var cardbodydiv = carddiv.cloneNode(false);
+      cardbodydiv.setAttribute("class", "card-body");
+
+      var cardleftsidebar = carddiv.cloneNode(false);
+      cardleftsidebar.setAttribute("class", "left-sidebar");
+
+      var maincardcontentdiv = carddiv.cloneNode(false);
+      maincardcontentdiv.setAttribute("class", "main-content");
+
+      cardbodydiv.appendChild(cardleftsidebar);
+      cardbodydiv.appendChild(maincardcontentdiv);
+      carddiv.appendChild(cardbodydiv);
+
+      var tripstartdate;
+      var tripenddate;
+      var tripduration;
+
+      var tripobj = {
+          price: {
+            amount: item.price,
+            currency: item.currency
+          },
+          stats: {
+              duration: item.duration
+          },
+          legs: []
+      };
+
+      if (item.route.length > 0) {
+
+        var getroute = item.route;
+
+        tripobj.stats.numberofconnections = getroute.length;
+
+        for (var i = 0; i < getroute.length - 1; i++) {
+
+          if (i == 0) {
+            tripstartdate = moment(getroute[i].local_departure);
+          }else if (i == getroute.length - 2) {
+            tripenddate = moment(getroute[i].local_arrival);
+            tripduration = tripenddate.diff(tripstartdate, 'days');
+            var paragraph10 = generateparagraph(tripstartdate.format('DD-MM-YYYY'));
+            var paragraph11 = generateparagraph(tripenddate.format('DD-MM-YYYY'));
+            var paragraph12 = generateparagraph(tripduration);
+            cardheader.appendChild(paragraph10);
+            cardheader.appendChild(paragraph11);
+            cardheader.appendChild(paragraph12);
           }
-        });
-        getid.appendChild(div);
-      });
-      var pricep = document.createElement('p');
-      pricep.innerText = 'price: ' + content.data[0].price;
-      getid.appendChild(pricep);
-    }
 
-    //content.results[0].route //connecting flights
+          var flightlegdiv = carddiv.cloneNode(false);
+          flightlegdiv.setAttribute("class", "flight-leg");
+          maincardcontentdiv.appendChild(flightlegdiv);
 
-    if (content.hasOwnProperty('data') && content.data.length > 0) {
-      content.data.forEach((item, i) => {
-        //const flightresult = new FlightPriceResult(item);
+//pnr_count, number of countries in trip, including arrival and departure countries, even if they are the same
+
+          var newobj = {
+            departure: {
+              iatacode: getroute[i].flyFrom,
+              cityname: getroute[i].cityFrom,
+              countryname: getroute[i].countryFrom.name,
+              localtime: moment(getroute[i].local_departure),
+              utctime: moment(getroute[i].utc_departure),
+            }, //countryFrom.code
+            arrival: {
+              iatacode: getroute[i].flyTo,
+              cityname: getroute[i].cityTo,
+              countryname: getroute[i].countryTo.name,
+              localtime: moment(getroute[i].local_arrival),
+              utctime: moment(getroute[i].utc_arrival)
+            },
+            airlines: getroute[i].airlines.toString(),
+            stats: {
+              distance: getroute[i].distance,
+            },
+          }
+          var utcmomentdeparture = newobj.departure.utctime;
+          var utcmomentarrival = newobj.arrival.utctime;
+          var diff = utcmomentarrival.diff(utcmomentdeparture, 'hours');
+          newobj.stats.duration = diff;
+
+          tripobj.legs.push(newobj);
+
+          //console.log(tripobj);
+
+          var departurediv = carddiv.cloneNode(false);
+          departurediv.setAttribute("class", "departure-div");
+          Object.entries(newobj.departure).forEach((item, i) => {
+            if (item[0] == 'utctime') {
+
+            }else if (item[0] == 'localtime') {
+              var date = item[1].format('DD-MM-YYYY');
+              var time  = item[1].format("HH:mm");
+              var paragraph1 = generateparagraph(date);
+              var paragraph2 = generateparagraph(time);
+              departurediv.appendChild(paragraph1);
+              departurediv.appendChild(paragraph2);
+            }else {
+              var paragraph = generateparagraph(item[1]);
+              departurediv.appendChild(paragraph);
+            }
+          });
+
+          var arrivaldiv = carddiv.cloneNode(false);
+          arrivaldiv.setAttribute("class", "arrival-div");
+
+          //console.log(Object.values(newobj.arrival));
+
+          Object.entries(newobj.arrival).forEach((item, i) => {
+            if (item[0] == 'utctime') {
+
+            }else if (item[0] == 'localtime') {
+              var date = item[1].format('DD-MM-YYYY');
+              var time  = item[1].format("HH:mm");
+              var paragraph1 = generateparagraph(date);
+              var paragraph2 = generateparagraph(time);
+              arrivaldiv.appendChild(paragraph1);
+              arrivaldiv.appendChild(paragraph2);
+            }else {
+            var paragraph = generateparagraph(item[1]);
+            arrivaldiv.appendChild(paragraph);
+          }
+          });
+
+          flightlegdiv.appendChild(departurediv);
+          flightlegdiv.appendChild(arrivaldiv);
+        }
+      }
+
+      var price = item.currency + item.price;
+      var arr = [price, newobj.stats.duration, newobj.stats.numberofconnections];
+
+      arr.forEach((item, i) => {
+        var paragraph = generateparagraph(item);
+        cardheader.appendChild(paragraph);
       });
-    }
+
+      getid.appendChild(carddiv);
+
+      //append
+
+      });
 
   })();
+  }
+
+  function generateparagraph(item){
+    var paragraph = document.createElement('p');
+    paragraph.innerText = item;
+    return paragraph
   }
 
   function addDays(date, days) {
