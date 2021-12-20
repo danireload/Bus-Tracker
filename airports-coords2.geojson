@@ -1,0 +1,7411 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -37.073333,-10.985277 ]
+    },
+    "properties": {
+    "IATA":"AJU",
+    "ICAO":"SBAR",
+    "CIAD":"SE0001",
+    "LAT-GRAUS":"10° 59' 7'' S",
+    "LON-GRAUS":"37° 4' 24'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.478888,-1.384722 ]
+    },
+    "properties": {
+    "IATA":"BEL",
+    "ICAO":"SBBE",
+    "CIAD":"PA0001",
+    "LAT-GRAUS":"1° 23' 5'' S",
+    "LON-GRAUS":"48° 28' 44'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.918611,-15.871111 ]
+    },
+    "properties": {
+    "IATA":"BSB",
+    "ICAO":"SBBR",
+    "CIAD":"DF0001",
+    "LAT-GRAUS":"15° 52' 16'' S",
+    "LON-GRAUS":"47° 55' 7'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -60.692222,-2.841388 ]
+    },
+    "properties": {
+    "IATA":"BVB",
+    "ICAO":"SBBV",
+    "CIAD":"RR0001",
+    "LAT-GRAUS":"2° 50' 29'' N",
+    "LON-GRAUS":"60° 41' 32'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.656388,-23.626111 ]
+    },
+    "properties": {
+    "IATA":"CGH",
+    "ICAO":"SBSP",
+    "CIAD":"SP0001",
+    "LAT-GRAUS":"23° 37' 34'' S",
+    "LON-GRAUS":"46° 39' 23'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.670277,-20.469444 ]
+    },
+    "properties": {
+    "IATA":"CGR",
+    "ICAO":"SBCG",
+    "CIAD":"MS0001",
+    "LAT-GRAUS":"20° 28' 10'' S",
+    "LON-GRAUS":"54° 40' 13'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.971944,-19.624444 ]
+    },
+    "properties": {
+    "IATA":"CNF",
+    "ICAO":"SBCF",
+    "CIAD":"MG0001",
+    "LAT-GRAUS":"19° 37' 28'' S",
+    "LON-GRAUS":"43° 58' 19'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.176111,-25.531666 ]
+    },
+    "properties": {
+    "IATA":"CWB",
+    "ICAO":"SBCT",
+    "CIAD":"PR0001",
+    "LAT-GRAUS":"25° 31' 54'' S",
+    "LON-GRAUS":"49° 10' 34'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.5525,-27.670277 ]
+    },
+    "properties": {
+    "IATA":"FLN",
+    "ICAO":"SBFL",
+    "CIAD":"SC0001",
+    "LAT-GRAUS":"27° 40' 13'' S",
+    "LON-GRAUS":"48° 33' 9'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.532222,-3.775833 ]
+    },
+    "properties": {
+    "IATA":"FOR",
+    "ICAO":"SBFZ",
+    "CIAD":"CE0001",
+    "LAT-GRAUS":"3° 46' 33'' S",
+    "LON-GRAUS":"38° 31' 56'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.250555,-22.81 ]
+    },
+    "properties": {
+    "IATA":"GIG",
+    "ICAO":"SBGL",
+    "CIAD":"RJ0001",
+    "LAT-GRAUS":"22° 48' 36'' S",
+    "LON-GRAUS":"43° 15' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.473055,-23.435555 ]
+    },
+    "properties": {
+    "IATA":"GRU",
+    "ICAO":"SBGR",
+    "CIAD":"SP0002",
+    "LAT-GRAUS":"23° 26' 8'' S",
+    "LON-GRAUS":"46° 28' 23'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.221111,-16.6325 ]
+    },
+    "properties": {
+    "IATA":"GYN",
+    "ICAO":"SBGO",
+    "CIAD":"GO0001",
+    "LAT-GRAUS":"16° 37' 57'' S",
+    "LON-GRAUS":"49° 13' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -34.950277,-7.148333 ]
+    },
+    "properties": {
+    "IATA":"JPA",
+    "ICAO":"SBJP",
+    "CIAD":"PB0001",
+    "LAT-GRAUS":"7° 8' 54'' S",
+    "LON-GRAUS":"34° 57' 1'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -60.050555,-3.041111 ]
+    },
+    "properties": {
+    "IATA":"MAO",
+    "ICAO":"SBEG",
+    "CIAD":"AM0001",
+    "LAT-GRAUS":"3° 2' 28'' S",
+    "LON-GRAUS":"60° 3' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.070277,-0.050833 ]
+    },
+    "properties": {
+    "IATA":"MCP",
+    "ICAO":"SBMQ",
+    "CIAD":"AP0001",
+    "LAT-GRAUS":"0° 3' 3'' N",
+    "LON-GRAUS":"51° 4' 13'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -35.783611,-9.517222 ]
+    },
+    "properties": {
+    "IATA":"MCZ",
+    "ICAO":"SBMO",
+    "CIAD":"AL0001",
+    "LAT-GRAUS":"9° 31' 2'' S",
+    "LON-GRAUS":"35° 47' 1'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -35.366388,-5.768888 ]
+    },
+    "properties": {
+    "IATA":"NAT",
+    "ICAO":"SBSG",
+    "CIAD":"RN0001",
+    "LAT-GRAUS":"5° 46' 8'' S",
+    "LON-GRAUS":"35° 21' 59'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.171111,-29.994722 ]
+    },
+    "properties": {
+    "IATA":"POA",
+    "ICAO":"SBPA",
+    "CIAD":"RS0001",
+    "LAT-GRAUS":"29° 59' 41'' S",
+    "LON-GRAUS":"51° 10' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.1625,-22.91 ]
+    },
+    "properties": {
+    "IATA":"SDU",
+    "ICAO":"SBRJ",
+    "CIAD":"RJ0002",
+    "LAT-GRAUS":"22° 54' 36'' S",
+    "LON-GRAUS":"43° 9' 45'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.236111,-2.586944 ]
+    },
+    "properties": {
+    "IATA":"SLZ",
+    "ICAO":"SBSL",
+    "CIAD":"MA0001",
+    "LAT-GRAUS":"2° 35' 13'' S",
+    "LON-GRAUS":"44° 14' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.3225,-12.908611 ]
+    },
+    "properties": {
+    "IATA":"SSA",
+    "ICAO":"SBSV",
+    "CIAD":"BA0001",
+    "LAT-GRAUS":"12° 54' 31'' S",
+    "LON-GRAUS":"38° 19' 21'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.286388,-20.258055 ]
+    },
+    "properties": {
+    "IATA":"VIX",
+    "ICAO":"SBVT",
+    "CIAD":"ES0001",
+    "LAT-GRAUS":"20° 15' 29'' S",
+    "LON-GRAUS":"40° 17' 11'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -67.898055,-9.868333 ]
+    },
+    "properties": {
+    "IATA":"RBR",
+    "ICAO":"SBRB",
+    "CIAD":"AC0001",
+    "LAT-GRAUS":"9° 52' 6'' S",
+    "LON-GRAUS":"67° 53' 53'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -34.922777,-8.126388 ]
+    },
+    "properties": {
+    "IATA":"REC",
+    "ICAO":"SBRF",
+    "CIAD":"PE0001",
+    "LAT-GRAUS":"8° 7' 35'' S",
+    "LON-GRAUS":"34° 55' 22'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.357777,-10.29 ]
+    },
+    "properties": {
+    "IATA":"PMW",
+    "ICAO":"SBPJ",
+    "CIAD":"TO0001",
+    "LAT-GRAUS":"10° 17' 24'' S",
+    "LON-GRAUS":"48° 21' 28'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -63.902777,-8.713611 ]
+    },
+    "properties": {
+    "IATA":"PVH",
+    "ICAO":"SBPV",
+    "CIAD":"RO0001",
+    "LAT-GRAUS":"8° 42' 49'' S",
+    "LON-GRAUS":"63° 54' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.824444,-5.060555 ]
+    },
+    "properties": {
+    "IATA":"THE",
+    "ICAO":"SBTE",
+    "CIAD":"PI0001",
+    "LAT-GRAUS":"5° 3' 38'' S",
+    "LON-GRAUS":"42° 49' 28'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.1175,-15.65 ]
+    },
+    "properties": {
+    "IATA":"CGB",
+    "ICAO":"SBCY",
+    "CIAD":"MT0001",
+    "LAT-GRAUS":"15° 39' 0'' S",
+    "LON-GRAUS":"56° 7' 3'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.233611,-25.403333 ]
+    },
+    "properties": {
+    "IATA":"BFH",
+    "ICAO":"SBBI",
+    "CIAD":"PR0006",
+    "LAT-GRAUS":"25° 24' 12'' S",
+    "LON-GRAUS":"49° 14' 1'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.895,-12.106388 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSQZ",
+    "CIAD":"BA0033",
+    "LAT-GRAUS":"12° 6' 23'' S",
+    "LON-GRAUS":"45° 53' 42'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.595277,-20.603888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSIE",
+    "CIAD":"MS0002",
+    "LAT-GRAUS":"20° 36' 14'' S",
+    "LON-GRAUS":"54° 35' 43'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.524722,-20.505555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSKG",
+    "CIAD":"MS0003",
+    "LAT-GRAUS":"20° 30' 20'' S",
+    "LON-GRAUS":"54° 31' 29'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.458888,-1.415 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SBJC",
+    "CIAD":"PA0005",
+    "LAT-GRAUS":"1° 24' 54'' S",
+    "LON-GRAUS":"48° 27' 32'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -34.841944,-7.091666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNJO",
+    "CIAD":"PB0002",
+    "LAT-GRAUS":"7° 5' 30'' S",
+    "LON-GRAUS":"34° 50' 31'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.1825,-30.189166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSBN",
+    "CIAD":"RS0002",
+    "LAT-GRAUS":"30° 11' 21'' S",
+    "LON-GRAUS":"51° 10' 57'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.965555,-19.560555 ]
+    },
+    "properties": {
+    "IATA":"AAX",
+    "ICAO":"SBAX",
+    "CIAD":"MG0008",
+    "LAT-GRAUS":"19° 33' 38'' S",
+    "LON-GRAUS":"46° 57' 56'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.105,-9.866388 ]
+    },
+    "properties": {
+    "IATA":"AFL",
+    "ICAO":"SBAT",
+    "CIAD":"MT0003",
+    "LAT-GRAUS":"9° 51' 59'' S",
+    "LON-GRAUS":"56° 6' 18'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.453055,-22.64 ]
+    },
+    "properties": {
+    "IATA":"AIF",
+    "ICAO":"SNAX",
+    "CIAD":"SP0016",
+    "LAT-GRAUS":"22° 38' 24'' S",
+    "LON-GRAUS":"50° 27' 11'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.722777,-1.916944 ]
+    },
+    "properties": {
+    "IATA":"ALT",
+    "ICAO":"SDWQ",
+    "CIAD":"PA0027",
+    "LAT-GRAUS":"1° 55' 1'' S",
+    "LON-GRAUS":"54° 43' 22'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.667222,-16.183888 ]
+    },
+    "properties": {
+    "IATA":"AMJ",
+    "ICAO":"SNAR",
+    "CIAD":"MG0033",
+    "LAT-GRAUS":"16° 11' 2'' S",
+    "LON-GRAUS":"40° 40' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -36.630555,-9.776388 ]
+    },
+    "properties": {
+    "IATA":"APQ",
+    "ICAO":"SNAL",
+    "CIAD":"AL0003",
+    "LAT-GRAUS":"9° 46' 35'' S",
+    "LON-GRAUS":"36° 37' 50'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.928055,-16.3625 ]
+    },
+    "properties": {
+    "IATA":"APS",
+    "ICAO":"SWNS",
+    "CIAD":"GO0004",
+    "LAT-GRAUS":"16° 21' 45'' S",
+    "LON-GRAUS":"48° 55' 41'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.385,-23.612222 ]
+    },
+    "properties": {
+    "IATA":"APU",
+    "ICAO":"SSAP",
+    "CIAD":"PR0014",
+    "LAT-GRAUS":"23° 36' 44'' S",
+    "LON-GRAUS":"51° 23' 6'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.490833,-23.355833 ]
+    },
+    "properties": {
+    "IATA":"APX",
+    "ICAO":"SSOG",
+    "CIAD":"PR0027",
+    "LAT-GRAUS":"23° 21' 21'' S",
+    "LON-GRAUS":"51° 29' 27'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.140277,-21.804444 ]
+    },
+    "properties": {
+    "IATA":"AQA",
+    "ICAO":"SBAQ",
+    "CIAD":"SP0012",
+    "LAT-GRAUS":"21° 48' 16'' S",
+    "LON-GRAUS":"48° 8' 25'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -63.047222,-9.880555 ]
+    },
+    "properties": {
+    "IATA":"AQM",
+    "ICAO":"SJOG",
+    "CIAD":"RO0008",
+    "LAT-GRAUS":"9° 52' 50'' S",
+    "LON-GRAUS":"63° 2' 50'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.245277,-15.899166 ]
+    },
+    "properties": {
+    "IATA":"ARS",
+    "ICAO":"SJVO",
+    "CIAD":"GO0030",
+    "LAT-GRAUS":"15° 53' 57'' S",
+    "LON-GRAUS":"52° 14' 43'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.426388,-21.144166 ]
+    },
+    "properties": {
+    "IATA":"ARU",
+    "ICAO":"SBAU",
+    "CIAD":"SP0009",
+    "LAT-GRAUS":"21° 8' 39'' S",
+    "LON-GRAUS":"50° 25' 35'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -37.804722,-4.568611 ]
+    },
+    "properties": {
+    "IATA":"ARX",
+    "ICAO":"SBAC",
+    "CIAD":"CE0004",
+    "LAT-GRAUS":"4° 34' 7'' S",
+    "LON-GRAUS":"37° 48' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.252222,-3.250833 ]
+    },
+    "properties": {
+    "IATA":"ATM",
+    "ICAO":"SBHT",
+    "CIAD":"PA0003",
+    "LAT-GRAUS":"3° 15' 3'' S",
+    "LON-GRAUS":"52° 15' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.240833,-7.228333 ]
+    },
+    "properties": {
+    "IATA":"AUX",
+    "ICAO":"SWGN",
+    "CIAD":"TO0002",
+    "LAT-GRAUS":"7° 13' 42'' S",
+    "LON-GRAUS":"48° 14' 27'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.373055,-26.875555 ]
+    },
+    "properties": {
+    "IATA":"AXE",
+    "ICAO":"SSXX",
+    "CIAD":"SC0017",
+    "LAT-GRAUS":"26° 52' 32'' S",
+    "LON-GRAUS":"52° 22' 23'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.595833,-20.585555 ]
+    },
+    "properties": {
+    "IATA":"BAT",
+    "ICAO":"SNBA",
+    "CIAD":"SP0013",
+    "LAT-GRAUS":"20° 35' 8'' S",
+    "LON-GRAUS":"48° 35' 45'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -62.918888,-0.980833 ]
+    },
+    "properties": {
+    "IATA":"BAZ",
+    "ICAO":"SWBC",
+    "CIAD":"AM0017",
+    "LAT-GRAUS":"0° 58' 51'' S",
+    "LON-GRAUS":"62° 55' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -67.312222,-8.833611 ]
+    },
+    "properties": {
+    "IATA":"BCR",
+    "ICAO":"SWNK",
+    "CIAD":"AM0011",
+    "LAT-GRAUS":"8° 50' 1'' S",
+    "LON-GRAUS":"67° 18' 44'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.216111,-5.5025 ]
+    },
+    "properties": {
+    "IATA":"BDC",
+    "ICAO":"SNBC",
+    "CIAD":"MA0006",
+    "LAT-GRAUS":"5° 30' 9'' S",
+    "LON-GRAUS":"45° 12' 58'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.109722,-31.390833 ]
+    },
+    "properties": {
+    "IATA":"BGX",
+    "ICAO":"SBBG",
+    "CIAD":"RS0010",
+    "LAT-GRAUS":"31° 23' 27'' S",
+    "LON-GRAUS":"54° 6' 35'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.5375,-22.979166 ]
+    },
+    "properties": {
+    "IATA":"BJP",
+    "ICAO":"SBBP",
+    "CIAD":"SP0036",
+    "LAT-GRAUS":"22° 58' 45'' S",
+    "LON-GRAUS":"46° 32' 15'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.093611,-26.832777 ]
+    },
+    "properties": {
+    "IATA":"BNU",
+    "ICAO":"SSBL",
+    "CIAD":"SC0019",
+    "LAT-GRAUS":"26° 49' 58'' S",
+    "LON-GRAUS":"49° 5' 37'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.389444,-15.860833 ]
+    },
+    "properties": {
+    "IATA":"BPG",
+    "ICAO":"SBBW",
+    "CIAD":"MT0008",
+    "LAT-GRAUS":"15° 51' 39'' S",
+    "LON-GRAUS":"52° 23' 22'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.077777,-16.438055 ]
+    },
+    "properties": {
+    "IATA":"BPS",
+    "ICAO":"SBPS",
+    "CIAD":"BA0002",
+    "LAT-GRAUS":"16° 26' 17'' S",
+    "LON-GRAUS":"39° 4' 40'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.1475,-11.081111 ]
+    },
+    "properties": {
+    "IATA":"BQQ",
+    "ICAO":"SNBX",
+    "CIAD":"BA0028",
+    "LAT-GRAUS":"11° 4' 52'' S",
+    "LON-GRAUS":"43° 8' 51'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.009444,-12.079166 ]
+    },
+    "properties": {
+    "IATA":"BRA",
+    "ICAO":"SNBR",
+    "CIAD":"BA0011",
+    "LAT-GRAUS":"12° 4' 45'' S",
+    "LON-GRAUS":"45° 0' 34'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.804444,-2.756666 ]
+    },
+    "properties": {
+    "IATA":"BRB",
+    "ICAO":"SSRS",
+    "CIAD":"MA0008",
+    "LAT-GRAUS":"2° 45' 24'' S",
+    "LON-GRAUS":"42° 48' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.053333,-7.525277 ]
+    },
+    "properties": {
+    "IATA":"BSS",
+    "ICAO":"SNBS",
+    "CIAD":"MA0010",
+    "LAT-GRAUS":"7° 31' 31'' S",
+    "LON-GRAUS":"46° 3' 12'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -60.097222,-12.694166 ]
+    },
+    "properties": {
+    "IATA":"BVH",
+    "ICAO":"SBVH",
+    "CIAD":"RO0003",
+    "LAT-GRAUS":"12° 41' 39'' S",
+    "LON-GRAUS":"60° 5' 50'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.443333,-1.636388 ]
+    },
+    "properties": {
+    "IATA":"BVS",
+    "ICAO":"SNVS",
+    "CIAD":"PA0015",
+    "LAT-GRAUS":"1° 38' 11'' S",
+    "LON-GRAUS":"50° 26' 36'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.4525,-21.247222 ]
+    },
+    "properties": {
+    "IATA":"BYO",
+    "ICAO":"SBDB",
+    "CIAD":"MS0004",
+    "LAT-GRAUS":"21° 14' 50'' S",
+    "LON-GRAUS":"56° 27' 9'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.501944,-25.002222 ]
+    },
+    "properties": {
+    "IATA":"CAC",
+    "ICAO":"SBCA",
+    "CIAD":"PR0005",
+    "LAT-GRAUS":"25° 0' 8'' S",
+    "LON-GRAUS":"53° 30' 7'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.8975,-4.871388 ]
+    },
+    "properties": {
+    "IATA":"CAF",
+    "ICAO":"SWCA",
+    "CIAD":"AM0007",
+    "LAT-GRAUS":"4° 52' 17'' S",
+    "LON-GRAUS":"66° 53' 51'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -36.010833,-8.284444 ]
+    },
+    "properties": {
+    "IATA":"CAU",
+    "ICAO":"SNRU",
+    "CIAD":"PE0004",
+    "LAT-GRAUS":"8° 17' 4'' S",
+    "LON-GRAUS":"36° 0' 39'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.307777,-21.701111 ]
+    },
+    "properties": {
+    "IATA":"CAW",
+    "ICAO":"SBCP",
+    "CIAD":"RJ0006",
+    "LAT-GRAUS":"21° 42' 4'' S",
+    "LON-GRAUS":"41° 18' 28'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.356944,-24.0025 ]
+    },
+    "properties": {
+    "IATA":"CBW",
+    "ICAO":"SSKM",
+    "CIAD":"PR0017",
+    "LAT-GRAUS":"24° 0' 9'' S",
+    "LON-GRAUS":"52° 21' 25'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.051111,-27.180555 ]
+    },
+    "properties": {
+    "IATA":"CCI",
+    "ICAO":"SSCK",
+    "CIAD":"SC0010",
+    "LAT-GRAUS":"27° 10' 50'' S",
+    "LON-GRAUS":"52° 3' 4'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.421388,-28.724444 ]
+    },
+    "properties": {
+    "IATA":"CCM",
+    "ICAO":"SSIM",
+    "CIAD":"SC0009",
+    "LAT-GRAUS":"28° 43' 28'' S",
+    "LON-GRAUS":"49° 25' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -57.629722,-16.042777 ]
+    },
+    "properties": {
+    "IATA":"CCX",
+    "ICAO":"SWKC",
+    "CIAD":"MT0017",
+    "LAT-GRAUS":"16° 2' 34'' S",
+    "LON-GRAUS":"57° 37' 47'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.303055,-8.348611 ]
+    },
+    "properties": {
+    "IATA":"CDJ",
+    "ICAO":"SBAA",
+    "CIAD":"PA0008",
+    "LAT-GRAUS":"8° 20' 55'' S",
+    "LON-GRAUS":"49° 18' 11'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.071388,-22.920833 ]
+    },
+    "properties": {
+    "IATA":"CFB",
+    "ICAO":"SBCB",
+    "CIAD":"RJ0003",
+    "LAT-GRAUS":"22° 55' 15'' S",
+    "LON-GRAUS":"42° 4' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.939722,-26.789722 ]
+    },
+    "properties": {
+    "IATA":"CFC",
+    "ICAO":"SBCD",
+    "CIAD":"SC0006",
+    "LAT-GRAUS":"26° 47' 23'' S",
+    "LON-GRAUS":"50° 56' 23'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -63.131111,-4.133888 ]
+    },
+    "properties": {
+    "IATA":"CIZ",
+    "ICAO":"SWKO",
+    "CIAD":"AM0010",
+    "LAT-GRAUS":"4° 8' 2'' S",
+    "LON-GRAUS":"63° 7' 52'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.6025,-23.1525 ]
+    },
+    "properties": {
+    "IATA":"CKO",
+    "ICAO":"SSCP",
+    "CIAD":"PR0015",
+    "LAT-GRAUS":"23° 9' 9'' S",
+    "LON-GRAUS":"50° 36' 9'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.001388,-6.115277 ]
+    },
+    "properties": {
+    "IATA":"CKS",
+    "ICAO":"SBCJ",
+    "CIAD":"PA0006",
+    "LAT-GRAUS":"6° 6' 55'' S",
+    "LON-GRAUS":"50° 0' 5'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.458611,-7.320555 ]
+    },
+    "properties": {
+    "IATA":"CLN",
+    "ICAO":"SBCI",
+    "CIAD":"MA0003",
+    "LAT-GRAUS":"7° 19' 14'' S",
+    "LON-GRAUS":"47° 27' 31'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.61,-17.724722 ]
+    },
+    "properties": {
+    "IATA":"CLV",
+    "ICAO":"SBCN",
+    "CIAD":"GO0003",
+    "LAT-GRAUS":"17° 43' 29'' S",
+    "LON-GRAUS":"48° 36' 36'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.858888,-2.895833 ]
+    },
+    "properties": {
+    "IATA":"CMC",
+    "ICAO":"SNWC",
+    "CIAD":"CE0011",
+    "LAT-GRAUS":"2° 53' 45'' S",
+    "LON-GRAUS":"40° 51' 32'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -57.671388,-19.011944 ]
+    },
+    "properties": {
+    "IATA":"CMG",
+    "ICAO":"SBCR",
+    "CIAD":"MS0009",
+    "LAT-GRAUS":"19° 0' 43'' S",
+    "LON-GRAUS":"57° 40' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.955277,-15.666388 ]
+    },
+    "properties": {
+    "IATA":"CNV",
+    "ICAO":"SNED",
+    "CIAD":"BA0023",
+    "LAT-GRAUS":"15° 39' 59'' S",
+    "LON-GRAUS":"38° 57' 19'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -35.895,-7.269166 ]
+    },
+    "properties": {
+    "IATA":"CPV",
+    "ICAO":"SBKG",
+    "CIAD":"PB0003",
+    "LAT-GRAUS":"7° 16' 9'' S",
+    "LON-GRAUS":"35° 53' 42'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.268055,-13.5775 ]
+    },
+    "properties": {
+    "IATA":"CQA",
+    "ICAO":"SWEK",
+    "CIAD":"MT0024",
+    "LAT-GRAUS":"13° 34' 39'' S",
+    "LON-GRAUS":"52° 16' 5'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.251666,-12.421666 ]
+    },
+    "properties": {
+    "IATA":"CQS",
+    "ICAO":"SWCQ",
+    "CIAD":"RO0007",
+    "LAT-GRAUS":"12° 25' 18'' S",
+    "LON-GRAUS":"64° 15' 6'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.254444,-17.650555 ]
+    },
+    "properties": {
+    "IATA":"CRQ",
+    "ICAO":"SSCV",
+    "CIAD":"BA0012",
+    "LAT-GRAUS":"17° 39' 2'' S",
+    "LON-GRAUS":"39° 15' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.676388,-19.146944 ]
+    },
+    "properties": {
+    "IATA":"CSS",
+    "ICAO":"SSCL",
+    "CIAD":"MS0018",
+    "LAT-GRAUS":"19° 8' 49'' S",
+    "LON-GRAUS":"51° 40' 35'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.412222,-29.684166 ]
+    },
+    "properties": {
+    "IATA":"CSU",
+    "ICAO":"SSSC",
+    "CIAD":"RS0029",
+    "LAT-GRAUS":"29° 41' 3'' S",
+    "LON-GRAUS":"52° 24' 44'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.189722,-29.195555 ]
+    },
+    "properties": {
+    "IATA":"CXJ",
+    "ICAO":"SBCX",
+    "CIAD":"RS0007",
+    "LAT-GRAUS":"29° 11' 44'' S",
+    "LON-GRAUS":"51° 11' 23'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.611388,-28.658611 ]
+    },
+    "properties": {
+    "IATA":"CZB",
+    "ICAO":"SSAK",
+    "CIAD":"RS0048",
+    "LAT-GRAUS":"28° 39' 31'' S",
+    "LON-GRAUS":"53° 36' 41'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.769444,-7.599444 ]
+    },
+    "properties": {
+    "IATA":"CZS",
+    "ICAO":"SBCZ",
+    "CIAD":"AC0002",
+    "LAT-GRAUS":"7° 35' 58'' S",
+    "LON-GRAUS":"72° 46' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.87,-20.181944 ]
+    },
+    "properties": {
+    "IATA":"DIQ",
+    "ICAO":"SNDV",
+    "CIAD":"MG0015",
+    "LAT-GRAUS":"20° 10' 55'' S",
+    "LON-GRAUS":"44° 52' 12'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.400555,-14.376944 ]
+    },
+    "properties": {
+    "IATA":"DMT",
+    "ICAO":"SWDM",
+    "CIAD":"MT0015",
+    "LAT-GRAUS":"14° 22' 37'' S",
+    "LON-GRAUS":"56° 24' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.847777,-11.595277 ]
+    },
+    "properties": {
+    "IATA":"DNO",
+    "ICAO":"SWDN",
+    "CIAD":"TO0006",
+    "LAT-GRAUS":"11° 35' 43'' S",
+    "LON-GRAUS":"46° 50' 52'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.925555,-22.200555 ]
+    },
+    "properties": {
+    "IATA":"DOU",
+    "ICAO":"SBDO",
+    "CIAD":"MS0008",
+    "LAT-GRAUS":"22° 12' 2'' S",
+    "LON-GRAUS":"54° 55' 32'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.650277,-18.232222 ]
+    },
+    "properties": {
+    "IATA":"DTI",
+    "ICAO":"SNDT",
+    "CIAD":"MG0030",
+    "LAT-GRAUS":"18° 13' 56'' S",
+    "LON-GRAUS":"43° 39' 1'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.276111,-27.66 ]
+    },
+    "properties": {
+    "IATA":"ERM",
+    "ICAO":"SSER",
+    "CIAD":"RS0018",
+    "LAT-GRAUS":"27° 39' 36'' S",
+    "LON-GRAUS":"52° 16' 34'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.883055,-6.6375 ]
+    },
+    "properties": {
+    "IATA":"ERN",
+    "ICAO":"SWEI",
+    "CIAD":"AM0009",
+    "LAT-GRAUS":"6° 38' 15'' S",
+    "LON-GRAUS":"69° 52' 59'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.067222,-2.533611 ]
+    },
+    "properties": {
+    "IATA":"FBA",
+    "ICAO":"SWOB",
+    "CIAD":"AM0014",
+    "LAT-GRAUS":"2° 32' 1'' S",
+    "LON-GRAUS":"66° 4' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.063333,-26.058888 ]
+    },
+    "properties": {
+    "IATA":"FBE",
+    "ICAO":"SSFB",
+    "CIAD":"PR0021",
+    "LAT-GRAUS":"26° 3' 32'' S",
+    "LON-GRAUS":"53° 3' 48'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.906388,-12.200555 ]
+    },
+    "properties": {
+    "IATA":"FEC",
+    "ICAO":"SDIY",
+    "CIAD":"BA0013",
+    "LAT-GRAUS":"12° 12' 2'' S",
+    "LON-GRAUS":"38° 54' 23'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.340833,-8.141388 ]
+    },
+    "properties": {
+    "IATA":"FEJ",
+    "ICAO":"SNOU",
+    "CIAD":"AC0003",
+    "LAT-GRAUS":"8° 8' 29'' S",
+    "LON-GRAUS":"70° 20' 27'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -32.428333,-3.854722 ]
+    },
+    "properties": {
+    "IATA":"FEN",
+    "ICAO":"SBFN",
+    "CIAD":"PE0003",
+    "LAT-GRAUS":"3° 51' 17'' S",
+    "LON-GRAUS":"32° 25' 42'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.0775,-6.845833 ]
+    },
+    "properties": {
+    "IATA":"FLB",
+    "ICAO":"SNQG",
+    "CIAD":"PI0003",
+    "LAT-GRAUS":"6° 50' 45'' S",
+    "LON-GRAUS":"43° 4' 39'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.3825,-20.590277 ]
+    },
+    "properties": {
+    "IATA":"FRC",
+    "ICAO":"SIMK",
+    "CIAD":"SP0011",
+    "LAT-GRAUS":"20° 35' 25'' S",
+    "LON-GRAUS":"47° 22' 57'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.578055,-1.479166 ]
+    },
+    "properties": {
+    "IATA":"GCF",
+    "ICAO":"SNYA",
+    "CIAD":"PA0024",
+    "LAT-GRAUS":"1° 28' 45'' S",
+    "LON-GRAUS":"52° 34' 41'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.580833,-6.783055 ]
+    },
+    "properties": {
+    "IATA":"GDP",
+    "ICAO":"SNGD",
+    "CIAD":"PI0005",
+    "LAT-GRAUS":"6° 46' 59'' S",
+    "LON-GRAUS":"43° 34' 51'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.307222,-22.975277 ]
+    },
+    "properties": {
+    "IATA":"GDR",
+    "ICAO":"SDAG",
+    "CIAD":"RJ0010",
+    "LAT-GRAUS":"22° 58' 31'' S",
+    "LON-GRAUS":"44° 18' 26'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.168333,-28.281666 ]
+    },
+    "properties": {
+    "IATA":"GEL",
+    "ICAO":"SBNM",
+    "CIAD":"RS0008",
+    "LAT-GRAUS":"28° 16' 54'' S",
+    "LON-GRAUS":"54° 10' 6'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.152222,-14.019444 ]
+    },
+    "properties": {
+    "IATA":"GGB",
+    "ICAO":"SWHP",
+    "CIAD":"MT0006",
+    "LAT-GRAUS":"14° 1' 10'' S",
+    "LON-GRAUS":"52° 9' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.642222,-23.691666 ]
+    },
+    "properties": {
+    "IATA":"GGH",
+    "ICAO":"SSCT",
+    "CIAD":"PR0025",
+    "LAT-GRAUS":"23° 41' 30'' S",
+    "LON-GRAUS":"52° 38' 32'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.188055,-24.079722 ]
+    },
+    "properties": {
+    "IATA":"GGJ",
+    "ICAO":"SSGY",
+    "CIAD":"PR0023",
+    "LAT-GRAUS":"24° 4' 47'' S",
+    "LON-GRAUS":"54° 11' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -65.281666,-10.788333 ]
+    },
+    "properties": {
+    "IATA":"GJM",
+    "ICAO":"SBGM",
+    "CIAD":"RO0006",
+    "LAT-GRAUS":"10° 47' 18'' S",
+    "LON-GRAUS":"65° 16' 54'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.746111,-14.208055 ]
+    },
+    "properties": {
+    "IATA":"GNM",
+    "ICAO":"SNGI",
+    "CIAD":"BA0009",
+    "LAT-GRAUS":"14° 12' 29'' S",
+    "LON-GRAUS":"42° 44' 46'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.523611,-25.388333 ]
+    },
+    "properties": {
+    "IATA":"GPB",
+    "ICAO":"SSGG",
+    "CIAD":"PR0009",
+    "LAT-GRAUS":"25° 23' 18'' S",
+    "LON-GRAUS":"51° 31' 25'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.133333,-11.739444 ]
+    },
+    "properties": {
+    "IATA":"GRP",
+    "ICAO":"SWGI",
+    "CIAD":"TO0004",
+    "LAT-GRAUS":"11° 44' 22'' S",
+    "LON-GRAUS":"49° 8' 0'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.204444,-22.791666 ]
+    },
+    "properties": {
+    "IATA":"GUJ",
+    "ICAO":"SBGW",
+    "CIAD":"SP0076",
+    "LAT-GRAUS":"22° 47' 30'' S",
+    "LON-GRAUS":"45° 12' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.491666,-20.646388 ]
+    },
+    "properties": {
+    "IATA":"GUZ",
+    "ICAO":"SNGA",
+    "CIAD":"ES0007",
+    "LAT-GRAUS":"20° 38' 47'' S",
+    "LON-GRAUS":"40° 29' 30'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.986111,-18.896944 ]
+    },
+    "properties": {
+    "IATA":"GVR",
+    "ICAO":"SBGV",
+    "CIAD":"MG0032",
+    "LAT-GRAUS":"18° 53' 49'' S",
+    "LON-GRAUS":"41° 59' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.338888,-27.638333 ]
+    },
+    "properties": {
+    "IATA":"HRZ",
+    "ICAO":"SSHZ",
+    "CIAD":"RS0037",
+    "LAT-GRAUS":"27° 38' 18'' S",
+    "LON-GRAUS":"54° 20' 20'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -63.050555,-7.533611 ]
+    },
+    "properties": {
+    "IATA":"HUW",
+    "ICAO":"SWHT",
+    "CIAD":"AM0019",
+    "LAT-GRAUS":"7° 32' 1'' S",
+    "LON-GRAUS":"63° 3' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.485,-25.600277 ]
+    },
+    "properties": {
+    "IATA":"IGU",
+    "ICAO":"SBFI",
+    "CIAD":"PR0002",
+    "LAT-GRAUS":"25° 36' 1'' S",
+    "LON-GRAUS":"54° 29' 6'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.846388,-28.368611 ]
+    },
+    "properties": {
+    "IATA":"IJU",
+    "ICAO":"SSIJ",
+    "CIAD":"RS0032",
+    "LAT-GRAUS":"28° 22' 7'' S",
+    "LON-GRAUS":"53° 50' 47'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.458333,-5.530555 ]
+    },
+    "properties": {
+    "IATA":"IMP",
+    "ICAO":"SBIZ",
+    "CIAD":"MA0002",
+    "LAT-GRAUS":"5° 31' 50'' S",
+    "LON-GRAUS":"47° 27' 30'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.033333,-14.815 ]
+    },
+    "properties": {
+    "IATA":"IOS",
+    "ICAO":"SBIL",
+    "CIAD":"BA0004",
+    "LAT-GRAUS":"14° 48' 54'' S",
+    "LON-GRAUS":"39° 2' 0'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.694722,-2.933611 ]
+    },
+    "properties": {
+    "IATA":"IPG",
+    "ICAO":"SWII",
+    "CIAD":"AM0013",
+    "LAT-GRAUS":"2° 56' 1'' S",
+    "LON-GRAUS":"69° 41' 41'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.488055,-19.470555 ]
+    },
+    "properties": {
+    "IATA":"IPN",
+    "ICAO":"SBIP",
+    "CIAD":"MG0007",
+    "LAT-GRAUS":"19° 28' 14'' S",
+    "LON-GRAUS":"42° 29' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.684166,-14.173333 ]
+    },
+    "properties": {
+    "IATA":"IPU",
+    "ICAO":"SNIU",
+    "CIAD":"BA0030",
+    "LAT-GRAUS":"14° 10' 24'' S",
+    "LON-GRAUS":"39° 41' 3'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.846944,-11.34 ]
+    },
+    "properties": {
+    "IATA":"IRE",
+    "ICAO":"SNIC",
+    "CIAD":"BA0019",
+    "LAT-GRAUS":"11° 20' 24'' S",
+    "LON-GRAUS":"41° 50' 49'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -65.033888,-0.416944 ]
+    },
+    "properties": {
+    "IATA":"IRZ",
+    "ICAO":"SWTP",
+    "CIAD":"AM0022",
+    "LAT-GRAUS":"0° 25' 1'' S",
+    "LON-GRAUS":"65° 2' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -58.481666,-3.126388 ]
+    },
+    "properties": {
+    "IATA":"ITA",
+    "ICAO":"SBIC",
+    "CIAD":"AM0012",
+    "LAT-GRAUS":"3° 7' 35'' S",
+    "LON-GRAUS":"58° 28' 54'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.000833,-4.242222 ]
+    },
+    "properties": {
+    "IATA":"ITB",
+    "ICAO":"SBIH",
+    "CIAD":"PA0010",
+    "LAT-GRAUS":"4° 14' 32'' S",
+    "LON-GRAUS":"56° 0' 3'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.875555,-21.219444 ]
+    },
+    "properties": {
+    "IATA":"ITP",
+    "ICAO":"SDUN",
+    "CIAD":"RJ0008",
+    "LAT-GRAUS":"21° 13' 10'' S",
+    "LON-GRAUS":"41° 52' 32'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.538333,-29.171944 ]
+    },
+    "properties": {
+    "IATA":"ITQ",
+    "ICAO":"SSIQ",
+    "CIAD":"RS0045",
+    "LAT-GRAUS":"29° 10' 19'' S",
+    "LON-GRAUS":"56° 32' 18'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.173055,-21.513055 ]
+    },
+    "properties": {
+    "IATA":"IZA",
+    "ICAO":"SBZM",
+    "CIAD":"MG0006",
+    "LAT-GRAUS":"21° 30' 47'' S",
+    "LON-GRAUS":"43° 10' 23'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.034722,-28.654722 ]
+    },
+    "properties": {
+    "IATA":"JBS",
+    "ICAO":"SSSB",
+    "CIAD":"RS0014",
+    "LAT-GRAUS":"28° 39' 17'' S",
+    "LON-GRAUS":"56° 2' 5'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.551666,-27.172777 ]
+    },
+    "properties": {
+    "IATA":"JCB",
+    "ICAO":"SSJA",
+    "CIAD":"SC0014",
+    "LAT-GRAUS":"27° 10' 22'' S",
+    "LON-GRAUS":"51° 33' 6'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.553333,-11.163055 ]
+    },
+    "properties": {
+    "IATA":"JCM",
+    "ICAO":"SNJB",
+    "CIAD":"BA0062",
+    "LAT-GRAUS":"11° 9' 47'' S",
+    "LON-GRAUS":"40° 33' 12'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -57.775833,-6.235277 ]
+    },
+    "properties": {
+    "IATA":"JCR",
+    "ICAO":"SBEK",
+    "CIAD":"PA0011",
+    "LAT-GRAUS":"6° 14' 7'' S",
+    "LON-GRAUS":"57° 46' 33'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.385555,-21.793055 ]
+    },
+    "properties": {
+    "IATA":"JDF",
+    "ICAO":"SBJF",
+    "CIAD":"MG0016",
+    "LAT-GRAUS":"21° 47' 35'' S",
+    "LON-GRAUS":"43° 23' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.269444,-7.219166 ]
+    },
+    "properties": {
+    "IATA":"JDO",
+    "ICAO":"SBJU",
+    "CIAD":"CE0002",
+    "LAT-GRAUS":"7° 13' 9'' S",
+    "LON-GRAUS":"39° 16' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.225277,-21.085555 ]
+    },
+    "properties": {
+    "IATA":"JDR",
+    "ICAO":"SNJR",
+    "CIAD":"MG0034",
+    "LAT-GRAUS":"21° 5' 8'' S",
+    "LON-GRAUS":"44° 13' 31'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.071388,-13.877777 ]
+    },
+    "properties": {
+    "IATA":"JEQ",
+    "ICAO":"SNJK",
+    "CIAD":"BA0047",
+    "LAT-GRAUS":"13° 52' 40'' S",
+    "LON-GRAUS":"40° 4' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -58.71,-11.419444 ]
+    },
+    "properties": {
+    "IATA":"JIA",
+    "ICAO":"SWJN",
+    "CIAD":"MT0007",
+    "LAT-GRAUS":"11° 25' 10'' S",
+    "LON-GRAUS":"58° 42' 36'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.358055,-2.906666 ]
+    },
+    "properties": {
+    "IATA":"JJD",
+    "ICAO":"SBJE",
+    "CIAD":"CE0003",
+    "LAT-GRAUS":"2° 54' 24'' S",
+    "LON-GRAUS":"40° 21' 29'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.060277,-28.675277 ]
+    },
+    "properties": {
+    "IATA":"JJG",
+    "ICAO":"SBJA",
+    "CIAD":"SC0005",
+    "LAT-GRAUS":"28° 40' 31'' S",
+    "LON-GRAUS":"49° 3' 37'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.386388,-15.474722 ]
+    },
+    "properties": {
+    "IATA":"JNA",
+    "ICAO":"SNJN",
+    "CIAD":"MG0039",
+    "LAT-GRAUS":"15° 28' 29'' S",
+    "LON-GRAUS":"44° 23' 11'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.797777,-26.223055 ]
+    },
+    "properties": {
+    "IATA":"JOI",
+    "ICAO":"SBJV",
+    "CIAD":"SC0004",
+    "LAT-GRAUS":"26° 13' 23'' S",
+    "LON-GRAUS":"48° 47' 52'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.846666,-10.870555 ]
+    },
+    "properties": {
+    "IATA":"JPR",
+    "ICAO":"SBJI",
+    "CIAD":"RO0005",
+    "LAT-GRAUS":"10° 52' 14'' S",
+    "LON-GRAUS":"61° 50' 48'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.720277,-23.224444 ]
+    },
+    "properties": {
+    "IATA":"JPY",
+    "ICAO":"SDTK",
+    "CIAD":"RJ0011",
+    "LAT-GRAUS":"23° 13' 28'' S",
+    "LON-GRAUS":"44° 43' 13'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.336666,-3.678888 ]
+    },
+    "properties": {
+    "IATA":"JSO",
+    "ICAO":"SNOB",
+    "CIAD":"CE0013",
+    "LAT-GRAUS":"3° 40' 44'' S",
+    "LON-GRAUS":"40° 20' 12'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.068333,-22.157777 ]
+    },
+    "properties": {
+    "IATA":"JTC",
+    "ICAO":"SBAE",
+    "CIAD":"SP0010",
+    "LAT-GRAUS":"22° 9' 28'' S",
+    "LON-GRAUS":"49° 4' 6'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.775277,-17.83 ]
+    },
+    "properties": {
+    "IATA":"JTI",
+    "ICAO":"SWJW",
+    "CIAD":"GO0008",
+    "LAT-GRAUS":"17° 49' 48'' S",
+    "LON-GRAUS":"51° 46' 31'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.785555,-24.164722 ]
+    },
+    "properties": {
+    "IATA":"JTN",
+    "ICAO":"SDIM",
+    "CIAD":"SP0033",
+    "LAT-GRAUS":"24° 9' 53'' S",
+    "LON-GRAUS":"46° 47' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -57.548888,-11.296666 ]
+    },
+    "properties": {
+    "IATA":"JUA",
+    "ICAO":"SIZX",
+    "CIAD":"MT0018",
+    "LAT-GRAUS":"11° 17' 48'' S",
+    "LON-GRAUS":"57° 32' 56'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.281666,-27.782222 ]
+    },
+    "properties": {
+    "IATA":"LAJ",
+    "ICAO":"SBLJ",
+    "CIAD":"SC0007",
+    "LAT-GRAUS":"27° 46' 56'' S",
+    "LON-GRAUS":"50° 16' 54'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.4075,-13.261388 ]
+    },
+    "properties": {
+    "IATA":"LAZ",
+    "ICAO":"SBLP",
+    "CIAD":"BA0037",
+    "LAT-GRAUS":"13° 15' 41'' S",
+    "LON-GRAUS":"43° 24' 27'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.769444,-7.278888 ]
+    },
+    "properties": {
+    "IATA":"LBR",
+    "ICAO":"SWLB",
+    "CIAD":"AM0024",
+    "LAT-GRAUS":"7° 16' 44'' S",
+    "LON-GRAUS":"64° 46' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.136666,-23.330277 ]
+    },
+    "properties": {
+    "IATA":"LDB",
+    "ICAO":"SBLO",
+    "CIAD":"PR0003",
+    "LAT-GRAUS":"23° 19' 49'' S",
+    "LON-GRAUS":"51° 8' 12'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.276944,-12.482222 ]
+    },
+    "properties": {
+    "IATA":"LEC",
+    "ICAO":"SBLE",
+    "CIAD":"BA0006",
+    "LAT-GRAUS":"12° 28' 56'' S",
+    "LON-GRAUS":"41° 16' 37'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.731111,-21.662777 ]
+    },
+    "properties": {
+    "IATA":"LIP",
+    "ICAO":"SWXQ",
+    "CIAD":"SP0015",
+    "LAT-GRAUS":"21° 39' 46'' S",
+    "LON-GRAUS":"49° 43' 52'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.542777,-27.159722 ]
+    },
+    "properties": {
+    "IATA":"LOI",
+    "ICAO":"SSLN",
+    "CIAD":"SC0018",
+    "LAT-GRAUS":"27° 9' 35'' S",
+    "LON-GRAUS":"49° 32' 34'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -55.950277,-13.037777 ]
+    },
+    "properties": {
+    "IATA":"LVR",
+    "ICAO":"SILC",
+    "CIAD":"MT0025",
+    "LAT-GRAUS":"13° 2' 16'' S",
+    "LON-GRAUS":"55° 57' 1'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.138055,-5.368055 ]
+    },
+    "properties": {
+    "IATA":"MAB",
+    "ICAO":"SBMA",
+    "CIAD":"PA0004",
+    "LAT-GRAUS":"5° 22' 5'' S",
+    "LON-GRAUS":"49° 8' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.952777,-10.170277 ]
+    },
+    "properties": {
+    "IATA":"MBK",
+    "ICAO":"SWXM",
+    "CIAD":"MT0014",
+    "LAT-GRAUS":"10° 10' 13'' S",
+    "LON-GRAUS":"54° 57' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -57.712222,-3.356944 ]
+    },
+    "properties": {
+    "IATA":"MBZ",
+    "ICAO":"SWMW",
+    "CIAD":"AM0020",
+    "LAT-GRAUS":"3° 21' 25'' S",
+    "LON-GRAUS":"57° 42' 44'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.763888,-22.342777 ]
+    },
+    "properties": {
+    "IATA":"MEA",
+    "ICAO":"SBME",
+    "CIAD":"RJ0004",
+    "LAT-GRAUS":"22° 20' 34'' S",
+    "LON-GRAUS":"41° 45' 50'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.602222,-0.889722 ]
+    },
+    "properties": {
+    "IATA":"MEU",
+    "ICAO":"SBMD",
+    "CIAD":"PA0009",
+    "LAT-GRAUS":"0° 53' 23'' S",
+    "LON-GRAUS":"52° 36' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.012222,-23.479444 ]
+    },
+    "properties": {
+    "IATA":"MGF",
+    "ICAO":"SBMG",
+    "CIAD":"PR0004",
+    "LAT-GRAUS":"23° 28' 46'' S",
+    "LON-GRAUS":"52° 0' 44'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.926944,-22.195555 ]
+    },
+    "properties": {
+    "IATA":"MII",
+    "ICAO":"SBML",
+    "CIAD":"SP0014",
+    "LAT-GRAUS":"22° 11' 44'' S",
+    "LON-GRAUS":"49° 55' 37'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.283888,-5.816944 ]
+    },
+    "properties": {
+    "IATA":"MNX",
+    "ICAO":"SBMY",
+    "CIAD":"AM0015",
+    "LAT-GRAUS":"5° 49' 1'' S",
+    "LON-GRAUS":"61° 17' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.821944,-16.706111 ]
+    },
+    "properties": {
+    "IATA":"MOC",
+    "ICAO":"SBMK",
+    "CIAD":"MG0004",
+    "LAT-GRAUS":"16° 42' 22'' S",
+    "LON-GRAUS":"43° 49' 19'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.200555,-13.550555 ]
+    },
+    "properties": {
+    "IATA":"MQH",
+    "ICAO":"SWIQ",
+    "CIAD":"GO0019",
+    "LAT-GRAUS":"13° 33' 2'' S",
+    "LON-GRAUS":"48° 12' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.071388,-1.996666 ]
+    },
+    "properties": {
+    "IATA":"MTE",
+    "ICAO":"SNMA",
+    "CIAD":"PA0019",
+    "LAT-GRAUS":"1° 59' 48'' S",
+    "LON-GRAUS":"54° 4' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -37.361666,-5.195833 ]
+    },
+    "properties": {
+    "IATA":"MVF",
+    "ICAO":"SBMS",
+    "CIAD":"RN0002",
+    "LAT-GRAUS":"5° 11' 45'' S",
+    "LON-GRAUS":"37° 21' 42'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.329722,-17.823055 ]
+    },
+    "properties": {
+    "IATA":"NNU",
+    "ICAO":"SNNU",
+    "CIAD":"MG0041",
+    "LAT-GRAUS":"17° 49' 23'' S",
+    "LON-GRAUS":"40° 19' 47'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.349166,-14.690833 ]
+    },
+    "properties": {
+    "IATA":"NOK",
+    "ICAO":"SWXV",
+    "CIAD":"MT0013",
+    "LAT-GRAUS":"14° 41' 27'' S",
+    "LON-GRAUS":"52° 20' 57'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.491944,-14.436388 ]
+    },
+    "properties": {
+    "IATA":"NQL",
+    "ICAO":"SWNQ",
+    "CIAD":"GO0016",
+    "LAT-GRAUS":"14° 26' 11'' S",
+    "LON-GRAUS":"48° 29' 31'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.038611,-13.821111 ]
+    },
+    "properties": {
+    "IATA":"NVM",
+    "ICAO":"SDNM",
+    "CIAD":"MT0047",
+    "LAT-GRAUS":"13° 49' 16'' S",
+    "LON-GRAUS":"56° 2' 19'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.650833,-26.878611 ]
+    },
+    "properties": {
+    "IATA":"NVT",
+    "ICAO":"SBNF",
+    "CIAD":"SC0002",
+    "LAT-GRAUS":"26° 52' 43'' S",
+    "LON-GRAUS":"48° 39' 3'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.450833,-11.495555 ]
+    },
+    "properties": {
+    "IATA":"OAL",
+    "ICAO":"SSKW",
+    "CIAD":"RO0004",
+    "LAT-GRAUS":"11° 29' 44'' S",
+    "LON-GRAUS":"61° 27' 3'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.05,-6.762222 ]
+    },
+    "properties": {
+    "IATA":"OIA",
+    "ICAO":"SDOW",
+    "CIAD":"PA0021",
+    "LAT-GRAUS":"6° 45' 44'' S",
+    "LON-GRAUS":"51° 3' 0'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.924166,-3.470555 ]
+    },
+    "properties": {
+    "IATA":"OLC",
+    "ICAO":"SDCG",
+    "CIAD":"AM0016",
+    "LAT-GRAUS":"3° 28' 14'' S",
+    "LON-GRAUS":"68° 55' 27'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -55.586111,-11.885 ]
+    },
+    "properties": {
+    "IATA":"OPS",
+    "ICAO":"SBSI",
+    "CIAD":"MT0002",
+    "LAT-GRAUS":"11° 53' 6'' S",
+    "LON-GRAUS":"55° 35' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -55.835833,-1.713611 ]
+    },
+    "properties": {
+    "IATA":"ORX",
+    "ICAO":"SNOX",
+    "CIAD":"PA0014",
+    "LAT-GRAUS":"1° 42' 49'' S",
+    "LON-GRAUS":"55° 50' 9'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -59.385277,-15.193333 ]
+    },
+    "properties": {
+    "IATA":"OTT",
+    "ICAO":"SWBG",
+    "CIAD":"MT0009",
+    "LAT-GRAUS":"15° 11' 36'' S",
+    "LON-GRAUS":"59° 23' 7'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.911388,-22.973611 ]
+    },
+    "properties": {
+    "IATA":"OUS",
+    "ICAO":"SDOU",
+    "CIAD":"SP0023",
+    "LAT-GRAUS":"22° 58' 25'' S",
+    "LON-GRAUS":"49° 54' 41'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.796111,-3.861388 ]
+    },
+    "properties": {
+    "IATA":"OYK",
+    "ICAO":"SBOI",
+    "CIAD":"AP0002",
+    "LAT-GRAUS":"3° 51' 41'' N",
+    "LON-GRAUS":"51° 47' 46'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.251111,-9.401111 ]
+    },
+    "properties": {
+    "IATA":"PAV",
+    "ICAO":"SBUF",
+    "CIAD":"BA0007",
+    "LAT-GRAUS":"9° 24' 4'' S",
+    "LON-GRAUS":"38° 15' 4'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.199444,-19.651111 ]
+    },
+    "properties": {
+    "IATA":"PBB",
+    "ICAO":"SSPN",
+    "CIAD":"MS0010",
+    "LAT-GRAUS":"19° 39' 4'' S",
+    "LON-GRAUS":"51° 11' 58'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.181111,-11.641666 ]
+    },
+    "properties": {
+    "IATA":"PBQ",
+    "ICAO":"SWPM",
+    "CIAD":"RO0009",
+    "LAT-GRAUS":"11° 38' 30'' S",
+    "LON-GRAUS":"61° 10' 52'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.519444,-7.065277 ]
+    },
+    "properties": {
+    "IATA":"PCS",
+    "ICAO":"SNPC",
+    "CIAD":"PI0009",
+    "LAT-GRAUS":"7° 3' 55'' S",
+    "LON-GRAUS":"41° 31' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.271944,-17.296944 ]
+    },
+    "properties": {
+    "IATA":"PDF",
+    "ICAO":"SNRD",
+    "CIAD":"BA0048",
+    "LAT-GRAUS":"17° 17' 49'' S",
+    "LON-GRAUS":"39° 16' 19'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.331111,-31.716111 ]
+    },
+    "properties": {
+    "IATA":"PET",
+    "ICAO":"SBPK",
+    "CIAD":"RS0005",
+    "LAT-GRAUS":"31° 42' 58'' S",
+    "LON-GRAUS":"52° 19' 52'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.328611,-28.245277 ]
+    },
+    "properties": {
+    "IATA":"PFB",
+    "ICAO":"SBPF",
+    "CIAD":"RS0006",
+    "LAT-GRAUS":"28° 14' 43'' S",
+    "LON-GRAUS":"52° 19' 43'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.143888,-25.184444 ]
+    },
+    "properties": {
+    "IATA":"PGZ",
+    "ICAO":"SBPG",
+    "CIAD":"PR0012",
+    "LAT-GRAUS":"25° 11' 4'' S",
+    "LON-GRAUS":"50° 8' 38'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.730277,-2.893888 ]
+    },
+    "properties": {
+    "IATA":"PHB",
+    "ICAO":"SBPB",
+    "CIAD":"PI0002",
+    "LAT-GRAUS":"2° 53' 38'' S",
+    "LON-GRAUS":"41° 43' 49'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.105,-2.4775 ]
+    },
+    "properties": {
+    "IATA":"PHI",
+    "ICAO":"SNYE",
+    "CIAD":"MA0004",
+    "LAT-GRAUS":"2° 28' 39'' S",
+    "LON-GRAUS":"45° 6' 18'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.771111,-2.669444 ]
+    },
+    "properties": {
+    "IATA":"PIN",
+    "ICAO":"SWPI",
+    "CIAD":"AM0006",
+    "LAT-GRAUS":"2° 40' 10'' S",
+    "LON-GRAUS":"56° 46' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.858611,-17.313888 ]
+    },
+    "properties": {
+    "IATA":"PIV",
+    "ICAO":"SNPX",
+    "CIAD":"MG0028",
+    "LAT-GRAUS":"17° 18' 50'' S",
+    "LON-GRAUS":"44° 51' 31'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.950555,-19.851944 ]
+    },
+    "properties": {
+    "IATA":"PLU",
+    "ICAO":"SBBH",
+    "CIAD":"MG0003",
+    "LAT-GRAUS":"19° 51' 7'' S",
+    "LON-GRAUS":"43° 57' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -55.7025,-22.549722 ]
+    },
+    "properties": {
+    "IATA":"PMG",
+    "ICAO":"SBPP",
+    "CIAD":"MS0005",
+    "LAT-GRAUS":"22° 32' 59'' S",
+    "LON-GRAUS":"55° 42' 9'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.400277,-10.716944 ]
+    },
+    "properties": {
+    "IATA":"PNB",
+    "ICAO":"SDPE",
+    "CIAD":"TO0003",
+    "LAT-GRAUS":"10° 43' 1'' S",
+    "LON-GRAUS":"48° 24' 1'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.531111,-25.540555 ]
+    },
+    "properties": {
+    "IATA":"PNG",
+    "ICAO":"SSPG",
+    "CIAD":"PR0011",
+    "LAT-GRAUS":"25° 32' 26'' S",
+    "LON-GRAUS":"48° 31' 52'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.563611,-9.3675 ]
+    },
+    "properties": {
+    "IATA":"PNZ",
+    "ICAO":"SBPL",
+    "CIAD":"PE0002",
+    "LAT-GRAUS":"9° 22' 3'' S",
+    "LON-GRAUS":"40° 33' 49'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.491388,-18.672222 ]
+    },
+    "properties": {
+    "IATA":"POJ",
+    "ICAO":"SNPD",
+    "CIAD":"MG0010",
+    "LAT-GRAUS":"18° 40' 20'' S",
+    "LON-GRAUS":"46° 29' 29'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.566111,-21.837777 ]
+    },
+    "properties": {
+    "IATA":"POO",
+    "ICAO":"SBPC",
+    "CIAD":"MG0018",
+    "LAT-GRAUS":"21° 50' 16'' S",
+    "LON-GRAUS":"46° 33' 58'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.418888,-22.178333 ]
+    },
+    "properties": {
+    "IATA":"PPB",
+    "ICAO":"SBDN",
+    "CIAD":"SP0005",
+    "LAT-GRAUS":"22° 10' 42'' S",
+    "LON-GRAUS":"51° 25' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.919444,-22.288888 ]
+    },
+    "properties": {
+    "IATA":"PPY",
+    "ICAO":"SNZA",
+    "CIAD":"MG0038",
+    "LAT-GRAUS":"22° 17' 20'' S",
+    "LON-GRAUS":"45° 55' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.659722,-20.733333 ]
+    },
+    "properties": {
+    "IATA":"PSW",
+    "ICAO":"SNOS",
+    "CIAD":"MG0024",
+    "LAT-GRAUS":"20° 44' 0'' S",
+    "LON-GRAUS":"46° 39' 35'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.694444,-26.217222 ]
+    },
+    "properties": {
+    "IATA":"PTO",
+    "ICAO":"SBPO",
+    "CIAD":"PR0018",
+    "LAT-GRAUS":"26° 13' 2'' S",
+    "LON-GRAUS":"52° 41' 40'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.235833,-1.741388 ]
+    },
+    "properties": {
+    "IATA":"PTQ",
+    "ICAO":"SNMZ",
+    "CIAD":"PA0020",
+    "LAT-GRAUS":"1° 44' 29'' S",
+    "LON-GRAUS":"52° 14' 9'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.488611,-23.09 ]
+    },
+    "properties": {
+    "IATA":"PVI",
+    "ICAO":"SSPI",
+    "CIAD":"PR0010",
+    "LAT-GRAUS":"23° 5' 24'' S",
+    "LON-GRAUS":"52° 29' 19'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.943611,-23.181666 ]
+    },
+    "properties": {
+    "IATA":"QDV",
+    "ICAO":"SBJD",
+    "CIAD":"SP0031",
+    "LAT-GRAUS":"23° 10' 54'' S",
+    "LON-GRAUS":"46° 56' 37'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.903333,-21.876388 ]
+    },
+    "properties": {
+    "IATA":"QSC",
+    "ICAO":"SDSC",
+    "CIAD":"SP0029",
+    "LAT-GRAUS":"21° 52' 35'' S",
+    "LON-GRAUS":"47° 54' 12'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.776666,-21.136388 ]
+    },
+    "properties": {
+    "IATA":"RAO",
+    "ICAO":"SBRP",
+    "CIAD":"SP0004",
+    "LAT-GRAUS":"21° 8' 11'' S",
+    "LON-GRAUS":"47° 46' 36'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -59.597777,-4.408611 ]
+    },
+    "properties": {
+    "IATA":"RBB",
+    "ICAO":"SWBR",
+    "CIAD":"AM0018",
+    "LAT-GRAUS":"4° 24' 31'' S",
+    "LON-GRAUS":"59° 35' 52'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.979722,-8.031111 ]
+    },
+    "properties": {
+    "IATA":"RDC",
+    "ICAO":"SNDC",
+    "CIAD":"PA0030",
+    "LAT-GRAUS":"8° 1' 52'' S",
+    "LON-GRAUS":"49° 58' 47'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.481666,-22.478611 ]
+    },
+    "properties": {
+    "IATA":"REZ",
+    "ICAO":"SDRS",
+    "CIAD":"RJ0007",
+    "LAT-GRAUS":"22° 28' 43'' S",
+    "LON-GRAUS":"44° 28' 54'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.692222,-29.710833 ]
+    },
+    "properties": {
+    "IATA":"RIA",
+    "ICAO":"SBSM",
+    "CIAD":"RS0003",
+    "LAT-GRAUS":"29° 42' 39'' S",
+    "LON-GRAUS":"53° 41' 32'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.1675,-32.083333 ]
+    },
+    "properties": {
+    "IATA":"RIG",
+    "ICAO":"SJRG",
+    "CIAD":"RS0013",
+    "LAT-GRAUS":"32° 5' 0'' S",
+    "LON-GRAUS":"52° 10' 3'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.721666,-16.588055 ]
+    },
+    "properties": {
+    "IATA":"ROO",
+    "ICAO":"SBRD",
+    "CIAD":"MT0004",
+    "LAT-GRAUS":"16° 35' 17'' S",
+    "LON-GRAUS":"54° 43' 18'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.37,-22.9875 ]
+    },
+    "properties": {
+    "IATA":"RRJ",
+    "ICAO":"SBJR",
+    "CIAD":"RJ0005",
+    "LAT-GRAUS":"22° 59' 15'' S",
+    "LON-GRAUS":"43° 22' 12'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.633888,-23.506666 ]
+    },
+    "properties": {
+    "IATA":"RTE",
+    "ICAO":"SBMT",
+    "CIAD":"SP0007",
+    "LAT-GRAUS":"23° 30' 24'' S",
+    "LON-GRAUS":"46° 38' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.956111,-17.834722 ]
+    },
+    "properties": {
+    "IATA":"RVD",
+    "ICAO":"SWLC",
+    "CIAD":"GO0009",
+    "LAT-GRAUS":"17° 50' 5'' S",
+    "LON-GRAUS":"50° 57' 22'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.833611,-18.721388 ]
+    },
+    "properties": {
+    "IATA":"SBJ",
+    "ICAO":"SNMX",
+    "CIAD":"ES0003",
+    "LAT-GRAUS":"18° 43' 17'' S",
+    "LON-GRAUS":"39° 50' 1'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.328611,-8.061388 ]
+    },
+    "properties": {
+    "IATA":"SET",
+    "ICAO":"SNHS",
+    "CIAD":"PE0005",
+    "LAT-GRAUS":"8° 3' 41'' S",
+    "LON-GRAUS":"38° 19' 43'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.519444,-0.697777 ]
+    },
+    "properties": {
+    "IATA":"SFX",
+    "ICAO":"SNSW",
+    "CIAD":"PA0025",
+    "LAT-GRAUS":"0° 41' 52'' S",
+    "LON-GRAUS":"48° 31' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.871111,-23.228888 ]
+    },
+    "properties": {
+    "IATA":"SJK",
+    "ICAO":"SBSJ",
+    "CIAD":"SP0008",
+    "LAT-GRAUS":"23° 13' 44'' S",
+    "LON-GRAUS":"45° 52' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.985833,-0.148055 ]
+    },
+    "properties": {
+    "IATA":"SJL",
+    "ICAO":"SBUA",
+    "CIAD":"AM0003",
+    "LAT-GRAUS":"0° 8' 53'' S",
+    "LON-GRAUS":"66° 59' 9'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.404722,-20.816111 ]
+    },
+    "properties": {
+    "IATA":"SJP",
+    "ICAO":"SBSR",
+    "CIAD":"SP0006",
+    "LAT-GRAUS":"20° 48' 58'' S",
+    "LON-GRAUS":"49° 24' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -55.668888,-12.472777 ]
+    },
+    "properties": {
+    "IATA":"SMT",
+    "ICAO":"SBSO",
+    "CIAD":"MT0005",
+    "LAT-GRAUS":"12° 28' 22'' S",
+    "LON-GRAUS":"55° 40' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.486388,-23.483055 ]
+    },
+    "properties": {
+    "IATA":"SOD",
+    "ICAO":"SDCO",
+    "CIAD":"SP0027",
+    "LAT-GRAUS":"23° 28' 59'' S",
+    "LON-GRAUS":"47° 29' 11'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.503333,-26.781111 ]
+    },
+    "properties": {
+    "IATA":"SQX",
+    "ICAO":"SSOE",
+    "CIAD":"SC0015",
+    "LAT-GRAUS":"26° 46' 52'' S",
+    "LON-GRAUS":"53° 30' 12'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.0325,-31.384722 ]
+    },
+    "properties": {
+    "IATA":"SQY",
+    "ICAO":"SSRU",
+    "CIAD":"RS0034",
+    "LAT-GRAUS":"31° 23' 5'' S",
+    "LON-GRAUS":"52° 1' 57'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.522222,-27.908888 ]
+    },
+    "properties": {
+    "IATA":"SRA",
+    "ICAO":"SSZR",
+    "CIAD":"RS0027",
+    "LAT-GRAUS":"27° 54' 32'' S",
+    "LON-GRAUS":"54° 31' 20'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.045277,-22.091666 ]
+    },
+    "properties": {
+    "IATA":"SSO",
+    "ICAO":"SNLO",
+    "CIAD":"MG0037",
+    "LAT-GRAUS":"22° 5' 30'' S",
+    "LON-GRAUS":"45° 2' 43'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.785833,-2.424722 ]
+    },
+    "properties": {
+    "IATA":"STM",
+    "ICAO":"SBSN",
+    "CIAD":"PA0002",
+    "LAT-GRAUS":"2° 25' 29'' S",
+    "LON-GRAUS":"54° 47' 9'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.688333,-11.631944 ]
+    },
+    "properties": {
+    "IATA":"SXO",
+    "ICAO":"SWFX",
+    "CIAD":"MT0022",
+    "LAT-GRAUS":"11° 37' 55'' S",
+    "LON-GRAUS":"50° 41' 18'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.99,-6.640277 ]
+    },
+    "properties": {
+    "IATA":"SXX",
+    "ICAO":"SNFX",
+    "CIAD":"PA0013",
+    "LAT-GRAUS":"6° 38' 25'' S",
+    "LON-GRAUS":"51° 59' 24'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.937777,-4.250555 ]
+    },
+    "properties": {
+    "IATA":"TBT",
+    "ICAO":"SBTT",
+    "CIAD":"AM0005",
+    "LAT-GRAUS":"4° 15' 2'' S",
+    "LON-GRAUS":"69° 56' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.652222,-24.316388 ]
+    },
+    "properties": {
+    "IATA":"TEC",
+    "ICAO":"SSVL",
+    "CIAD":"PR0007",
+    "LAT-GRAUS":"24° 18' 59'' S",
+    "LON-GRAUS":"50° 39' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.725277,-3.380277 ]
+    },
+    "properties": {
+    "IATA":"TFF",
+    "ICAO":"SBTF",
+    "CIAD":"AM0004",
+    "LAT-GRAUS":"3° 22' 49'' S",
+    "LON-GRAUS":"64° 43' 31'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.515,-17.890833 ]
+    },
+    "properties": {
+    "IATA":"TFL",
+    "ICAO":"SNTO",
+    "CIAD":"MG0048",
+    "LAT-GRAUS":"17° 53' 27'' S",
+    "LON-GRAUS":"41° 30' 54'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -57.443888,-14.661944 ]
+    },
+    "properties": {
+    "IATA":"TGQ",
+    "ICAO":"SWTS",
+    "CIAD":"MT0012",
+    "LAT-GRAUS":"14° 39' 43'' S",
+    "LON-GRAUS":"57° 26' 38'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.680277,-20.751388 ]
+    },
+    "properties": {
+    "IATA":"TJL",
+    "ICAO":"SBTG",
+    "CIAD":"MS0006",
+    "LAT-GRAUS":"20° 45' 5'' S",
+    "LON-GRAUS":"51° 40' 49'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.899444,-18.216944 ]
+    },
+    "properties": {
+    "IATA":"TLZ",
+    "ICAO":"SWKT",
+    "CIAD":"GO0015",
+    "LAT-GRAUS":"18° 13' 1'' S",
+    "LON-GRAUS":"47° 53' 58'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.399166,-1.484444 ]
+    },
+    "properties": {
+    "IATA":"TMT",
+    "ICAO":"SBTB",
+    "CIAD":"PA0012",
+    "LAT-GRAUS":"1° 29' 4'' S",
+    "LON-GRAUS":"56° 23' 57'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.696388,-24.685277 ]
+    },
+    "properties": {
+    "IATA":"TOW",
+    "ICAO":"SBTD",
+    "CIAD":"PR0008",
+    "LAT-GRAUS":"24° 41' 7'' S",
+    "LON-GRAUS":"53° 41' 47'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.782777,-8.154722 ]
+    },
+    "properties": {
+    "IATA":"TRQ",
+    "ICAO":"SBTK",
+    "CIAD":"AC0004",
+    "LAT-GRAUS":"8° 9' 17'' S",
+    "LON-GRAUS":"70° 46' 58'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.81,-29.415 ]
+    },
+    "properties": {
+    "IATA":"TSQ",
+    "ICAO":"SSTE",
+    "CIAD":"RS0011",
+    "LAT-GRAUS":"29° 24' 54'' S",
+    "LON-GRAUS":"49° 48' 36'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.719722,-3.776944 ]
+    },
+    "properties": {
+    "IATA":"TUR",
+    "ICAO":"SBTU",
+    "CIAD":"PA0007",
+    "LAT-GRAUS":"3° 46' 37'' S",
+    "LON-GRAUS":"49° 43' 11'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.668333,-17.524444 ]
+    },
+    "properties": {
+    "IATA":"TXF",
+    "ICAO":"SNTF",
+    "CIAD":"BA0016",
+    "LAT-GRAUS":"17° 31' 28'' S",
+    "LON-GRAUS":"39° 40' 6'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.966111,-19.764722 ]
+    },
+    "properties": {
+    "IATA":"UBA",
+    "ICAO":"SBUR",
+    "CIAD":"MG0009",
+    "LAT-GRAUS":"19° 45' 53'' S",
+    "LON-GRAUS":"47° 57' 58'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.076111,-23.441388 ]
+    },
+    "properties": {
+    "IATA":"UBT",
+    "ICAO":"SDUB",
+    "CIAD":"SP0065",
+    "LAT-GRAUS":"23° 26' 29'' S",
+    "LON-GRAUS":"45° 4' 34'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.225277,-18.883611 ]
+    },
+    "properties": {
+    "IATA":"UDI",
+    "ICAO":"SBUL",
+    "CIAD":"MG0002",
+    "LAT-GRAUS":"18° 53' 1'' S",
+    "LON-GRAUS":"48° 13' 31'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.313888,-23.799166 ]
+    },
+    "properties": {
+    "IATA":"UMU",
+    "ICAO":"SSUM",
+    "CIAD":"PR0019",
+    "LAT-GRAUS":"23° 47' 57'' S",
+    "LON-GRAUS":"53° 18' 50'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -57.036944,-29.783333 ]
+    },
+    "properties": {
+    "IATA":"URG",
+    "ICAO":"SBUG",
+    "CIAD":"RS0012",
+    "LAT-GRAUS":"29° 47' 0'' S",
+    "LON-GRAUS":"57° 2' 13'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.068888,-26.231666 ]
+    },
+    "properties": {
+    "IATA":"UVI",
+    "ICAO":"SSUV",
+    "CIAD":"PR0034",
+    "LAT-GRAUS":"26° 13' 54'' S",
+    "LON-GRAUS":"51° 4' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.473333,-21.588888 ]
+    },
+    "properties": {
+    "IATA":"VAG",
+    "ICAO":"SBVG",
+    "CIAD":"MG0019",
+    "LAT-GRAUS":"21° 35' 20'' S",
+    "LON-GRAUS":"45° 28' 24'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.9925,-13.296388 ]
+    },
+    "properties": {
+    "IATA":"VAL",
+    "ICAO":"SNVB",
+    "CIAD":"BA0008",
+    "LAT-GRAUS":"13° 17' 47'' S",
+    "LON-GRAUS":"38° 59' 33'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.022777,-28.431944 ]
+    },
+    "properties": {
+    "IATA":"VCC",
+    "ICAO":"SNEE",
+    "CIAD":"RS0004",
+    "LAT-GRAUS":"28° 25' 55'' S",
+    "LON-GRAUS":"51° 1' 22'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.134444,-23.006944 ]
+    },
+    "properties": {
+    "IATA":"VCP",
+    "ICAO":"SBKP",
+    "CIAD":"SP0003",
+    "LAT-GRAUS":"23° 0' 25'' S",
+    "LON-GRAUS":"47° 8' 4'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.914722,-14.907777 ]
+    },
+    "properties": {
+    "IATA":"VDC",
+    "ICAO":"SBVC",
+    "CIAD":"BA0005",
+    "LAT-GRAUS":"14° 54' 28'' S",
+    "LON-GRAUS":"40° 54' 53'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.141388,-26.999722 ]
+    },
+    "properties": {
+    "IATA":"VIA",
+    "ICAO":"SSVI",
+    "CIAD":"SC0011",
+    "LAT-GRAUS":"26° 59' 59'' S",
+    "LON-GRAUS":"51° 8' 29'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.140555,-9.981111 ]
+    },
+    "properties": {
+    "IATA":"VLP",
+    "ICAO":"SWVC",
+    "CIAD":"MT0016",
+    "LAT-GRAUS":"9° 58' 52'' S",
+    "LON-GRAUS":"51° 8' 26'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.0025,-20.457222 ]
+    },
+    "properties": {
+    "IATA":"VOT",
+    "ICAO":"SDVG",
+    "CIAD":"SP0026",
+    "LAT-GRAUS":"20° 27' 26'' S",
+    "LON-GRAUS":"50° 0' 9'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.661944,-27.133888 ]
+    },
+    "properties": {
+    "IATA":"XAP",
+    "ICAO":"SBCH",
+    "CIAD":"SC0003",
+    "LAT-GRAUS":"27° 8' 2'' S",
+    "LON-GRAUS":"52° 39' 43'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.108055,-22.859166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDAM",
+    "CIAD":"SP0037",
+    "LAT-GRAUS":"22° 51' 33'' S",
+    "LON-GRAUS":"47° 6' 29'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.053888,-22.343611 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SBBU",
+    "CIAD":"SP0017",
+    "LAT-GRAUS":"22° 20' 37'' S",
+    "LON-GRAUS":"49° 3' 14'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.606944,-21.460555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDDR",
+    "CIAD":"SP0021",
+    "LAT-GRAUS":"21° 27' 38'' S",
+    "LON-GRAUS":"51° 36' 25'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.984166,-23.093055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDRR",
+    "CIAD":"SP0028",
+    "LAT-GRAUS":"23° 5' 35'' S",
+    "LON-GRAUS":"48° 59' 3'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -60.021111,-3.072777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWFN",
+    "CIAD":"AM0002",
+    "LAT-GRAUS":"3° 4' 22'' S",
+    "LON-GRAUS":"60° 1' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -59.838888,-7.172222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWYN",
+    "CIAD":"AM0023",
+    "LAT-GRAUS":"7° 10' 20'' S",
+    "LON-GRAUS":"59° 50' 20'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.9375,-9.1575 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDFX",
+    "CIAD":"BA0054",
+    "LAT-GRAUS":"9° 9' 27'' S",
+    "LON-GRAUS":"40° 56' 15'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.091666,-9.155277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDKF",
+    "CIAD":"BA0027",
+    "LAT-GRAUS":"9° 9' 19'' S",
+    "LON-GRAUS":"40° 5' 30'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.187222,-11.021111 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDKJ",
+    "CIAD":"BA0025",
+    "LAT-GRAUS":"11° 1' 16'' S",
+    "LON-GRAUS":"45° 11' 14'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.790833,-13.583055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDLE",
+    "CIAD":"BA0038",
+    "LAT-GRAUS":"13° 34' 59'' S",
+    "LON-GRAUS":"41° 47' 27'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.264722,-14.481111 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDLK",
+    "CIAD":"BA0040",
+    "LAT-GRAUS":"14° 28' 52'' S",
+    "LON-GRAUS":"42° 15' 53'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.229166,-13.490555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNBZ",
+    "CIAD":"BA0042",
+    "LAT-GRAUS":"13° 29' 26'' S",
+    "LON-GRAUS":"42° 13' 45'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.8725,-15.519444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNDW",
+    "CIAD":"BA0043",
+    "LAT-GRAUS":"15° 31' 10'' S",
+    "LON-GRAUS":"40° 52' 21'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.0325,-10.5275 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNEU",
+    "CIAD":"BA0044",
+    "LAT-GRAUS":"10° 31' 39'' S",
+    "LON-GRAUS":"39° 1' 57'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.518888,-11.441666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNGT",
+    "CIAD":"BA0029",
+    "LAT-GRAUS":"11° 26' 30'' S",
+    "LON-GRAUS":"42° 31' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.270277,-12.499722 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNIB",
+    "CIAD":"BA0045",
+    "LAT-GRAUS":"12° 29' 59'' S",
+    "LON-GRAUS":"40° 16' 13'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.493888,-14.012222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNIE",
+    "CIAD":"BA0020",
+    "LAT-GRAUS":"14° 0' 44'' S",
+    "LON-GRAUS":"42° 29' 38'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.486944,-11.125277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNIO",
+    "CIAD":"BA0010",
+    "LAT-GRAUS":"11° 7' 31'' S",
+    "LON-GRAUS":"38° 29' 13'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.277222,-15.244444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNIP",
+    "CIAD":"BA0057",
+    "LAT-GRAUS":"15° 14' 40'' S",
+    "LON-GRAUS":"40° 16' 38'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.225555,-12.164444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNIT",
+    "CIAD":"BA0046",
+    "LAT-GRAUS":"12° 9' 52'' S",
+    "LON-GRAUS":"43° 13' 32'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.550555,-14.167222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNKC",
+    "CIAD":"BA0058",
+    "LAT-GRAUS":"14° 10' 2'' S",
+    "LON-GRAUS":"44° 33' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.515277,-10.989166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNKS",
+    "CIAD":"BA0064",
+    "LAT-GRAUS":"10° 59' 21'' S",
+    "LON-GRAUS":"44° 30' 55'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.032777,-9.903055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNKU",
+    "CIAD":"BA0066",
+    "LAT-GRAUS":"9° 54' 11'' S",
+    "LON-GRAUS":"39° 1' 58'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.672222,-13.025 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNMC",
+    "CIAD":"BA0026",
+    "LAT-GRAUS":"13° 1' 30'' S",
+    "LON-GRAUS":"42° 40' 20'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.466111,-13.386111 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNMJ",
+    "CIAD":"BA0031",
+    "LAT-GRAUS":"13° 23' 10'' S",
+    "LON-GRAUS":"40° 27' 58'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.983888,-14.117222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNMR",
+    "CIAD":"BA0065",
+    "LAT-GRAUS":"14° 7' 2'' S",
+    "LON-GRAUS":"38° 59' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.179722,-11.534444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNOC",
+    "CIAD":"BA0059",
+    "LAT-GRAUS":"11° 32' 4'' S",
+    "LON-GRAUS":"41° 10' 47'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.771944,-13.165555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNPI",
+    "CIAD":"BA0021",
+    "LAT-GRAUS":"13° 9' 56'' S",
+    "LON-GRAUS":"41° 46' 19'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.444444,-13.031666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNQU",
+    "CIAD":"BA0032",
+    "LAT-GRAUS":"13° 1' 54'' S",
+    "LON-GRAUS":"41° 26' 40'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.115833,-9.58 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNRM",
+    "CIAD":"BA0022",
+    "LAT-GRAUS":"9° 34' 48'' S",
+    "LON-GRAUS":"42° 6' 57'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.855,-9.7575 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNSE",
+    "CIAD":"BA0056",
+    "LAT-GRAUS":"9° 45' 27'' S",
+    "LON-GRAUS":"41° 51' 18'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.640555,-12.097222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNST",
+    "CIAD":"BA0049",
+    "LAT-GRAUS":"12° 5' 50'' S",
+    "LON-GRAUS":"41° 38' 26'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.653611,-10.721666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNTQ",
+    "CIAD":"BA0053",
+    "LAT-GRAUS":"10° 43' 18'' S",
+    "LON-GRAUS":"43° 39' 13'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.569722,-11.738055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNTR",
+    "CIAD":"BA0036",
+    "LAT-GRAUS":"11° 44' 17'' S",
+    "LON-GRAUS":"40° 34' 11'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.621944,-13.38 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNTY",
+    "CIAD":"BA0051",
+    "LAT-GRAUS":"13° 22' 48'' S",
+    "LON-GRAUS":"44° 37' 19'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.074444,-12.105555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNUT",
+    "CIAD":"BA0017",
+    "LAT-GRAUS":"12° 6' 20'' S",
+    "LON-GRAUS":"41° 4' 28'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.223055,-13.404722 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNVD",
+    "CIAD":"BA0050",
+    "LAT-GRAUS":"13° 24' 17'' S",
+    "LON-GRAUS":"44° 13' 23'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.683333,-10.834166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNXQ",
+    "CIAD":"BA0018",
+    "LAT-GRAUS":"10° 50' 3'' S",
+    "LON-GRAUS":"42° 41' 0'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.302222,-13.828611 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNYT",
+    "CIAD":"BA0014",
+    "LAT-GRAUS":"13° 49' 43'' S",
+    "LON-GRAUS":"41° 18' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.140555,-13.731666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNZW",
+    "CIAD":"BA0063",
+    "LAT-GRAUS":"13° 43' 54'' S",
+    "LON-GRAUS":"39° 8' 26'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.530555,-12.271388 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSLS",
+    "CIAD":"BA0035",
+    "LAT-GRAUS":"12° 16' 17'' S",
+    "LON-GRAUS":"40° 31' 50'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.286111,-10.465277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSQP",
+    "CIAD":"BA0061",
+    "LAT-GRAUS":"10° 27' 55'' S",
+    "LON-GRAUS":"39° 17' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.451111,-12.765833 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSRF",
+    "CIAD":"BA0034",
+    "LAT-GRAUS":"12° 45' 57'' S",
+    "LON-GRAUS":"39° 27' 4'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.995833,-9.513611 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSRK",
+    "CIAD":"BA0015",
+    "LAT-GRAUS":"9° 30' 49'' S",
+    "LON-GRAUS":"42° 59' 45'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.2975,-5.933333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDZG",
+    "CIAD":"CE0008",
+    "LAT-GRAUS":"5° 56' 0'' S",
+    "LON-GRAUS":"40° 17' 51'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.364166,-7.049444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNCS",
+    "CIAD":"CE0009",
+    "LAT-GRAUS":"7° 2' 58'' S",
+    "LON-GRAUS":"40° 21' 51'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.294444,-6.346666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNIG",
+    "CIAD":"CE0007",
+    "LAT-GRAUS":"6° 20' 48'' S",
+    "LON-GRAUS":"39° 17' 40'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.987777,-4.978888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNQX",
+    "CIAD":"CE0010",
+    "LAT-GRAUS":"4° 58' 44'' S",
+    "LON-GRAUS":"38° 59' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.704166,-5.211111 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNWS",
+    "CIAD":"CE0005",
+    "LAT-GRAUS":"5° 12' 40'' S",
+    "LON-GRAUS":"40° 42' 15'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.883333,-4.05 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWBE",
+    "CIAD":"CE0006",
+    "LAT-GRAUS":"4° 3' 0'' S",
+    "LON-GRAUS":"40° 53' 0'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.041944,-19.498888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNBG",
+    "CIAD":"ES0005",
+    "LAT-GRAUS":"19° 29' 56'' S",
+    "LON-GRAUS":"41° 2' 31'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.584444,-19.484444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNCX",
+    "CIAD":"ES0004",
+    "LAT-GRAUS":"19° 29' 4'' S",
+    "LON-GRAUS":"40° 35' 4'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.186388,-20.835277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNKI",
+    "CIAD":"ES0006",
+    "LAT-GRAUS":"20° 50' 7'' S",
+    "LON-GRAUS":"41° 11' 11'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.069444,-19.355277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNLN",
+    "CIAD":"ES0002",
+    "LAT-GRAUS":"19° 21' 19'' S",
+    "LON-GRAUS":"40° 4' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.565,-14.768888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDOV",
+    "CIAD":"GO0005",
+    "LAT-GRAUS":"14° 46' 8'' S",
+    "LON-GRAUS":"50° 33' 54'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.530277,-14.119166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDXF",
+    "CIAD":"GO0020",
+    "LAT-GRAUS":"14° 7' 9'' S",
+    "LON-GRAUS":"47° 31' 49'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.409166,-18.446111 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SJQN",
+    "CIAD":"GO0006",
+    "LAT-GRAUS":"18° 26' 46'' S",
+    "LON-GRAUS":"50° 24' 33'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.980277,-15.848055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNMH",
+    "CIAD":"GO0018",
+    "LAT-GRAUS":"15° 50' 53'' S",
+    "LON-GRAUS":"48° 58' 49'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.710833,-13.006944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWCB",
+    "CIAD":"GO0023",
+    "LAT-GRAUS":"13° 0' 25'' S",
+    "LON-GRAUS":"46° 42' 39'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.604722,-15.344722 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWCZ",
+    "CIAD":"GO0024",
+    "LAT-GRAUS":"15° 20' 41'' S",
+    "LON-GRAUS":"49° 36' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.345277,-15.556111 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWFR",
+    "CIAD":"GO0014",
+    "LAT-GRAUS":"15° 33' 22'' S",
+    "LON-GRAUS":"47° 20' 43'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.556111,-17.551944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWME",
+    "CIAD":"GO0033",
+    "LAT-GRAUS":"17° 33' 7'' S",
+    "LON-GRAUS":"52° 33' 22'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.048333,-14.933055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWNH",
+    "CIAD":"GO0017",
+    "LAT-GRAUS":"14° 55' 59'' S",
+    "LON-GRAUS":"51° 2' 54'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.349444,-16.625555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SBNV",
+    "CIAD":"GO0002",
+    "LAT-GRAUS":"16° 37' 32'' S",
+    "LON-GRAUS":"49° 20' 58'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.334722,-17.319166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWPR",
+    "CIAD":"GO0029",
+    "LAT-GRAUS":"17° 19' 9'' S",
+    "LON-GRAUS":"48° 20' 5'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.345277,-14.118055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWPZ",
+    "CIAD":"GO0010",
+    "LAT-GRAUS":"14° 7' 5'' S",
+    "LON-GRAUS":"46° 20' 43'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.205833,-13.333888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWUA",
+    "CIAD":"GO0011",
+    "LAT-GRAUS":"13° 20' 2'' S",
+    "LON-GRAUS":"50° 12' 21'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.968611,-16.261666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWUZ",
+    "CIAD":"GO0025",
+    "LAT-GRAUS":"16° 15' 42'' S",
+    "LON-GRAUS":"47° 58' 7'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.157222,-13.404444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWWA",
+    "CIAD":"GO0012",
+    "LAT-GRAUS":"13° 24' 16'' S",
+    "LON-GRAUS":"49° 9' 26'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.091111,-14.544722 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWWU",
+    "CIAD":"GO0013",
+    "LAT-GRAUS":"14° 32' 41'' S",
+    "LON-GRAUS":"49° 5' 28'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.345,-3.653888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SJBY",
+    "CIAD":"MA0007",
+    "LAT-GRAUS":"3° 39' 14'' S",
+    "LON-GRAUS":"45° 20' 42'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.819722,-4.228055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNBI",
+    "CIAD":"MA0005",
+    "LAT-GRAUS":"4° 13' 41'' S",
+    "LON-GRAUS":"44° 49' 11'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.633888,-7.350277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNRX",
+    "CIAD":"MA0009",
+    "LAT-GRAUS":"7° 21' 1'' S",
+    "LON-GRAUS":"46° 38' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.989166,-19.909166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SBPR",
+    "CIAD":"MG0005",
+    "LAT-GRAUS":"19° 54' 33'' S",
+    "LON-GRAUS":"43° 59' 21'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.190277,-18.668055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNAG",
+    "CIAD":"MG0020",
+    "LAT-GRAUS":"18° 40' 5'' S",
+    "LON-GRAUS":"48° 11' 25'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.323055,-15.731944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNAP",
+    "CIAD":"MG0021",
+    "LAT-GRAUS":"15° 43' 55'' S",
+    "LON-GRAUS":"43° 19' 23'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.190555,-18.225 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNAS",
+    "CIAD":"MG0022",
+    "LAT-GRAUS":"18° 13' 30'' S",
+    "LON-GRAUS":"45° 11' 26'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.394444,-21.126111 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNBM",
+    "CIAD":"MG0051",
+    "LAT-GRAUS":"21° 7' 34'' S",
+    "LON-GRAUS":"42° 23' 40'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.335555,-20.8925 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNCA",
+    "CIAD":"MG0031",
+    "LAT-GRAUS":"20° 53' 33'' S",
+    "LON-GRAUS":"45° 20' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.111111,-19.725277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNCT",
+    "CIAD":"MG0056",
+    "LAT-GRAUS":"19° 43' 31'' S",
+    "LON-GRAUS":"42° 6' 40'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.916666,-20.403055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNCZ",
+    "CIAD":"MG0059",
+    "LAT-GRAUS":"20° 24' 11'' S",
+    "LON-GRAUS":"42° 55' 0'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.933055,-21.431666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNFE",
+    "CIAD":"MG0012",
+    "LAT-GRAUS":"21° 25' 54'' S",
+    "LON-GRAUS":"45° 55' 59'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.486666,-20.395277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNFO",
+    "CIAD":"MG0060",
+    "LAT-GRAUS":"20° 23' 43'' S",
+    "LON-GRAUS":"45° 29' 12'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.958888,-20.004722 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNFU",
+    "CIAD":"MG0063",
+    "LAT-GRAUS":"20° 0' 17'' S",
+    "LON-GRAUS":"48° 57' 32'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.730277,-21.326666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNGX",
+    "CIAD":"MG0023",
+    "LAT-GRAUS":"21° 19' 36'' S",
+    "LON-GRAUS":"46° 43' 49'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.183888,-20.259722 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNJM",
+    "CIAD":"MG0050",
+    "LAT-GRAUS":"20° 15' 35'' S",
+    "LON-GRAUS":"42° 11' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.12,-17.7875 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNJP",
+    "CIAD":"MG0036",
+    "LAT-GRAUS":"17° 47' 15'' S",
+    "LON-GRAUS":"46° 7' 12'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.037222,-16.441388 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNJQ",
+    "CIAD":"MG0053",
+    "LAT-GRAUS":"16° 26' 29'' S",
+    "LON-GRAUS":"41° 2' 14'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.433888,-19.020277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNKD",
+    "CIAD":"MG0070",
+    "LAT-GRAUS":"19° 1' 13'' S",
+    "LON-GRAUS":"43° 26' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.798055,-20.738611 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNKF",
+    "CIAD":"MG0071",
+    "LAT-GRAUS":"20° 44' 19'' S",
+    "LON-GRAUS":"43° 47' 53'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.495833,-19.157222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNLI",
+    "CIAD":"MG0040",
+    "LAT-GRAUS":"19° 9' 26'' S",
+    "LON-GRAUS":"45° 29' 45'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.979166,-15.093055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNMK",
+    "CIAD":"MG0017",
+    "LAT-GRAUS":"15° 5' 35'' S",
+    "LON-GRAUS":"43° 58' 45'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.583888,-17.233888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNMN",
+    "CIAD":"MG0075",
+    "LAT-GRAUS":"17° 14' 2'' S",
+    "LON-GRAUS":"42° 35' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -43.021111,-21.542222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNNE",
+    "CIAD":"MG0078",
+    "LAT-GRAUS":"21° 32' 32'' S",
+    "LON-GRAUS":"43° 1' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.393333,-22.2975 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNOF",
+    "CIAD":"MG0057",
+    "LAT-GRAUS":"22° 17' 51'' S",
+    "LON-GRAUS":"46° 23' 36'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.600833,-19.8425 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNPA",
+    "CIAD":"MG0052",
+    "LAT-GRAUS":"19° 50' 33'' S",
+    "LON-GRAUS":"44° 36' 3'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.982777,-18.909166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNPJ",
+    "CIAD":"MG0042",
+    "LAT-GRAUS":"18° 54' 33'' S",
+    "LON-GRAUS":"46° 58' 58'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.983055,-20.948333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNPY",
+    "CIAD":"MG0013",
+    "LAT-GRAUS":"20° 56' 54'' S",
+    "LON-GRAUS":"46° 58' 59'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.458055,-18.749444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNQV",
+    "CIAD":"MG0044",
+    "LAT-GRAUS":"18° 44' 58'' S",
+    "LON-GRAUS":"44° 27' 29'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.240555,-19.2125 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNRP",
+    "CIAD":"MG0066",
+    "LAT-GRAUS":"19° 12' 45'' S",
+    "LON-GRAUS":"46° 14' 26'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.865277,-20.714444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNRZ",
+    "CIAD":"MG0049",
+    "LAT-GRAUS":"20° 42' 52'' S",
+    "LON-GRAUS":"44° 51' 55'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.466111,-18.198611 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNSI",
+    "CIAD":"MG0076",
+    "LAT-GRAUS":"18° 11' 55'' S",
+    "LON-GRAUS":"42° 27' 58'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.321944,-16.208333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNSS",
+    "CIAD":"MG0029",
+    "LAT-GRAUS":"16° 12' 30'' S",
+    "LON-GRAUS":"42° 19' 19'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.733888,-17.233888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNTM",
+    "CIAD":"MG0068",
+    "LAT-GRAUS":"17° 14' 2'' S",
+    "LON-GRAUS":"42° 44' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.882222,-21.1225 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNUB",
+    "CIAD":"MG0058",
+    "LAT-GRAUS":"21° 7' 21'' S",
+    "LON-GRAUS":"42° 52' 56'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.992222,-20.438888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNUH",
+    "CIAD":"MG0054",
+    "LAT-GRAUS":"20° 26' 20'' S",
+    "LON-GRAUS":"45° 59' 32'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.046111,-16.851944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNUI",
+    "CIAD":"MG0045",
+    "LAT-GRAUS":"16° 51' 7'' S",
+    "LON-GRAUS":"42° 2' 46'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.926944,-16.353888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNUN",
+    "CIAD":"MG0055",
+    "LAT-GRAUS":"16° 21' 14'' S",
+    "LON-GRAUS":"46° 55' 37'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.841944,-20.744722 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNVC",
+    "CIAD":"MG0074",
+    "LAT-GRAUS":"20° 44' 41'' S",
+    "LON-GRAUS":"42° 50' 31'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.268055,-21.789166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNVI",
+    "CIAD":"MG0035",
+    "LAT-GRAUS":"21° 47' 21'' S",
+    "LON-GRAUS":"45° 16' 5'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.969444,-21.9175 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNXB",
+    "CIAD":"MG0025",
+    "LAT-GRAUS":"21° 55' 3'' S",
+    "LON-GRAUS":"44° 58' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.487222,-19.001944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNYB",
+    "CIAD":"MG0047",
+    "LAT-GRAUS":"19° 0' 7'' S",
+    "LON-GRAUS":"49° 29' 14'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.220277,-19.717222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNYU",
+    "CIAD":"MG0014",
+    "LAT-GRAUS":"19° 43' 2'' S",
+    "LON-GRAUS":"50° 13' 13'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.881388,-17.243055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNZR",
+    "CIAD":"MG0026",
+    "LAT-GRAUS":"17° 14' 35'' S",
+    "LON-GRAUS":"46° 52' 53'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.754722,-21.561388 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNPU",
+    "CIAD":"MG0073",
+    "LAT-GRAUS":"21° 33' 41'' S",
+    "LON-GRAUS":"45° 45' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.969444,-21.243888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSOL",
+    "CIAD":"MG0027",
+    "LAT-GRAUS":"21° 14' 38'' S",
+    "LON-GRAUS":"44° 58' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.813055,-20.445833 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWUD",
+    "CIAD":"MG0069",
+    "LAT-GRAUS":"20° 26' 45'' S",
+    "LON-GRAUS":"44° 48' 47'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.64,-22.272777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SJXI",
+    "CIAD":"MG0311",
+    "LAT-GRAUS":"22° 16' 22'' S",
+    "LON-GRAUS":"45° 38' 24'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.168333,-18.491388 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDXJ",
+    "CIAD":"MS0017",
+    "LAT-GRAUS":"18° 29' 29'' S",
+    "LON-GRAUS":"53° 10' 6'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.538333,-22.082222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSBV",
+    "CIAD":"MS0011",
+    "LAT-GRAUS":"22° 4' 56'' S",
+    "LON-GRAUS":"56° 32' 18'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.488055,-18.839166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSCD",
+    "CIAD":"MS0007",
+    "LAT-GRAUS":"18° 50' 21'' S",
+    "LON-GRAUS":"52° 29' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.715833,-18.481388 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSCI",
+    "CIAD":"MS0012",
+    "LAT-GRAUS":"18° 28' 53'' S",
+    "LON-GRAUS":"54° 42' 57'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.152777,-21.492777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSJI",
+    "CIAD":"MS0019",
+    "LAT-GRAUS":"21° 29' 34'' S",
+    "LON-GRAUS":"56° 9' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -55.145,-21.633888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSMJ",
+    "CIAD":"MS0020",
+    "LAT-GRAUS":"21° 38' 2'' S",
+    "LON-GRAUS":"55° 8' 42'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.185,-23.041388 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSNB",
+    "CIAD":"MS0015",
+    "LAT-GRAUS":"23° 2' 29'' S",
+    "LON-GRAUS":"54° 11' 6'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -55.830277,-21.184722 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSNQ",
+    "CIAD":"MS0016",
+    "LAT-GRAUS":"21° 11' 5'' S",
+    "LON-GRAUS":"55° 49' 49'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -57.879166,-21.712777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSPM",
+    "CIAD":"MS0013",
+    "LAT-GRAUS":"21° 42' 46'' S",
+    "LON-GRAUS":"57° 52' 45'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.767222,-14.483611 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWNR",
+    "CIAD":"MT0019",
+    "LAT-GRAUS":"14° 29' 1'' S",
+    "LON-GRAUS":"56° 46' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -57.333888,-11.516944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWPG",
+    "CIAD":"MT0010",
+    "LAT-GRAUS":"11° 31' 1'' S",
+    "LON-GRAUS":"57° 20' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.651111,-16.271666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWPK",
+    "CIAD":"MT0021",
+    "LAT-GRAUS":"16° 16' 18'' S",
+    "LON-GRAUS":"56° 39' 4'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.381666,-12.198333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWPL",
+    "CIAD":"MT0027",
+    "LAT-GRAUS":"12° 11' 54'' S",
+    "LON-GRAUS":"53° 22' 54'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.337777,-15.565555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWPY",
+    "CIAD":"MT0023",
+    "LAT-GRAUS":"15° 33' 56'' S",
+    "LON-GRAUS":"54° 20' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -55.400833,-7.125833 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SJNP",
+    "CIAD":"PA0026",
+    "LAT-GRAUS":"7° 7' 33'' S",
+    "LON-GRAUS":"55° 24' 3'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.488888,-2.072777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SJTS",
+    "CIAD":"PA0028",
+    "LAT-GRAUS":"2° 4' 22'' S",
+    "LON-GRAUS":"56° 29' 20'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.316388,-3.019722 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNEB",
+    "CIAD":"PA0018",
+    "LAT-GRAUS":"3° 1' 11'' S",
+    "LON-GRAUS":"47° 18' 59'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.337777,-0.696944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNSM",
+    "CIAD":"PA0029",
+    "LAT-GRAUS":"0° 41' 49'' S",
+    "LON-GRAUS":"47° 20' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -55.514444,-1.868055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNTI",
+    "CIAD":"PA0016",
+    "LAT-GRAUS":"1° 52' 5'' S",
+    "LON-GRAUS":"55° 30' 52'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -37.755277,-6.3625 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SIBU",
+    "CIAD":"PB0012",
+    "LAT-GRAUS":"6° 21' 45'' S",
+    "LON-GRAUS":"37° 45' 19'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.4975,-7.5625 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SIBW",
+    "CIAD":"PB0008",
+    "LAT-GRAUS":"7° 33' 45'' S",
+    "LON-GRAUS":"38° 29' 51'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -37.136666,-7.878333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SIBY",
+    "CIAD":"PB0009",
+    "LAT-GRAUS":"7° 52' 42'' S",
+    "LON-GRAUS":"37° 8' 12'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.113611,-7.311111 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SIBZ",
+    "CIAD":"PB0010",
+    "LAT-GRAUS":"7° 18' 40'' S",
+    "LON-GRAUS":"38° 6' 49'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -36.14,-6.4875 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SICB",
+    "CIAD":"PB0007",
+    "LAT-GRAUS":"6° 29' 15'' S",
+    "LON-GRAUS":"36° 8' 24'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.615833,-6.882777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SJZA",
+    "CIAD":"PB0004",
+    "LAT-GRAUS":"6° 52' 58'' S",
+    "LON-GRAUS":"38° 36' 57'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -38.233888,-6.785555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNQD",
+    "CIAD":"PB0006",
+    "LAT-GRAUS":"6° 47' 8'' S",
+    "LON-GRAUS":"38° 14' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -37.2575,-7.037777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNTS",
+    "CIAD":"PB0005",
+    "LAT-GRAUS":"7° 2' 16'' S",
+    "LON-GRAUS":"37° 15' 27'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.535277,-7.586388 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNAB",
+    "CIAD":"PE0009",
+    "LAT-GRAUS":"7° 35' 11'' S",
+    "LON-GRAUS":"40° 32' 7'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -37.088333,-8.407777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNAE",
+    "CIAD":"PE0007",
+    "LAT-GRAUS":"8° 24' 28'' S",
+    "LON-GRAUS":"37° 5' 18'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -36.471388,-8.834444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNGN",
+    "CIAD":"PE0006",
+    "LAT-GRAUS":"8° 50' 4'' S",
+    "LON-GRAUS":"36° 28' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -36.637777,-8.374166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNPQ",
+    "CIAD":"PE0010",
+    "LAT-GRAUS":"8° 22' 27'' S",
+    "LON-GRAUS":"36° 38' 16'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -39.133888,-8.046666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNSG",
+    "CIAD":"PE0008",
+    "LAT-GRAUS":"8° 2' 48'' S",
+    "LON-GRAUS":"39° 8' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.367222,-9.833611 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNGB",
+    "CIAD":"PI0011",
+    "LAT-GRAUS":"9° 50' 1'' S",
+    "LON-GRAUS":"45° 22' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -44.369166,-9.059444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNGG",
+    "CIAD":"PI0007",
+    "LAT-GRAUS":"9° 3' 34'' S",
+    "LON-GRAUS":"44° 22' 9'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.136388,-10.451944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNKR",
+    "CIAD":"PI0012",
+    "LAT-GRAUS":"10° 27' 7'' S",
+    "LON-GRAUS":"45° 8' 11'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -41.153888,-8.166388 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNLT",
+    "CIAD":"PI0010",
+    "LAT-GRAUS":"8° 9' 59'' S",
+    "LON-GRAUS":"41° 9' 14'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.167222,-7.018888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNOE",
+    "CIAD":"PI0008",
+    "LAT-GRAUS":"7° 1' 8'' S",
+    "LON-GRAUS":"42° 10' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -40.628333,-7.1 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSFL",
+    "CIAD":"PI0006",
+    "LAT-GRAUS":"7° 6' 0'' S",
+    "LON-GRAUS":"40° 37' 42'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.644444,-9.082777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWKQ",
+    "CIAD":"PI0004",
+    "LAT-GRAUS":"9° 4' 58'' S",
+    "LON-GRAUS":"42° 38' 40'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.264722,-23.763055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSAB",
+    "CIAD":"PR0024",
+    "LAT-GRAUS":"23° 45' 47'' S",
+    "LON-GRAUS":"50° 15' 53'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.228333,-23.026944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSAN",
+    "CIAD":"PR0032",
+    "LAT-GRAUS":"23° 1' 37'' S",
+    "LON-GRAUS":"50° 13' 42'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.053888,-24.512777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSCR",
+    "CIAD":"PR0016",
+    "LAT-GRAUS":"24° 30' 46'' S",
+    "LON-GRAUS":"54° 3' 14'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.612222,-25.880555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSGB",
+    "CIAD":"PR0035",
+    "LAT-GRAUS":"25° 52' 50'' S",
+    "LON-GRAUS":"48° 36' 44'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.043888,-24.219722 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSGW",
+    "CIAD":"PR0037",
+    "LAT-GRAUS":"24° 13' 11'' S",
+    "LON-GRAUS":"53° 2' 38'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.149722,-22.917777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSLO",
+    "CIAD":"PR0031",
+    "LAT-GRAUS":"22° 55' 4'' S",
+    "LON-GRAUS":"53° 8' 59'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.651666,-24.529444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSMR",
+    "CIAD":"PR0026",
+    "LAT-GRAUS":"24° 31' 46'' S",
+    "LON-GRAUS":"51° 39' 6'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.975555,-26.472222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSPS",
+    "CIAD":"PR0036",
+    "LAT-GRAUS":"26° 28' 20'' S",
+    "LON-GRAUS":"51° 58' 32'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.828611,-24.343333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSPT",
+    "CIAD":"PR0028",
+    "LAT-GRAUS":"24° 20' 36'' S",
+    "LON-GRAUS":"53° 49' 43'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.818888,-23.674444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSQC",
+    "CIAD":"PR0029",
+    "LAT-GRAUS":"23° 40' 28'' S",
+    "LON-GRAUS":"49° 49' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.960277,-24.8075 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSQT",
+    "CIAD":"PR0013",
+    "LAT-GRAUS":"24° 48' 27'' S",
+    "LON-GRAUS":"49° 57' 37'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.513055,-25.801111 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSRE",
+    "CIAD":"PR0030",
+    "LAT-GRAUS":"25° 48' 4'' S",
+    "LON-GRAUS":"53° 30' 47'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.013888,-23.061944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSSZ",
+    "CIAD":"PR0033",
+    "LAT-GRAUS":"23° 3' 43'' S",
+    "LON-GRAUS":"51° 0' 50'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.828888,-22.918055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SBMI",
+    "CIAD":"RJ0009",
+    "LAT-GRAUS":"22° 55' 5'' S",
+    "LON-GRAUS":"42° 49' 44'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -37.078055,-6.439166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNKK",
+    "CIAD":"RN0005",
+    "LAT-GRAUS":"6° 26' 21'' S",
+    "LON-GRAUS":"37° 4' 41'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -36.540277,-6.280833 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNKN",
+    "CIAD":"RN0004",
+    "LAT-GRAUS":"6° 16' 51'' S",
+    "LON-GRAUS":"36° 32' 25'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -36.960833,-5.595 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNUC",
+    "CIAD":"RN0003",
+    "LAT-GRAUS":"5° 35' 42'' S",
+    "LON-GRAUS":"36° 57' 39'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -63.858055,-8.793611 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWRO",
+    "CIAD":"RO0002",
+    "LAT-GRAUS":"8° 47' 37'' S",
+    "LON-GRAUS":"63° 51' 29'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.055833,-32.229166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSAE",
+    "CIAD":"RS0040",
+    "LAT-GRAUS":"32° 13' 45'' S",
+    "LON-GRAUS":"53° 3' 21'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.516666,-28.250555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSAQ",
+    "CIAD":"RS0036",
+    "LAT-GRAUS":"28° 15' 2'' S",
+    "LON-GRAUS":"52° 31' 0'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.832222,-29.370555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSCN",
+    "CIAD":"RS0019",
+    "LAT-GRAUS":"29° 22' 14'' S",
+    "LON-GRAUS":"50° 49' 56'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.934166,-29.453333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSEE",
+    "CIAD":"RS0054",
+    "LAT-GRAUS":"29° 27' 12'' S",
+    "LON-GRAUS":"51° 56' 3'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.579444,-30.182222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSEP",
+    "CIAD":"RS0031",
+    "LAT-GRAUS":"30° 10' 56'' S",
+    "LON-GRAUS":"53° 34' 46'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.855555,-28.738055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSEZ",
+    "CIAD":"RS0050",
+    "LAT-GRAUS":"28° 44' 17'' S",
+    "LON-GRAUS":"52° 51' 20'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.532222,-29.268333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSGA",
+    "CIAD":"RS0020",
+    "LAT-GRAUS":"29° 16' 6'' S",
+    "LON-GRAUS":"51° 31' 56'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.078611,-28.604166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSIR",
+    "CIAD":"RS0049",
+    "LAT-GRAUS":"28° 36' 15'' S",
+    "LON-GRAUS":"53° 4' 43'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.743333,-29.153055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSJK",
+    "CIAD":"RS0028",
+    "LAT-GRAUS":"29° 9' 11'' S",
+    "LON-GRAUS":"53° 44' 36'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.036944,-29.763611 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSKK",
+    "CIAD":"RS0052",
+    "LAT-GRAUS":"29° 45' 49'' S",
+    "LON-GRAUS":"50° 2' 13'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.940277,-30.002222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSKS",
+    "CIAD":"RS0039",
+    "LAT-GRAUS":"30° 0' 8'' S",
+    "LON-GRAUS":"52° 56' 25'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.815555,-28.321388 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSKZ",
+    "CIAD":"RS0009",
+    "LAT-GRAUS":"28° 19' 17'' S",
+    "LON-GRAUS":"52° 48' 56'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -55.0375,-28.376388 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSLG",
+    "CIAD":"RS0021",
+    "LAT-GRAUS":"28° 22' 35'' S",
+    "LON-GRAUS":"55° 2' 15'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -55.893333,-29.8125 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSLT",
+    "CIAD":"RS0022",
+    "LAT-GRAUS":"29° 48' 45'' S",
+    "LON-GRAUS":"55° 53' 36'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.912222,-31.104166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSMT",
+    "CIAD":"RS0044",
+    "LAT-GRAUS":"31° 6' 15'' S",
+    "LON-GRAUS":"50° 54' 44'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.488888,-29.719722 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSNG",
+    "CIAD":"RS0046",
+    "LAT-GRAUS":"29° 43' 11'' S",
+    "LON-GRAUS":"51° 29' 20'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.081944,-29.699166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSNH",
+    "CIAD":"RS0023",
+    "LAT-GRAUS":"29° 41' 57'' S",
+    "LON-GRAUS":"51° 4' 55'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.604166,-28.8025 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSNP",
+    "CIAD":"RS0041",
+    "LAT-GRAUS":"28° 48' 9'' S",
+    "LON-GRAUS":"51° 36' 15'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.249166,-29.902222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSOS",
+    "CIAD":"RS0042",
+    "LAT-GRAUS":"29° 54' 8'' S",
+    "LON-GRAUS":"50° 14' 57'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.328888,-27.901666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSPL",
+    "CIAD":"RS0043",
+    "LAT-GRAUS":"27° 54' 6'' S",
+    "LON-GRAUS":"53° 19' 44'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.925277,-30.2775 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSRZ",
+    "CIAD":"RS0024",
+    "LAT-GRAUS":"30° 16' 39'' S",
+    "LON-GRAUS":"54° 55' 31'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.540555,-28.863333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSSD",
+    "CIAD":"RS0017",
+    "LAT-GRAUS":"28° 51' 48'' S",
+    "LON-GRAUS":"52° 32' 26'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.267777,-30.345 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSSG",
+    "CIAD":"RS0035",
+    "LAT-GRAUS":"30° 20' 42'' S",
+    "LON-GRAUS":"54° 16' 4'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -54.842222,-29.215 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSST",
+    "CIAD":"RS0015",
+    "LAT-GRAUS":"29° 12' 54'' S",
+    "LON-GRAUS":"54° 50' 32'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.567777,-28.935555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSVN",
+    "CIAD":"RS0030",
+    "LAT-GRAUS":"28° 56' 8'' S",
+    "LON-GRAUS":"51° 34' 4'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.459166,-30.549444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSWS",
+    "CIAD":"RS0025",
+    "LAT-GRAUS":"30° 32' 58'' S",
+    "LON-GRAUS":"53° 27' 33'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.864444,-27.980555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSXD",
+    "CIAD":"RS0026",
+    "LAT-GRAUS":"27° 58' 50'' S",
+    "LON-GRAUS":"52° 51' 52'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.603888,-27.287222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSKU",
+    "CIAD":"SC0016",
+    "LAT-GRAUS":"27° 17' 14'' S",
+    "LON-GRAUS":"50° 36' 14'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.564444,-26.221111 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSSS",
+    "CIAD":"SC0022",
+    "LAT-GRAUS":"26° 13' 16'' S",
+    "LON-GRAUS":"48° 33' 52'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.309722,-26.132777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSTB",
+    "CIAD":"SC0013",
+    "LAT-GRAUS":"26° 7' 58'' S",
+    "LON-GRAUS":"50° 18' 35'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.358333,-22.336944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDAA",
+    "CIAD":"SP0045",
+    "LAT-GRAUS":"22° 20' 13'' S",
+    "LON-GRAUS":"47° 21' 30'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.096388,-21.696111 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDAD",
+    "CIAD":"SP0046",
+    "LAT-GRAUS":"21° 41' 46'' S",
+    "LON-GRAUS":"51° 5' 47'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.896111,-22.583611 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDAE",
+    "CIAD":"SP0053",
+    "LAT-GRAUS":"22° 35' 1'' S",
+    "LON-GRAUS":"47° 53' 46'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.268055,-22.755277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDAI",
+    "CIAD":"SP0047",
+    "LAT-GRAUS":"22° 45' 19'' S",
+    "LON-GRAUS":"47° 16' 5'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.585833,-20.876944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDBA",
+    "CIAD":"SP0063",
+    "LAT-GRAUS":"20° 52' 37'' S",
+    "LON-GRAUS":"47° 35' 9'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.473611,-20.900277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDBB",
+    "CIAD":"SP0018",
+    "LAT-GRAUS":"20° 54' 1'' S",
+    "LON-GRAUS":"48° 28' 25'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.4675,-22.936666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDBK",
+    "CIAD":"SP0019",
+    "LAT-GRAUS":"22° 56' 12'' S",
+    "LON-GRAUS":"48° 28' 3'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.706388,-22.069166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDBY",
+    "CIAD":"SP0032",
+    "LAT-GRAUS":"22° 4' 9'' S",
+    "LON-GRAUS":"48° 42' 23'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.356944,-24.033611 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDCA",
+    "CIAD":"SP0051",
+    "LAT-GRAUS":"24° 2' 1'' S",
+    "LON-GRAUS":"48° 21' 25'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.383888,-20.925833 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDDN",
+    "CIAD":"SP0020",
+    "LAT-GRAUS":"20° 55' 33'' S",
+    "LON-GRAUS":"51° 23' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -52.143611,-21.775 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDEP",
+    "CIAD":"SP0052",
+    "LAT-GRAUS":"21° 46' 30'' S",
+    "LON-GRAUS":"52° 8' 37'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.724444,-23.104722 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDET",
+    "CIAD":"SP0067",
+    "LAT-GRAUS":"23° 6' 17'' S",
+    "LON-GRAUS":"47° 43' 28'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.213888,-20.276666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDFD",
+    "CIAD":"SP0054",
+    "LAT-GRAUS":"20° 16' 36'' S",
+    "LON-GRAUS":"50° 12' 50'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.656111,-22.183611 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDGC",
+    "CIAD":"SP0055",
+    "LAT-GRAUS":"22° 11' 1'' S",
+    "LON-GRAUS":"49° 39' 22'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.855833,-21.747222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDIG",
+    "CIAD":"SP0038",
+    "LAT-GRAUS":"21° 44' 50'' S",
+    "LON-GRAUS":"48° 51' 21'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.768611,-20.375277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDIV",
+    "CIAD":"SP0056",
+    "LAT-GRAUS":"20° 22' 31'' S",
+    "LON-GRAUS":"47° 46' 7'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.285555,-21.230833 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDJC",
+    "CIAD":"SP0064",
+    "LAT-GRAUS":"21° 13' 51'' S",
+    "LON-GRAUS":"48° 17' 8'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.842222,-20.593333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDJO",
+    "CIAD":"SP0057",
+    "LAT-GRAUS":"20° 35' 36'' S",
+    "LON-GRAUS":"47° 50' 32'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.840555,-22.016666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDJV",
+    "CIAD":"SP0035",
+    "LAT-GRAUS":"22° 1' 0'' S",
+    "LON-GRAUS":"46° 50' 26'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.033888,-21.487222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDKK",
+    "CIAD":"SP0058",
+    "LAT-GRAUS":"21° 29' 14'' S",
+    "LON-GRAUS":"47° 2' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.018333,-21.749444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDLC",
+    "CIAD":"SP0039",
+    "LAT-GRAUS":"21° 44' 58'' S",
+    "LON-GRAUS":"51° 1' 6'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.382222,-22.226944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDLL",
+    "CIAD":"SP0048",
+    "LAT-GRAUS":"22° 13' 37'' S",
+    "LON-GRAUS":"47° 22' 56'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.774444,-22.578333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDLP",
+    "CIAD":"SP0034",
+    "LAT-GRAUS":"22° 34' 42'' S",
+    "LON-GRAUS":"48° 46' 28'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.350833,-21.624166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDLY",
+    "CIAD":"SP0071",
+    "LAT-GRAUS":"21° 37' 27'' S",
+    "LON-GRAUS":"48° 21' 3'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.486111,-20.807222 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDMH",
+    "CIAD":"SP0059",
+    "LAT-GRAUS":"20° 48' 26'' S",
+    "LON-GRAUS":"49° 29' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.904722,-22.41 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDMJ",
+    "CIAD":"SP0022",
+    "LAT-GRAUS":"22° 24' 36'' S",
+    "LON-GRAUS":"46° 54' 17'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.524166,-21.258055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDMO",
+    "CIAD":"SP0068",
+    "LAT-GRAUS":"21° 15' 29'' S",
+    "LON-GRAUS":"48° 31' 27'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.234444,-21.497777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDNH",
+    "CIAD":"SP0060",
+    "LAT-GRAUS":"21° 29' 52'' S",
+    "LON-GRAUS":"49° 14' 4'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.576111,-22.696111 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDNO",
+    "CIAD":"SP0061",
+    "LAT-GRAUS":"22° 41' 46'' S",
+    "LON-GRAUS":"48° 34' 34'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -45.431944,-22.943888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDPD",
+    "CIAD":"SP0072",
+    "LAT-GRAUS":"22° 56' 38'' S",
+    "LON-GRAUS":"45° 25' 55'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.031944,-21.410277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDPN",
+    "CIAD":"SP0024",
+    "LAT-GRAUS":"21° 24' 37'' S",
+    "LON-GRAUS":"50° 1' 55'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.884444,-21.893333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDPV",
+    "CIAD":"SP0040",
+    "LAT-GRAUS":"21° 53' 36'' S",
+    "LON-GRAUS":"51° 53' 4'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.619444,-22.710555 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDPW",
+    "CIAD":"SP0041",
+    "LAT-GRAUS":"22° 42' 38'' S",
+    "LON-GRAUS":"47° 37' 10'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.421666,-22.027777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDPY",
+    "CIAD":"SP0066",
+    "LAT-GRAUS":"22° 1' 40'' S",
+    "LON-GRAUS":"47° 25' 18'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.5625,-22.431666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDRK",
+    "CIAD":"SP0049",
+    "LAT-GRAUS":"22° 25' 54'' S",
+    "LON-GRAUS":"47° 33' 45'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.574722,-23.128333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDTB",
+    "CIAD":"SP0069",
+    "LAT-GRAUS":"23° 7' 42'' S",
+    "LON-GRAUS":"46° 34' 29'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.88,-23.331944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDTF",
+    "CIAD":"SP0050",
+    "LAT-GRAUS":"23° 19' 55'' S",
+    "LON-GRAUS":"47° 52' 48'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.600833,-21.393333 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDTI",
+    "CIAD":"SP0073",
+    "LAT-GRAUS":"21° 23' 36'' S",
+    "LON-GRAUS":"51° 36' 3'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.505833,-21.89 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDTP",
+    "CIAD":"SP0025",
+    "LAT-GRAUS":"21° 53' 24'' S",
+    "LON-GRAUS":"50° 30' 21'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.606944,-22.426944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDUQ",
+    "CIAD":"SP0042",
+    "LAT-GRAUS":"22° 25' 37'' S",
+    "LON-GRAUS":"50° 36' 25'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.816944,-22.230277 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SDVE",
+    "CIAD":"SP0070",
+    "LAT-GRAUS":"22° 13' 49'' S",
+    "LON-GRAUS":"49° 49' 1'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.055555,-21.788055 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSCB",
+    "CIAD":"SP0044",
+    "LAT-GRAUS":"21° 47' 17'' S",
+    "LON-GRAUS":"47° 3' 20'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.773888,-22.306388 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSOI",
+    "CIAD":"SP0043",
+    "LAT-GRAUS":"22° 18' 23'' S",
+    "LON-GRAUS":"48° 46' 26'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.840277,-24.531666 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SSRG",
+    "CIAD":"SP0030",
+    "LAT-GRAUS":"24° 31' 54'' S",
+    "LON-GRAUS":"47° 50' 25'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -47.165833,-23.426944 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SBJH",
+    "CIAD":"SP1176",
+    "LAT-GRAUS":"23° 25' 37'' S",
+    "LON-GRAUS":"47° 9' 57'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -49.557777,-8.837777 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SJAU",
+    "CIAD":"TO0007",
+    "LAT-GRAUS":"8° 50' 16'' S",
+    "LON-GRAUS":"49° 33' 28'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.115555,-5.684444 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SJGU",
+    "CIAD":"TO0005",
+    "LAT-GRAUS":"5° 41' 4'' S",
+    "LON-GRAUS":"48° 6' 56'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -48.932777,-10.173888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWTO",
+    "CIAD":"TO0008",
+    "LAT-GRAUS":"10° 10' 26'' S",
+    "LON-GRAUS":"48° 55' 58'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -46.400555,-12.433888 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SWTY",
+    "CIAD":"TO0009",
+    "LAT-GRAUS":"12° 26' 2'' S",
+    "LON-GRAUS":"46° 24' 2'' W"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -50.358333,-27.634166 ]
+    },
+    "properties": {
+    "IATA":"",
+    "ICAO":"SNCP",
+    "CIAD":"SC0181",
+    "LAT-GRAUS":"27° 38' 3'' S",
+    "LON-GRAUS":"50° 21' 30'' W"
+    }
+  }
+]
+}
